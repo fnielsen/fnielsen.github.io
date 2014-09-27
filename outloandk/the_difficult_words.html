@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>OUTLOANDK &mdash; De svære ord</title>
+
+    <script src="../js/d3.v3.min.js" charset="utf-8"></script>
+    <script src="../js/nv.d3.js"></script>
+    <link rel="stylesheet" href = "../css/nv.d3.css">
+
+    <style>
+      .nvd3 .nv-groups path.nv-line {
+        stroke-opacity: 0.7;
+        stroke-width: 12.5px;
+      }  
+
+      .nv-axislabel {
+        font-size: 22px;
+      }
+
+      a:link {
+        text-decoration: none;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <img src="images/outloandk.png">
+    <hr>
+    <a href="words_versus_age.html">Ord og alder</a>
+    | 
+    <a href="the_difficult_words.html">De svære ord</a>
+    | 
+    <a href="about.html">Om</a>
+    <hr>
+    <h1>De svære ord</h1>
+
+    <div id="words_versus_age"></div>
+    
+    <script type="text/javascript">
+      var words_versus_age_svg = d3.select('#words_versus_age')
+        .append('svg');
+      
+      var words_versus_age_chart;
+      nv.addGraph(function() {
+        words_versus_age_chart = nv.models.lineChart();
+      
+        words_versus_age_chart.xAxis
+          .axisLabel('Alder af låner');
+        words_versus_age_chart.yAxis
+          .axisLabel('Promille af titelord for alder')
+          .axisLabelDistance(40)
+          .scale().domain([0, 2.]);
+      
+        d3.json('data/the_difficult_words.json', function(err, data) {
+          words_versus_age_svg.datum(data)
+            .call(words_versus_age_chart);
+          });
+      
+        nv.utils.windowResize(words_versus_age_chart.update);
+        return words_versus_age_chart;
+      });
+    </script>
+
+    <h2>Beskrivelse</h2>
+    
+    <p>
+      Det er bemærkelsesværdigt at ordene 'død' og 'døden' har en 
+      "lokal" top omkring 14-årsalderen. Er det i denne alder at man
+      forstår hvad det vil sige at dø? 
+    </p>
+
+    <p>
+      Et andet bemærkelsesværdigt element ved kurve er det fald der 
+      tilsyneladende sker efter 80-årsalderen.
+    </p>
+
+    <hr>
+  </body>
+</html>
