@@ -1,0 +1,69 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>OUTLOANDK &mdash; Korrelation mellem biblioteker</title>
+
+    <script src="../js/d3.v3.min.js" charset="utf-8"></script>
+    <script src="../js/nv.d3.js"></script>
+    <link rel="stylesheet" href = "../css/nv.d3.css">
+
+    <style>
+      .nvd3 .nv-groups path.nv-line {
+        stroke-opacity: 0.7;
+        stroke-width: 12.5px;
+      }  
+
+      .nv-axislabel {
+        font-size: 22px;
+      }
+
+      a:link {
+        text-decoration: none;
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <img src="images/outloandk.png">
+    <hr>
+    <a href="words_versus_age.html">Ord og alder</a>
+    | 
+    <a href="the_difficult_words.html">De svære ord</a>
+    | 
+    <a href="library_correlation.html">Mellem biblioteker...</a>
+    | 
+    <a href="about.html">Om</a>
+    <hr>
+    <h1>Mellem biblioteker...</h1>
+
+    <p class=bodytext>
+    Hvad adskiller de forskellige biblioteker?
+    Er der forskel på udlånet blandt biblioteker i Storkøbenhavn og 
+    de store provinsbyer i forhold til kommuner med forholdsvis små byer?
+    </p>
+
+    <img src="images/library_correlation.png">
+
+    <p class=bodytext>
+      Overstående plot viser sammenhængen mellem forskellige
+      biblioteksvæsener. Blå elementer viser en høj grad at sammenhæng
+      mellem biblioteker på baggrund af de titelord på materialer der
+      bliver lånt.   
+    </p>
+   
+    <p class=bodytext>
+      Til data-nørder kan det fortælles at for hvert biblioteksvæsen
+      er ord fra materialetitlen (f.eks. bogtitlen) udtrukket fra de
+      47 millioner udlånsdata og en data-matrix hvor rækkerne svarer
+      til ord og kolonner svarer til biblioteksvæsener. Plottet viser
+      korrelationsmatricen.   
+    </p>
+
+
+    <hr>
+  </body>
+</html>
