@@ -64,23 +64,46 @@
     <h2>Blandt folkebibliotekerne</h2>
 
     <p class=bodytext>
-      Hvis vi ekskluderer universitetsbibliotekerne og zoomer ind på
+      Hvis vi udelader universitetsbibliotekerne og zoomer ind på
       folkebibliotekerne fremtræder forskellen mellem folkebibliotekerne
       tydligere. 
     </p>
 
     <p class=bodytext>
-      Her viser det sig at for eksempel Ishøj skiller sig 
+      Her viser det sig at for eksempel Ishøj skiller sig ud ved som
+      det bibliotek, der har forholdvis lidt overlap blandt de
+      titelord på det material der er udlånt: 
+      Det er de røde elementer man skal lægge mærke til.
+    </p>
+
+    <p class=bodytext>
+      Et andet interessant element er København der skiller sig ud fra 
+      bibliotekerne i Lemvig, på Lolland og på Morsø.
     </p>
 
     <img src="images/library_correlation_without_excluded_libraries.png">
 
     <h2>Interaktiv</h2>
+
+    <p class=bodytext>
+      I nedenstående billede kan man skifte mellem sorteringer: 
+      Efter navn, korrelation (overlap i titelord af udlånt materiale)
+      eller "klynge".  
+      For "klynge" er bibliotekerne forsøgt grupperet i fem grupper med en
+      automatisk algoritme.
+    </p>
+
+    <p class=bodytext>
+      Alle biblioteker er korreleret med alle andre biblioteker, men
+      en tærskelværdi er sat så lave korrelationer ikke vises.
+      Denne tærskel får det til at se ud som om Ishøj er helt for sig selv.
+    </p>
+
     <p>
       Sortering:
       <select id="order">
 	<option value="name">Navn</option>
-	<option value="count">Frekvens</option>
+	<option value="count">Korrelation</option>
 	<option value="group">Klynge</option>
       </select>
     </p>
@@ -100,7 +123,6 @@
         fill: red;
       }
     </style>
-
     <script>
       var margin = {top: 80, right: 0, bottom: 10, left: 680},
         width = 720,
@@ -117,7 +139,7 @@ var svg = d3.select("#interactivecorrelation").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("data/miserables.json", function(miserables) {
+d3.json("data/library_correlation_graph.json", function(miserables) {
   var matrix = [],
       nodes = miserables.nodes,
       n = nodes.length;
@@ -238,14 +260,8 @@ d3.json("data/miserables.json", function(miserables) {
   }, 5000);
 });
 
-</script>
+      </script>
     </p>
-
-    <p>
-      Visualisering-teknologi
-      fra <a href="http://bost.ocks.org/mike/miserables/">Mike
-      Bostock's Les Misérables Co-occurrence</a>.
-
 
     <h2>For data-nørder</h2>
 
@@ -253,11 +269,19 @@ d3.json("data/miserables.json", function(miserables) {
       Til data-nørder kan det fortælles at for hvert biblioteksvæsen
       er ord fra materialetitlen (f.eks. bogtitlen) udtrukket fra de
       47 millioner udlånsdata og en data-matrix hvor rækkerne svarer
-      til ord og kolonner svarer til biblioteksvæsener. Plottet viser
-      korrelationsmatricen.   
+      til ord og kolonner svarer til biblioteksvæsener er konstrueret 
+      med antallet af "udlånte ord".
+      Almindelige ord (danske og engelske stopord) er udeladt fra
+      statistikken. Plottet viser
+      korrelationsmatricen. 
+      Klyngerne er lavet med K-means på korrelationsmatricen.
     </p>
 
-    
+    <p class=bodytext>
+      Visualisering-teknologi
+      fra <a href="http://bost.ocks.org/mike/miserables/">Mike
+      Bostock's Les Misérables Co-occurrence</a>.
+    </p>
 
     <hr>
   </body>
