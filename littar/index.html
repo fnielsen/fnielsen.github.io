@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- From https://developers.google.com/maps/documentation/javascript/examples/layer-kml -->
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>KML Layers</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    center: {lat: 55.6755, lng: 12.5803}
+  });
+
+  var ctaLayer = new google.maps.KmlLayer({
+    url: 'kml/littar.kml',
+    map: map
+  });
+}
+
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_gGwBdy3sePAyEIcb_EerMUTRaCkQQIE&signed_in=true&callback=initMap">
+    </script>
+  </body>
+</html>
