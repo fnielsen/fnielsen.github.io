@@ -15,24 +15,58 @@
         height: 100%;
       }
     </style>
+
+   
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
   </head>
   <body>
     <div id="map"></div>
     <script>
-
-function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 15,
-    center: {lat: 55.6755, lng: 12.5803}
-  });
-
-  var ctaLayer = new google.maps.KmlLayer({
-    url: 'http://fnielsen.github.io/littar/kml/littar.kml',
-    map: map
-  });
-}
-
+    function initMap() {
+	var map = new google.maps.Map(document.getElementById('map'), {
+	    zoom: 15,
+	    center: {lat: 55.6755, lng: 12.5803}
+	});
+	
+	var ctaLayer = new google.maps.KmlLayer({
+	    url: 'https://dl.dropboxusercontent.com/u/2824365/littar.kml',
+	    /*    url: 'http://fnielsen.github.io/littar/kml/littar.kml', */
+	    map: map,
+	    preserveViewport: true
+	});
+	
+	map.setCenter({lat: 55.6755, lng: 12.5803})
+	// map.zoom(16)
+	
+	// From http://efxa.org/2013/06/15/html5-geolocation-example/
+	if (Modernizr.geolocation) {
+	    navigator.geolocation.getCurrentPosition (
+		function (position) {
+		    var longitude = position.coords.longitude;
+		    var latitude = position.coords.latitude;
+		    
+		    map.setCenter({lat: latitude, lng: longitude});
+		},
+		function (error) {
+		    var errorTypes = {
+			0: "Unknown error",
+			1: "Permission denied by user",
+			2: "Position is not available",
+			3: "Request timed out"
+		    };
+		    
+		    var errorMessage = errorTypes[error.code];
+		    
+		    if (error.code == 0 || error.code == 2) {
+			errorMessage += (": " + error.message);
+		    }
+		});
+	}
+    }
     </script>
+
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_gGwBdy3sePAyEIcb_EerMUTRaCkQQIE&signed_in=true&callback=initMap">
     </script>
