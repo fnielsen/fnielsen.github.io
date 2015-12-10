@@ -1,73 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="feat_803">
-        <Placemark id="feat_804">
+    <Document id="feat_211">
+        <Placemark id="feat_212">
             <name>Rødbyhavn</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Faderen var en velbygget islandsk elektriker. Han havde været på gennemrejse og skulle overnatte i Rødbyhavn. Hotellet havde været dødens pølse, derfor gik han i byen og mødte Tine.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Helle Helle: Rødby-Puttgarden&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=R%C3%B8dby-Puttgarden&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_798">
-                <coordinates>11.3600156569,54.6630590117,0.0</coordinates>
+            <Point id="geom_209">
+                <coordinates>11.3599557163,54.6630866123,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_805">
+        <Placemark id="feat_213">
+            <name>Nykøbing Mors</name>
+            <description>&lt;hr&gt;
+&lt;p&gt;»Kun tretten år gammel ledte han et oprør blandt eleverne på skolen i Nykøbing Mors for retten til at ryge på toiletterne.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Nis Jakob: Mesteren fra Mors&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mesteren%20fra%20Mors&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+</description>
+            <Point id="geom_210">
+                <coordinates>8.86219486886,56.7980528034,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_214">
             <name>City 2</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Da det blev varmere, plukkede jeg mælkebøtteblade bag City 2 og i udkanten af folks haver.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Lone Aburas: Føtexsøen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=F%C3%B8texs%C3%B8en&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_799">
-                <coordinates>12.2775038157,55.6436340082,0.0</coordinates>
+            <Point id="geom_211">
+                <coordinates>12.2774856425,55.6435890883,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_806">
+        <Placemark id="feat_215">
             <name>Høje-Taastrup</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Og hvad angik pølsevognen, så blev den solgt. Of det havde ikke noget at gøre med, at den halte pakistaner, som huserede på den parkeringsplads, der hørte til vores blok, en dag pudsede Høje Taastrups svar på Det Muslimske Broderskab på min far.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Lone Aburas: Føtexsøen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=F%C3%B8texs%C3%B8en&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_800">
-                <coordinates>12.266675579,55.649966256,0.0</coordinates>
+            <Point id="geom_212">
+                <coordinates>12.2667402972,55.6499689831,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_807">
+        <Placemark id="feat_216">
             <name>Psykiatrisk Center Sct. Hans</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»...jeg begærede derfor spørgsmålet om fortsat frihedsberøvelse på Skt. Hans Hospital indbragt for retten. Stort var mit chok, da jeg nu så ham: 30 kg større, glansløse øjne, apatisk i sin væremåde.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Merethe Stagetorn: Forsvarsadvokaten. Hverdag i retssale og fængsler&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Forsvarsadvokaten.%20Hverdag%20i%20retssale%20og%20f%C3%A6ngsler&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_801">
-                <coordinates>12.0684858002,55.6504620307,0.0</coordinates>
+            <Point id="geom_213">
+                <coordinates>12.0685269023,55.6505092961,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_808">
+        <Placemark id="feat_217">
             <name>ABC Teatret</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Men denne septemberaften i 1955 var folk rørende ligeglade, på en ny overrumplet af aftenens to hovedartister, Kjeld Petersen og Dirch Passer, som fremførte deres finalenummer på ABC Teatret på Frederiksberg.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jeppe Gaarskjær: Kjeld &amp; Dirch. Historien om Danmarks største komikerpar&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kjeld%20%26%20Dirch.%20Historien%20om%20Danmarks%20st%C3%B8rste%20komikerpar&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_802">
-                <coordinates>12.5339854291,55.6748859565,0.0</coordinates>
+            <Point id="geom_214">
+                <coordinates>12.5339979195,55.6749176934,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_809">
+        <Placemark id="feat_218">
             <name>Enghave Plads</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Når de fik fri, støvede de rundt på Enghave Plads og i de omkringliggende gader og legede med en strandet cykel, noget kasseret legetøj, eller hvad der nu ellers lå og flød på asfalten.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Tanja Parker Astrup: Naser&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Naser&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_803">
-                <coordinates>12.5451613402,55.6670942051,0.0</coordinates>
+            <Point id="geom_215">
+                <coordinates>12.5452367926,55.6670808843,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_810">
+        <Placemark id="feat_219">
             <name>Københavns Politigård</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Omtrent samtidig ringer telefonen på et stort og lyst kontor på Politigården, cirka fem kilometer fra lejligheden på Glasvej. Politiinspektør Svend Foldager løfter røret.«&lt;/p&gt;
@@ -78,308 +89,308 @@
 &lt;p&gt;&lt;i&gt;Einer Lind: Bisser og bananer&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bisser%20og%20bananer&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_804">
-                <coordinates>12.5721940514,55.670679513,0.0</coordinates>
+            <Point id="geom_216">
+                <coordinates>12.5722177219,55.6707459702,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_811">
+        <Placemark id="feat_220">
             <name>Larsbjørnsstræde</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»De stiaalne Sager havde han giemt i et Skab under Kiøkkenbordet i det øverste Kiøkken i hans Bolig paa Hiørnet af Studiistræde og lille Larsbiørnstræde Nr 105; naar han i dette Kiøkken foretog sig Smeltningen, lukkede han sig inde og lod Ingen komme til sig.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Erich Christian Werlauff: Erindringer om Guldhornstyveriet&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Erindringer%20om%20Guldhornstyveriet&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_805">
-                <coordinates>12.569403976,55.6783835184,0.0</coordinates>
+            <Point id="geom_217">
+                <coordinates>12.5694455344,55.6783730241,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_812">
+        <Placemark id="feat_221">
             <name>Nørrebrogade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»De første fire år havde jeg to gange to timer om dagen fast post i krydset, hvor fælledvej, Nørrebrogade og Blågårdsgade skærer hinanden.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Einer Lind: Bisser og bananer&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bisser%20og%20bananer&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_806">
-                <coordinates>12.5519904446,55.6922430947,0.0</coordinates>
+            <Point id="geom_218">
+                <coordinates>12.5520291028,55.6921637115,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_813">
+        <Placemark id="feat_222">
             <name>Pilestræde</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det hændte samme Dags Middag, at Otte Iversen gik gennem Pilestræde og fik Mendel Speyers Datter at se.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_807">
-                <coordinates>12.5788196711,55.6814025416,0.0</coordinates>
+            <Point id="geom_219">
+                <coordinates>12.5787844487,55.681379661,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_814">
+        <Placemark id="feat_223">
             <name>Politiskolen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jesper Palm Lundorf, Ivan Rod: I majestætens hemmelige tjeneste. En livvagts beretning&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=I%20majest%C3%A6tens%20hemmelige%20tjeneste.%20En%20livvagts%20beretning&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_808">
-                <coordinates>12.4426926123,55.6594060124,0.0</coordinates>
+            <Point id="geom_220">
+                <coordinates>12.4426717839,55.6594082228,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_815">
+        <Placemark id="feat_224">
             <name>Rosenvænget</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Imens skulle jeg være hos morfar og mormor i Rosenvænget. Min mor rejste aldrig til Norge.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Anne-Sofie Storm Wesche: Helle Virkner&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20Virkner&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_809">
-                <coordinates>12.5846887761,55.7005626683,0.0</coordinates>
+            <Point id="geom_221">
+                <coordinates>12.5846634921,55.7005799717,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_816">
+        <Placemark id="feat_225">
             <name>Sydhavnen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg er født og opvokset i Københavns Sydhavn - et af hovedstadens fattigste kvarterer.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Billy Adamsen, Peter Sloth: spindoktor&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=spindoktor&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_810">
-                <coordinates>12.5271671031,55.648280992,0.0</coordinates>
+            <Point id="geom_222">
+                <coordinates>12.5271829919,55.6483043208,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_817">
+        <Placemark id="feat_226">
             <name>Asserbo</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Klaus Rifbjerg: En hugorm i solen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=En%20hugorm%20i%20solen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_811">
-                <coordinates>11.9872351307,56.0067452761,0.0</coordinates>
+            <Point id="geom_223">
+                <coordinates>11.9872082226,56.006742732,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_818">
+        <Placemark id="feat_227">
             <name>Bangsbostrand</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Når jeg en sjælden gang genser Bangsbostrand, og kører ind i den lange gade, Søndergade, kommer jeg til skolen, og så standser jeg op i øjeblik. Sidst jeg var der, faldt jeg i staver.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Bent Haller: Sinkeklassen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Sinkeklassen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_812">
-                <coordinates>10.5287621654,57.4197038261,0.0</coordinates>
+            <Point id="geom_224">
+                <coordinates>10.5288383036,57.4196754902,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_819">
+        <Placemark id="feat_228">
             <name>Bazar Vest</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»VI SULTER MÅNEDEN UD OG KØBER ET FÅR I BAZAR VEST«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Yahya Hassan: Yahya Hassan&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Yahya%20Hassan&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_813">
-                <coordinates>10.1333163424,56.1631397812,0.0</coordinates>
+            <Point id="geom_225">
+                <coordinates>10.1333353853,56.1631083444,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_820">
+        <Placemark id="feat_229">
             <name>Café Bernina</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Digteren Stjernholm havde slået sig ned ved hjørnevinduet på Bernina, der var hans yndlingsplads, når han kom i caféen, hvad han gjorde daglig i denne tid.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jeppe Aakjær: Pigen fra Limfjorden&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Pigen%20fra%20Limfjorden&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_814">
-                <coordinates>12.5746201384,55.6786022585,0.0</coordinates>
+            <Point id="geom_226">
+                <coordinates>12.5745894299,55.6785878163,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_821">
+        <Placemark id="feat_230">
             <name>Christianskirken</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Og om søndagen skulle vi i kirke, i Christianskirken i Lyngby, og så en spadseretur bagefter, ad villavejene ned til Lyngby Sø. Bag vinduerne sad søndagsfrokosterne og familierne. – De inviterer aldrig en fraskilt kvinde, klagede min mor,«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Niels Skousen: Herfra hvor jeg står&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Herfra%20hvor%20jeg%20st%C3%A5r&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_815">
-                <coordinates>12.4975361743,55.7650255861,0.0</coordinates>
+            <Point id="geom_227">
+                <coordinates>12.4974955803,55.7650102978,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_822">
+        <Placemark id="feat_231">
             <name>Dagmarhus</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Så snart de kom i krigsretten på Dagmarhus sammen med Tulle og Gerda, blev de klar over, at der ikke var noget at gøre.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Axel Holm: Hvidsten Gruppen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Hvidsten%20Gruppen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_816">
-                <coordinates>12.5666111181,55.6765454556,0.0</coordinates>
+            <Point id="geom_228">
+                <coordinates>12.5666187861,55.6764565782,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_823">
+        <Placemark id="feat_232">
             <name>Enghavevej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»En ejer af et escortbureau var blevet overfaldet og overhældt med svovlsyre i sin lejlighed på Enghavevej, og folkene på brandsårsafdelingen på Rigshospitalet havde fået nok at gøre.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jussi Adler-Olsen: Journal 64&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Journal%2064&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_817">
-                <coordinates>12.5422642321,55.6642953753,0.0</coordinates>
+            <Point id="geom_229">
+                <coordinates>12.5423221498,55.6642658341,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_824">
+        <Placemark id="feat_233">
             <name>Farsø Kirke</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Men aldrig er i Særdeleshed et Kirketaarn bleven saa udtømt for Svimlen, Gru og Forvovenhed som det gamle Kirketaarn i Farsø. Min ældste Broder har favnet Vejrhaanen deroppe.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kirken i Farsø&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kirken%20i%20Fars%C3%B8&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_818">
-                <coordinates>9.33914001688,56.7742366879,0.0</coordinates>
+            <Point id="geom_230">
+                <coordinates>9.33921647586,56.77420023,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_825">
+        <Placemark id="feat_234">
             <name>Frederikssundsvejens Skole</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Lige før krigen var vi flyttet fra Amager til Nordvestkvarteret, hvor jeg kom i Frederikssundsvejens Skole. Jeg var ikke nogen læsehest.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Einer Lind: Bisser og bananer&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bisser%20og%20bananer&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_819">
-                <coordinates>12.5258175795,55.7045644462,0.0</coordinates>
+            <Point id="geom_231">
+                <coordinates>12.5257788445,55.7045881942,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_826">
+        <Placemark id="feat_235">
             <name>Glasvej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Overvågningen koncentrerer sig om en lejlighed på Glasvej i Københavns nordvestkvarter, hvor to pakistanske brødre bor på første sal.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Morten Skjoldager: Truslen indefra - de danske terrorister&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Truslen%20indefra%20-%20de%20danske%20terrorister&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_820">
-                <coordinates>12.5304212709,55.7040125977,0.0</coordinates>
+            <Point id="geom_232">
+                <coordinates>12.5303528691,55.7040427689,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_827">
+        <Placemark id="feat_236">
             <name>Godthåbsvej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Godthåbsvej. Der flyttes igen: Nu til Frederiksberg og de pæne folk, som lever der.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Amalie Laulund Trudsø: Koordinater&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Koordinater&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_821">
-                <coordinates>12.5276639986,55.6879059735,0.0</coordinates>
+            <Point id="geom_233">
+                <coordinates>12.5276542662,55.6878769058,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_828">
+        <Placemark id="feat_237">
             <name>Havreholm Papirfabrik</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Der blev ro i lokalet, da Claus Hjort Frederiksen rejste sig og kaldte sine ministerkolleger til orden. Regeringen var samlet på Havreholm Slot i oktober 2003, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jette Hvidtfeldt, Thomas Buch-Andersen: Claus Hjort - strategen bag det nye Venstre&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Claus%20Hjort%20-%20strategen%20bag%20det%20nye%20Venstre&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_822">
-                <coordinates>12.4277631876,56.0568753733,0.0</coordinates>
+            <Point id="geom_234">
+                <coordinates>12.4278131295,56.0569433758,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_829">
+        <Placemark id="feat_238">
             <name>Hotel Phoenix Copenhagen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»... at last, we set our feet in Copenhagen; the luggage was put upon a carriage and taken with ourselves to the Phoenix Hotel in Breda Gate. This took half an hour, for the station is out of the town. Then my uncle, after a hasty toilet, dragged me after him. The porter at the hotel could speak German and English; but the Professor, as a polyglot, questioned him in good Danish, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jules Verne: Rejsen til Jordens Indre&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Rejsen%20til%20Jordens%20Indre&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_823">
-                <coordinates>12.5888536577,55.6828929239,0.0</coordinates>
+            <Point id="geom_235">
+                <coordinates>12.5889168768,55.682899477,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_830">
+        <Placemark id="feat_239">
             <name>Husumgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Han kørte forbi Assistens Kirkegård og til venstre ad Jagtvej, forbi spøg-og-skæmt-butikken, og nåede så til Husumgade, hvor han boede. Gaden var ikke noget i sig selv, blot en småtrist sidegade til Jagtvej, det var han udmærket klar over. Men det var hans, hans hjem.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Julie Hastrup: Farlig fortid&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Farlig%20fortid&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_824">
-                <coordinates>12.545022006,55.693607008,0.0</coordinates>
+            <Point id="geom_236">
+                <coordinates>12.5450341053,55.6936185661,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_831">
+        <Placemark id="feat_240">
             <name>Hvidbjerg Kirke</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Oluf Hase staaer ved Ottesund; der afskediger han sine Mænd, skjenker dem Hest og Harnisk, giver dem Orlov at drage hjem og Hilsen til sin Hustru; alene vil han friste sit Liv i det brusende Vand; men de skulle vidne for ham, at det ikke er hans Skyld, Jens Glob staaer uden Undsætning i Hvidberg Kirke. ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Bispen på Børglum og hans frænde&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bispen%20p%C3%A5%20B%C3%B8rglum%20og%20hans%20fr%C3%A6nde&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_825">
-                <coordinates>8.52720350072,56.6526589052,0.0</coordinates>
+            <Point id="geom_237">
+                <coordinates>8.52726580085,56.6526819173,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_832">
+        <Placemark id="feat_241">
             <name>Hvidsten</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I et hus ved landevejen over for kroen sidder en aften i januar 1943 nogle fra Hvidsten by.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Axel Holm: Hvidsten Gruppen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Hvidsten%20Gruppen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_826">
-                <coordinates>10.001701353,56.5560773359,0.0</coordinates>
+            <Point id="geom_238">
+                <coordinates>10.0017297008,56.5560754037,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_833">
+        <Placemark id="feat_242">
             <name>Hvidsten Kro</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I kroen går Marius Fiil. Han er blevet en særdeles velstående mand, fordi hans kro er landskendt«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Axel Holm: Hvidsten Gruppen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Hvidsten%20Gruppen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_827">
-                <coordinates>10.0022372794,56.5501360651,0.0</coordinates>
+            <Point id="geom_239">
+                <coordinates>10.0022405928,56.5501153837,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_834">
+        <Placemark id="feat_243">
             <name>Hyskenstræde</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Der var Lys flere Steder i Hyskenstræde. Mikkel luskede forbi de lukkede Porte og mærkede den særegne Duft, som han kendte her, Duften af Bastmaatter og Muskat - der foresvævede ham en Idé, om indiske Karavaner, Kamelgødning, Tørke.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_828">
-                <coordinates>12.5763891374,55.6783388798,0.0</coordinates>
+            <Point id="geom_240">
+                <coordinates>12.5763849257,55.6783077184,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_835">
+        <Placemark id="feat_244">
             <name>Ingrid Jespersens Gymnasieskole</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Ingrid Jespersens pigeskole ligger bag en stor grøn port i Nordre Frihavnsgade på Østerbro. Derinde bag porten er en verden af pæne folks piger, lærdom og den særlige skoleånd, som altid hviler over skoler af den karakter.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Anne-Sofie Storm Wesche: Helle Virkner&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20Virkner&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_829">
-                <coordinates>12.5786382329,55.7003239155,0.0</coordinates>
+            <Point id="geom_241">
+                <coordinates>12.5786006738,55.7002886771,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_836">
+        <Placemark id="feat_245">
             <name>Iselingen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Hovedgården Iselingen lå omtrent en halv fjerdingvej fra Vordingborg og blev bestyret af lensmanden Tyge Høeg.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Carl Brosbøll: Gøngehøvdingen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=G%C3%B8ngeh%C3%B8vdingen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_830">
-                <coordinates>11.9272029832,55.0160695541,0.0</coordinates>
+            <Point id="geom_242">
+                <coordinates>11.9272054251,55.0161295052,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_837">
+        <Placemark id="feat_246">
             <name>Jungshoved</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Den foregående dags aften var der nemlig kommet fornemt besøg til Jørgen Reedtz på Jungshoved.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Carl Brosbøll: Gøngehøvdingen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=G%C3%B8ngeh%C3%B8vdingen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_831">
-                <coordinates>12.1198481927,55.0899625555,0.0</coordinates>
+            <Point id="geom_243">
+                <coordinates>12.119755007,55.0899823541,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_838">
+        <Placemark id="feat_247">
             <name>Kingosgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Han står i en lejlighed i Kingosgade, man har fundet en død kvinde, men de er i tvivl om, det er et drab eller hvad.«&lt;/p&gt;
@@ -390,22 +401,22 @@
 &lt;p&gt;&lt;i&gt;Dan Turèll: Gennem byen sidste gang&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Gennem%20byen%20sidste%20gang&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_832">
-                <coordinates>12.5448258706,55.6725369135,0.0</coordinates>
+            <Point id="geom_244">
+                <coordinates>12.5448011129,55.6725331362,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_839">
+        <Placemark id="feat_248">
             <name>Lyngby Hovedgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Mine forældres soveværelse lå ud mod den befærdede hovedgade, og min mor fik endnu en grund til ikke at kunne sove om natten.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jørn Lund: Lært: erindringer 1960 - 1990&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=L%C3%A6rt%3A%20erindringer%201960%20-%201990&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_833">
-                <coordinates>12.5041922003,55.7699635753,0.0</coordinates>
+            <Point id="geom_245">
+                <coordinates>12.5041598202,55.7699785375,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_840">
+        <Placemark id="feat_249">
             <name>Lyngby Sø</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Hun rystede af skræk i optimistjollerne, og den dag Peter - den mindste af Johannes' børn - gled på hovedet i Lyngby Sø, hadede hun sig selv for at lade sig udsætte for den slags chok, ...«&lt;/p&gt;
@@ -420,33 +431,33 @@
 &lt;p&gt;&lt;i&gt;Jørn Lund: Lært: erindringer 1960 - 1990&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=L%C3%A6rt%3A%20erindringer%201960%20-%201990&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_834">
-                <coordinates>12.4828227294,55.7741563732,0.0</coordinates>
+            <Point id="geom_246">
+                <coordinates>12.4828227578,55.7741792339,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_841">
+        <Placemark id="feat_250">
             <name>Mejdal</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Nu sagde jeg til damen i bussen, at jeg kom fra Holstebro, i virkeligheden kommer jeg fra Mejdal.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Henning Mortensen, Lone Hørslev: Midtjyske fortællinger&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Midtjyske%20fort%C3%A6llinger&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_835">
-                <coordinates>8.65832895814,56.3514200361,0.0</coordinates>
+            <Point id="geom_247">
+                <coordinates>8.65836823022,56.3513742641,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_842">
+        <Placemark id="feat_251">
             <name>Museum Sønderjylland – Kulturhistorie Tønder</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det fandt sted midt i 70'erne ved åbningen af Tønder Museum, hvor jeg som gymnasieelev havde sommmerjob sammen med Kedde, hvis fars bøger Dronning Margrethe efter sigende havde læst med begejsting.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Michael Falch: Trækruter&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Tr%C3%A6kruter&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_836">
-                <coordinates>8.86750762541,54.9327191666,0.0</coordinates>
+            <Point id="geom_248">
+                <coordinates>8.86749999949,54.9327284808,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_843">
+        <Placemark id="feat_252">
             <name>Nordre Frihavnsgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»For en del år siden var en klient sigtet for en sen aften at have begået et røveri i en konfektureforretning i Nordre Frihavnsgade.«&lt;/p&gt;
@@ -457,198 +468,209 @@
 &lt;p&gt;&lt;i&gt;Sara Blædel: Grønt støv&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Gr%C3%B8nt%20st%C3%B8v&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_837">
-                <coordinates>12.5834249954,55.7021000564,0.0</coordinates>
+            <Point id="geom_249">
+                <coordinates>12.5833934431,55.7020899477,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_844">
+        <Placemark id="feat_253">
             <name>Peter Bangs Vej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Mysteriet om dobbeltmordet på Peter Bangs Vej begyndte den 20. februar 1948 klokken 8.18, da telefonen ringede hos vagthavende Kezler på Frederiksberg Politistation på Howitzvej.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Peer Kaae: Dobbeltmordet på Peter Bangs Vej - sagen genoptaget&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Dobbeltmordet%20p%C3%A5%20Peter%20Bangs%20Vej%20-%20sagen%20genoptaget&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_838">
-                <coordinates>12.5071609738,55.6787698746,0.0</coordinates>
+            <Point id="geom_250">
+                <coordinates>12.5072497472,55.678830096,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_845">
+        <Placemark id="feat_254">
             <name>Randersgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det var en lykkelig tid, dengang i Randersgade på Østerbro, hvor Pia Kjærsgaard tilbragte sine første ti år i en toværelses lejlighed på fjerde sal.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Pia Kjærsgaard, Jette Meier Carlsen: Fordi jeg var nødt til det&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Fordi%20jeg%20var%20n%C3%B8dt%20til%20det&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_839">
-                <coordinates>12.580842633,55.7051041095,0.0</coordinates>
+            <Point id="geom_251">
+                <coordinates>12.5807548604,55.7051029773,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_846">
+        <Placemark id="feat_255">
             <name>Rødovre Centrum</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Onsdag 14. december 1966 var den højgravide Grete Thorning-Schmidt ude at handle i indkøbscentret Rødovre Centrum.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jakob Nielsen: Helle for magten&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20for%20magten&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_840">
-                <coordinates>12.4550150711,55.6781615846,0.0</coordinates>
+            <Point id="geom_252">
+                <coordinates>12.4549811746,55.6781932345,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_847">
+        <Placemark id="feat_256">
             <name>Slagelse Gymnasium og HF-kursus</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»En smuk Efteraarsdag reiste jeg med Posten fra Kjøbenhavn for at begynde Skolelivet i Slagelse, det Sted hvor Baggesen og Ingemann ogsaa havde gaaet deres Skolegang«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Mit Livs Eventyr&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mit%20Livs%20Eventyr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_841">
-                <coordinates>11.3382333597,55.4009579011,0.0</coordinates>
+            <Point id="geom_253">
+                <coordinates>11.3382382065,55.4009946179,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_848">
+        <Placemark id="feat_257">
             <name>Stengade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Første gang jeg stiftede bekendtskab med LSD, var i Stengade. Vi blev kaldt ud til en stuelejlighed, som en ung man var brudt ind i fra gaden.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Einer Lind: Bisser og bananer&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bisser%20og%20bananer&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_842">
-                <coordinates>12.5556713012,55.6876020826,0.0</coordinates>
+            <Point id="geom_254">
+                <coordinates>12.5557469412,55.6876392193,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_849">
+        <Placemark id="feat_258">
             <name>Tjele Gods</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Lyden af Slagene gjorde et uhyggeligt Indtryk paa Barnet, hun holdt sig for Ørerne og gik hastigt op mod Gaarden. Kjælderdøren ned til Bryggerset stod aaben; hun smuttede derned og slog Døren i efter sig.   Det var den fjortenaarige Marie Grubbe, Datter af Hr. Erik Grubbe til Tjele Hovedgaard.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;J.P. Jacobsen: Marie Grubbe&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Marie%20Grubbe&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_843">
-                <coordinates>9.61143480337,56.5105770778,0.0</coordinates>
+            <Point id="geom_255">
+                <coordinates>9.61143501192,56.5106126102,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_850">
+        <Placemark id="feat_259">
             <name>Urbanplanen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Morten Pape: Planen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Planen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_844">
-                <coordinates>12.595828636,55.6542237314,0.0</coordinates>
+            <Point id="geom_256">
+                <coordinates>12.5958259663,55.6541713269,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_851">
+        <Placemark id="feat_260">
             <name>Vejlby</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Idag var jeg i Besøg hos Præsten i Vejlbye. Det er vist en gudfrygtig og brav Mand; men myndig og opfarende: han taaler ingen Modsigelse; og knap tillige paa Skillingen, det er han.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Steen Steensen Blicher: Præsten i Vejlbye&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Pr%C3%A6sten%20i%20Vejlbye&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_845">
-                <coordinates>10.812513802,56.3828267498,0.0</coordinates>
+            <Point id="geom_257">
+                <coordinates>10.8124699209,56.3827669684,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_852">
+        <Placemark id="feat_261">
             <name>Vester Farimagsgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Han hørte tydeligt et brag ude i byen og fik at vide af radiotjenesten, at en bombe var eksploderet kl. 10.27  ved Northwest Orient Airlines' kontor, der lå i stueetagen på hjørnet af Vester Farimagsgade og Vesterport Station«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Bent Blüdnikow: Bombeterror i København. Trusler og terror 1968-1990&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bombeterror%20i%20K%C3%B8benhavn.%20Trusler%20og%20terror%201968-1990&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_846">
-                <coordinates>12.5622649836,55.6772079876,0.0</coordinates>
+            <Point id="geom_258">
+                <coordinates>12.5622516122,55.6771756978,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_853">
+        <Placemark id="feat_262">
             <name>Vestergade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»På samme tid havde jeg gjort bekendtskab med en gammel pianist i en beværtningskælder i Vestergade. Han hed Outzen og var søn af en højere toldembedsmand i Slesvig-Holsten fra før krigen. Det var gået ned ad bakke med den gamle mester, og nu levede han af nådsensbård hos en gæstgiver, som var uden al dannelse.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Carl Nielsen: Min fynske barndom&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Min%20fynske%20barndom&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_847">
-                <coordinates>10.3825769224,55.394623602,0.0</coordinates>
+            <Point id="geom_259">
+                <coordinates>10.3826382555,55.3946327349,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_854">
+        <Placemark id="feat_263">
             <name>Danmarks Tekniske Universitet</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»De bygningsingeniører, der ikke får sig en hel ingeniøruddannelse, bliver til diplominiører, og de får lov til at koste rundt med os betonarbejdere, når vi for eksempel som nu bygger et nyt hus til DTUs spritnye elektronmikroskop«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jakob Mathiassen: Beton - historier fra skurvognen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Beton%20-%20historier%20fra%20skurvognen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_848">
-                <coordinates>12.5215657327,55.7858361498,0.0</coordinates>
+            <Point id="geom_260">
+                <coordinates>12.521524797,55.7857850841,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_855">
+        <Placemark id="feat_264">
             <name>Strøget</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»jeg vil gå ned ad Strøget som en skygge«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Dan Turèll: Gennem byen sidste gang&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Gennem%20byen%20sidste%20gang&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_849">
-                <coordinates>12.5753815502,55.6788023021,0.0</coordinates>
+            <Point id="geom_261">
+                <coordinates>12.5753906659,55.6788023499,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_856">
+        <Placemark id="feat_265">
             <name>Himmerland</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Men da Himmerlandsbønderne hørte jævne folk af deres eget slags vrinske og bøle som løse Dyr, begyndte Blodet ogsaa at suse i deres Hoved.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_850">
-                <coordinates>9.83329477613,56.8333807781,0.0</coordinates>
+            <Point id="geom_262">
+                <coordinates>9.83332312352,56.8333384272,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_857">
+        <Placemark id="feat_266">
             <name>Børglum Kloster</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Oppe paa Sandhøiden ligger en stor, gammel Gaard, det er Børglum Kloster, den største Fløi er endnu Kirken; derop komme vi nu i den sildige Aften, men Veiret er klart, det er lyse Nætter; man seer saa langt, saa langt vidt omkring, over Mark og Mose ned til Aalborg Fjord, over Hede og Eng, lige ud over det mørkeblaa Hav.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Bispen på Børglum og hans frænde&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bispen%20p%C3%A5%20B%C3%B8rglum%20og%20hans%20fr%C3%A6nde&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_851">
-                <coordinates>9.79918697846,57.3689180203,0.0</coordinates>
+            <Point id="geom_263">
+                <coordinates>9.79915513724,57.3689166776,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_858">
+        <Placemark id="feat_267">
             <name>Gellerupparken</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I lejligheden i Gellerupparken fandt politiet også en flaske med knap et kilogram kviksølv, som var gemt i en urtepotteskjuler.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Morten Skjoldager: Truslen indefra - de danske terrorister&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Truslen%20indefra%20-%20de%20danske%20terrorister&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_852">
-                <coordinates>10.1333364519,56.1583193204,0.0</coordinates>
+            <Point id="geom_264">
+                <coordinates>10.1333247455,56.1582607984,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_859">
+        <Placemark id="feat_268">
+            <name>Venø</name>
+            <description>&lt;hr&gt;
+&lt;p&gt;»Jeg anede ikke ret meget om, hvor vi var. Men jeg fandt senere ud af, at den lille ø, vi sejlede ud til hedder Ven.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Jens Toldstrup: Kamp og sejr&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kamp%20og%20sejr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+</description>
+            <Point id="geom_265">
+                <coordinates>8.62496867506,56.5541735128,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_269">
             <name>Præstø</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Et lig af en 14-årig pige i Præstø Havn«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Arne Schmidt Møller: Sonay&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Sonay&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_853">
-                <coordinates>12.0500162256,55.116641353,0.0</coordinates>
+            <Point id="geom_266">
+                <coordinates>12.0499661514,55.1166560035,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_860">
+        <Placemark id="feat_270">
             <name>Marienborg</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Efter alt det, min mor gjorde og skabte for mig og mine søskende med de få midler hun havde, var det det dejligt, at jeg mange år senere kunne invitere hende op til Marienborg til en kop kaffe og et stykke kage med landets statsminister.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Billy Adamsen, Peter Sloth: spindoktor&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=spindoktor&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_854">
-                <coordinates>12.464479001,55.7753115186,0.0</coordinates>
+            <Point id="geom_267">
+                <coordinates>12.464482754,55.7752688826,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_861">
+        <Placemark id="feat_271">
             <name>Kongens Nytorv</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»En hundefører begyndte at rundere i området omkring Kongens Nytorv og Det Kongelige Teater, som gerningsmændene var løbet mod efter knivstikkeriet.«&lt;/p&gt;
@@ -659,55 +681,55 @@
 &lt;p&gt;&lt;i&gt;Jules Verne: Rejsen til Jordens Indre&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Rejsen%20til%20Jordens%20Indre&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_855">
-                <coordinates>12.5858477801,55.6802587842,0.0</coordinates>
+            <Point id="geom_268">
+                <coordinates>12.5857839338,55.6802649789,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_862">
+        <Placemark id="feat_272">
             <name>Østergade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det hele liv, ret som det står / og går, / kan findes på en simpel promenade / igennem Østergade.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Østergade, poetisk betragtet&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=%C3%98stergade%2C%20poetisk%20betragtet&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_856">
-                <coordinates>12.5823313809,55.6795526956,0.0</coordinates>
+            <Point id="geom_269">
+                <coordinates>12.5823986323,55.6795982303,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_863">
+        <Placemark id="feat_273">
             <name>Carlsminde</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jette Hvidtfeldt, Thomas Buch-Andersen: Claus Hjort - strategen bag det nye Venstre&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Claus%20Hjort%20-%20strategen%20bag%20det%20nye%20Venstre&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_857">
-                <coordinates>12.494836447,55.8126686696,0.0</coordinates>
+            <Point id="geom_270">
+                <coordinates>12.4947571684,55.8127116943,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_864">
+        <Placemark id="feat_274">
             <name>Solhaven</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»PÅ ALLE SOLHAVENS AFDELINGER / HÆNGER ET NUMMER PÅ OPSLAGSTAVLEN«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Yahya Hassan: Yahya Hassan&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Yahya%20Hassan&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_858">
-                <coordinates>9.3443199507,56.7746887908,0.0</coordinates>
+            <Point id="geom_271">
+                <coordinates>9.34430549632,56.7746420202,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_865">
+        <Placemark id="feat_275">
             <name>Stevnsfortets Skole</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»STEVNSFORTET: DET VAR DET BEDSTE STED AT VÆRE INDESPÆRRET«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Yahya Hassan: Yahya Hassan&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Yahya%20Hassan&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_859">
-                <coordinates>12.4071877533,55.2665929407,0.0</coordinates>
+            <Point id="geom_272">
+                <coordinates>12.4072727174,55.2665995902,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_866">
+        <Placemark id="feat_276">
             <name>Hvalpsund</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Ved Midnatstid saa de Fakler bevæge sig paa Fjorden, og en Time efter landede tre store Pramme med bevæbnede Sallingboere ved Hvalpsund.«&lt;/p&gt;
@@ -718,11 +740,11 @@
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Ane og Koen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Ane%20og%20Koen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_860">
-                <coordinates>9.19643528425,56.7002970557,0.0</coordinates>
+            <Point id="geom_273">
+                <coordinates>9.19636235903,56.7002501444,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_867">
+        <Placemark id="feat_277">
             <name>Istedgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»og jeg vil gå ned ad Istedgade eller Vesterbrogade«&lt;/p&gt;
@@ -732,155 +754,159 @@
 &lt;p&gt;»Nede på Istedgade myldrede det med mænd og kvinder, og en mand stod og talte med en kvinde, som havde alt for lidt tøj på. De små forventede, at Naser som den kloge storebror måtte komme med en forklaring på den besynderlige scene.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Tanja Parker Astrup: Naser&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Naser&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+&lt;hr&gt;
+&lt;p&gt;»Ved et tilfælde kom han forbi en pornoforretning på Istedgade, NON STOP SEX hed den.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Nis Jakob: Mesteren fra Mors&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mesteren%20fra%20Mors&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_861">
-                <coordinates>12.5557376644,55.6698992543,0.0</coordinates>
+            <Point id="geom_274">
+                <coordinates>12.5557723463,55.6698676791,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_868">
+        <Placemark id="feat_278">
             <name>Billund</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Modgangen til trods gik tømrermesteren i Billund i gang med at snedkerere kommoder, skabe, strygebrætter, taburetter og mange andre miniaturemøbler af træ, plus legetøjsbiler, ænder på hjul, dukkevogne m.m.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Mikael Lindholm, Frank Stokholm: Lego - Den danske ledelseskanon, 3: Globaliseringen af den gode idé&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Lego%20-%20Den%20danske%20ledelseskanon%2C%203%3A%20Globaliseringen%20af%20den%20gode%20id%C3%A9&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_862">
-                <coordinates>9.11526088615,55.7307976717,0.0</coordinates>
+            <Point id="geom_275">
+                <coordinates>9.11531929274,55.7307853411,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_869">
+        <Placemark id="feat_279">
             <name>Løkken Strand</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I Nat, dernede ved Løkken, den lille Fiskerby med røde Tage, vi see den fra Vinduerne heroppe, er strandet et Skib. Noget ude, stødte det paa, men Redningsraketten bandt Bro mellem Vraget og det faste Land, frelste bleve Alle, der vare ombord, de kom i Land og tilsengs; idag ere de indbudne paa Børglum Kloster.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Bispen på Børglum og hans frænde&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bispen%20p%C3%A5%20B%C3%B8rglum%20og%20hans%20fr%C3%A6nde&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_863">
-                <coordinates>9.70392206291,57.3716616164,0.0</coordinates>
+            <Point id="geom_276">
+                <coordinates>9.70385965792,57.3716931389,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_870">
+        <Placemark id="feat_280">
             <name>Vangede</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Og præsten i Vangede / i min barndom i halvtredserne / han køærte til kirke på knallert / og det vakte betydelig opsigt«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Dan Turèll: Vangede&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Vangede&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_864">
-                <coordinates>12.5332904637,55.7500232588,0.0</coordinates>
+            <Point id="geom_277">
+                <coordinates>12.5332627807,55.7499793445,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_871">
+        <Placemark id="feat_281">
             <name>Stormgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Han havde holdt for rødt lys i krydset mellem Stormgade og Frederiksholm Kanal, da en skræmt kvinde bankede på hans bilrude«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_865">
-                <coordinates>12.5735999739,55.6744597217,0.0</coordinates>
+            <Point id="geom_278">
+                <coordinates>12.5736314388,55.674447565,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_872">
+        <Placemark id="feat_282">
             <name>Viby</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Mikkel Wallentin: En ræv bag øret&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=En%20r%C3%A6v%20bag%20%C3%B8ret&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_866">
-                <coordinates>10.16112369,56.1250248715,0.0</coordinates>
+            <Point id="geom_279">
+                <coordinates>10.1611482032,56.1250119614,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_873">
+        <Placemark id="feat_283">
             <name>Kongens Have</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Then I took a childish pleasure in exploring the city; my uncle let me take him with me, but he took notice of nothing, neither ... nor in a fine park the toylike chateau of Rosenberg, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jules Verne: Rejsen til Jordens Indre&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Rejsen%20til%20Jordens%20Indre&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_867">
-                <coordinates>12.5790080969,55.685032721,0.0</coordinates>
+            <Point id="geom_280">
+                <coordinates>12.578984178,55.6850157685,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_874">
+        <Placemark id="feat_284">
             <name>Sankt Mortens Kirke</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det var et fruentimmer i Randers, hun havde bestemt sig til at gå til fropræken i Sankt Mortens.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Henning Mortensen, Lone Hørslev: Midtjyske fortællinger&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Midtjyske%20fort%C3%A6llinger&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_868">
-                <coordinates>10.0348055993,56.4598259265,0.0</coordinates>
+            <Point id="geom_281">
+                <coordinates>10.0348039398,56.4598022161,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_875">
+        <Placemark id="feat_285">
             <name>Salling</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Saa skriver, han et Brev til sin Svoger, Hr. Oluf Hase i Salling, stævner ham til at komme Juleaften til Ottesang i Hvidberg Kirke; derovre skal Bispen læse Messe, derfor reiser han fra Børglum til Thyland, det kjender og veed Jens Glob.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Bispen på Børglum og hans frænde&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bispen%20p%C3%A5%20B%C3%B8rglum%20og%20hans%20fr%C3%A6nde&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_869">
-                <coordinates>8.96343902426,56.6705192141,0.0</coordinates>
+            <Point id="geom_282">
+                <coordinates>8.96344429624,56.6705983298,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_876">
+        <Placemark id="feat_286">
             <name>Hjarbæk</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Senere samme dag stod der en civilklædt kriminalassistent fra Rigspolitiets Rejsehold ved Heinrichs tolængede gård i Hjarbæk ved Limfjorden.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jens Peter Skov Jensen, Marlene Lyhne Sørensen: Dagbog fra Danica White&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Dagbog%20fra%20Danica%20White&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_870">
-                <coordinates>9.31888344702,56.5306213778,0.0</coordinates>
+            <Point id="geom_283">
+                <coordinates>9.31886954162,56.5306299824,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_877">
+        <Placemark id="feat_287">
             <name>Nørrebro</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Ja, fulde folk var der nok af på 60'ernes socialt belastede Nørrebro. En af vores største opgaver var netop at afhente alkoholikere, sprittere.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Einer Lind: Bisser og bananer&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bisser%20og%20bananer&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_871">
-                <coordinates>12.5597251751,55.6883375988,0.0</coordinates>
+            <Point id="geom_284">
+                <coordinates>12.5597647881,55.6883498534,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_878">
+        <Placemark id="feat_288">
             <name>Storebælt</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»men da jeg ved Nyborg kom ud paa det store Belt, og Skibet seilede fra min Fødeø, følte jeg ret hvor ene og forladt jeg var, og at jeg ingen Anden havde end Gud i Himlen.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Mit Livs Eventyr&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mit%20Livs%20Eventyr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_872">
-                <coordinates>11.0000346992,55.3329542339,0.0</coordinates>
+            <Point id="geom_285">
+                <coordinates>10.9999749922,55.3329646851,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_879">
+        <Placemark id="feat_289">
             <name>Kalundborg</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg var hans ydmyge tjener og nød hans og de andre medlemmers anerkendelse, ikke mindst fra Mirjam, en gæv midaldrende kvinde, der drev en rideskole ude på Røsnæs og havde tre sønner på min alder, som også fungerede som messedrenge i Kalundborg«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Frederik Roed: Messedreng&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Messedreng&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_873">
-                <coordinates>11.0849501947,55.6814289342,0.0</coordinates>
+            <Point id="geom_286">
+                <coordinates>11.0849698203,55.6813871808,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_880">
+        <Placemark id="feat_290">
             <name>Københavns Lufthavn</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I Kastrup lufthavns afgangshal kom en ældre mand stavrende hen til Naser. &quot;Du skal bare kæmpe videre&quot;, sagde manden.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Tanja Parker Astrup: Naser&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Naser&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_874">
-                <coordinates>12.6560959793,55.6180833708,0.0</coordinates>
+            <Point id="geom_287">
+                <coordinates>12.6560876327,55.6180870829,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_881">
+        <Placemark id="feat_291">
             <name>Fanø</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -891,88 +917,88 @@
 &lt;p&gt;&lt;i&gt;Mark Ryan: The Hornet's sting&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=The%20Hornet%27s%20sting&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_875">
-                <coordinates>8.41032659645,55.414151702,0.0</coordinates>
+            <Point id="geom_288">
+                <coordinates>8.41027810421,55.4141249071,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_882">
+        <Placemark id="feat_292">
             <name>Folketinget</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jakob Nielsen: Helle for magten&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20for%20magten&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_876">
-                <coordinates>12.5797062779,55.6761502381,0.0</coordinates>
+            <Point id="geom_289">
+                <coordinates>12.5797461037,55.6760813195,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_883">
+        <Placemark id="feat_293">
             <name>Etologisk Institut</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»...Kristoffer (bogens hovedperson) er afhængig af internettet og af halvdårlige, men meget populære tv-serier og på et tidspunkt tvinges til at få sig en sund fritidsinteresse og derfor gladeligt betaler 24.000 kr. up front til Etologisk Institut i Ballerup, så han kan blive hundetræner, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Lone Aburas: Den svære toer&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Den%20sv%C3%A6re%20toer&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_877">
-                <coordinates>12.3444111948,55.7302572865,0.0</coordinates>
+            <Point id="geom_290">
+                <coordinates>12.3444632763,55.7303389112,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_884">
+        <Placemark id="feat_294">
             <name>Grimhøjmoskeen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»NU BEDER HAN SINE BØNNER I GRIMHØJMOSKEEN OG KNEPPER EN DANSKER PÅ HAVNEN«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Yahya Hassan: Yahya Hassan&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Yahya%20Hassan&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_878">
-                <coordinates>10.1243940919,56.1642192677,0.0</coordinates>
+            <Point id="geom_291">
+                <coordinates>10.1244379057,56.1641788187,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_885">
+        <Placemark id="feat_295">
             <name>Det hvide Snit</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Vi bor i Det hvide Snit. På en grund det har fået forærende, har boligselskabet opstablet en del præfabrikerede æsker i hvid beton, for hvilket det har fået en præmie af Foreningen til Hovedstadens Forskønnelse.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Peter Høeg: Frøken Smillas fornemmelse for sne&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Fr%C3%B8ken%20Smillas%20fornemmelse%20for%20sne&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_879">
-                <coordinates>12.5932503902,55.676517353,0.0</coordinates>
+            <Point id="geom_292">
+                <coordinates>12.5933342279,55.676444252,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_886">
+        <Placemark id="feat_296">
             <name>Sporting Health Club</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg var 12 år og tog bussen fra mit hjem til Hvidovre station, et S-tog derfra til Nørreport og småløb hele vejen fra Nørre Voldgade ned ad Gothersgade til klubben, hvor jeg mødte Sven-Ole Thorsen og Jørgen Larsen, også kaldet Bura Sensei. Dér havde de etableret Sporting Health Club med henholdsvis body-building og karate.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jesper Palm Lundorf, Ivan Rod: I majestætens hemmelige tjeneste. En livvagts beretning&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=I%20majest%C3%A6tens%20hemmelige%20tjeneste.%20En%20livvagts%20beretning&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_880">
-                <coordinates>12.5840957018,55.6818814561,0.0</coordinates>
+            <Point id="geom_293">
+                <coordinates>12.5840444112,55.6819225057,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_887">
+        <Placemark id="feat_297">
             <name>Farum Midtpunkt</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Farum Midtpunkt er en underlig ghetto - og ikke kun fordi boligblokkene som et arkitektonisk eksperiment er dækket af rustne jernplader.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Christian Jungersen: Du forsvinder&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Du%20forsvinder&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_881">
-                <coordinates>12.3776538821,55.8192609135,0.0</coordinates>
+            <Point id="geom_294">
+                <coordinates>12.3776624038,55.8192528448,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_888">
+        <Placemark id="feat_298">
             <name>Retspsykiatrisk Klinik</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Retspsykiatrisk Klinik i København har under skiftende navne haft til huse forskellige steder i byen«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Preben Lund: Sindssyg i gerningsøjeblikket&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Sindssyg%20i%20gernings%C3%B8jeblikket&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_882">
-                <coordinates>12.5623467253,55.6912185168,0.0</coordinates>
+            <Point id="geom_295">
+                <coordinates>12.5624118984,55.6913081673,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_889">
+        <Placemark id="feat_299">
             <name>Saxogade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»jeg vil slentre langs med Saxogade Oehlenschlägersgade Kingosgade«&lt;/p&gt;
@@ -983,55 +1009,55 @@
 &lt;p&gt;&lt;i&gt;Jonas Wisbech Vange: Anker Jørgensen og det forunderlige liv&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Anker%20J%C3%B8rgensen%20og%20det%20forunderlige%20liv&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_883">
-                <coordinates>12.5511085547,55.668858833,0.0</coordinates>
+            <Point id="geom_296">
+                <coordinates>12.551068259,55.6688675032,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_890">
+        <Placemark id="feat_300">
             <name>Vesterbro Bibliotek</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Og så hang de ud på Vesterbro Bibliotek, som var det første i Danmark, der indkøbte bøger på arabisk.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Tanja Parker Astrup: Naser&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Naser&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_884">
-                <coordinates>12.5436399247,55.6678848259,0.0</coordinates>
+            <Point id="geom_297">
+                <coordinates>12.5436529616,55.6678216408,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_891">
+        <Placemark id="feat_301">
             <name>Lillebælt</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Inden Mikkel Thøgersen fik Orlov og begav sig til Jerusalem, begyndte Kongens haarde Tid; Mikkel kom til at følge ham et Stykke, han var med denNat, da Kongen rejste paa Lillebælt.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_885">
-                <coordinates>9.83336515665,55.1833141435,0.0</coordinates>
+            <Point id="geom_298">
+                <coordinates>9.83329456741,55.1833286955,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_892">
+        <Placemark id="feat_302">
             <name>Sorgenfri Slotspark</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»...vi gik tur i Sorgenfri Slotspark, hvor Arveprins Knud og hans kusine boede. Man sagde om ham, at han legede med elektrisk tog; ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jørn Lund: Lært: erindringer 1960 - 1990&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=L%C3%A6rt%3A%20erindringer%201960%20-%201990&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_886">
-                <coordinates>12.4963661447,55.7800956789,0.0</coordinates>
+            <Point id="geom_299">
+                <coordinates>12.4964182985,55.7800666789,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_893">
+        <Placemark id="feat_303">
             <name>Mandø</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Foruden vindmøllen (med stillads om) og museet kan Mandø Turistinformation oplyse om enkelte udflugter i nærområdet, guided tour ud på vaden og den slags, hvor man kan grave efter lorteorm.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Kjersti Vik: Mandø&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mand%C3%B8&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_887">
-                <coordinates>8.54996124846,55.2832988867,0.0</coordinates>
+            <Point id="geom_300">
+                <coordinates>8.5499935999,55.283301184,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_894">
+        <Placemark id="feat_304">
             <name>Viborg</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Valdemar Dybæk og Boris Holm fra sjette Klasse i Viborg Latinskole spaserede paa Dæmningen mellem Søerne og trak frisk Luft efter at have repeteret hele Dagen«&lt;/p&gt;
@@ -1042,462 +1068,495 @@
 &lt;p&gt;&lt;i&gt;Henning Mortensen, Lone Hørslev: Midtjyske fortællinger&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Midtjyske%20fort%C3%A6llinger&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_888">
-                <coordinates>9.40000371405,56.4500006409,0.0</coordinates>
+            <Point id="geom_301">
+                <coordinates>9.40003209711,56.4499948909,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_895">
+        <Placemark id="feat_305">
             <name>Næstved</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Den 7. november 1997 bliver Sonay indmeldt på Uglebroskolen i Næstved«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Arne Schmidt Møller: Sonay&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Sonay&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_889">
-                <coordinates>11.7666942528,55.2333115581,0.0</coordinates>
+            <Point id="geom_302">
+                <coordinates>11.7667146379,55.2333192894,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_896">
+        <Placemark id="feat_306">
             <name>Remmerstrand</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Farmor har også engang boet her i huset på Remmerstrand sammen med os.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Henning Mortensen, Lone Hørslev: Midtjyske fortællinger&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Midtjyske%20fort%C3%A6llinger&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_890">
-                <coordinates>8.49097707473,56.5509940429,0.0</coordinates>
+            <Point id="geom_303">
+                <coordinates>8.49099911907,56.5509521696,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_897">
+        <Placemark id="feat_307">
             <name>Dalgasskolen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»På inspektørkontoret på Dalgasskolen sidder Susanne Rasmussen og overvejer om det snart igen er tid til en vandkur.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Mikkel Wallentin: Lynet slår altid ned på mørke steder&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Lynet%20sl%C3%A5r%20altid%20ned%20p%C3%A5%20m%C3%B8rke%20steder&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_891">
-                <coordinates>9.13877287803,55.9426836575,0.0</coordinates>
+            <Point id="geom_304">
+                <coordinates>9.13878832937,55.9426308423,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_898">
+        <Placemark id="feat_308">
             <name>Radisson Blu Scandinavia Hotel (København)</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg tog med det samme af sted til Hotel SAS Radisson Blu på Amager. Værelse 2025 var sparsomt oplyst. En lampe lå væltet, skærmen var revet af, og sengen var uredt.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_892">
-                <coordinates>12.5860570808,55.667381377,0.0</coordinates>
+            <Point id="geom_305">
+                <coordinates>12.5860657479,55.6673869977,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_899">
+        <Placemark id="feat_309">
             <name>Æblehaven</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I lejligheden i Æblehaven 138 i Roskilde var Mustafa og Saziye Sahin klar til at rejse til Tyrkiet med deres yngste datter, Sibel. ...Udadtil en glad familie på vej på ferie - indadtil en spændt stemning, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Elisabet Svane, Sibel Sahin, Naser Khader: Sibel&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Sibel&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_893">
-                <coordinates>12.0617029239,55.6309579212,0.0</coordinates>
+            <Point id="geom_306">
+                <coordinates>12.0616600907,55.6310498582,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_900">
+        <Placemark id="feat_310">
             <name>Artillerivej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»For ligesom jeg skal til at tro, at Ali har snydt mig og slet ikke har tænkt sig at dukke op foran det lager ude på Artillerivej, får jeg øje på ham ovre på den anden side af vejen, og på politiet som kommer kørende længere nede.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Lone Aburas: Føtexsøen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=F%C3%B8texs%C3%B8en&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_894">
-                <coordinates>12.5684299805,55.6542904138,0.0</coordinates>
+            <Point id="geom_307">
+                <coordinates>12.5684541658,55.6543119562,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_901">
+        <Placemark id="feat_311">
             <name>Bygmestervej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»På grund af vejret havde efterforskningslederen rekvireret en stor kommandovogn, en KST-vogn, som ankom til Bygmestervej kort efter mig. Vognen er vigtig i forbindelse med sådan et drab på åben gade i dårligt vejr, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_895">
-                <coordinates>12.53485386,55.7054956494,0.0</coordinates>
+            <Point id="geom_308">
+                <coordinates>12.5348569497,55.7055486213,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_902">
+        <Placemark id="feat_312">
             <name>Alléen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Lidt efter klokken 22 fredag aften lukkede tre mænd pizzariaet 'Da Massimo', som lå på Alléen i Kastrup.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_896">
-                <coordinates>12.6458384268,55.6360590658,0.0</coordinates>
+            <Point id="geom_309">
+                <coordinates>12.6457539011,55.6360100932,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_903">
+        <Placemark id="feat_313">
             <name>Polensgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»De tre gerningsmænd havde kørt rundt i området omkring Lergravsparken og Polensgade på Amager i en sort Mazda 323.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_897">
-                <coordinates>12.6148489247,55.6646585339,0.0</coordinates>
+            <Point id="geom_310">
+                <coordinates>12.614790219,55.6647338649,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_904">
+        <Placemark id="feat_314">
             <name>Hotel Continent</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»&quot;Der er en ung mand, der er blevet slået ihjel på Hotel Continent på Nørrebrogade 51. Det er sket med en kniv&quot;, sagde hjemmevagtinspektøren.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_898">
-                <coordinates>12.5561522907,55.6892963061,0.0</coordinates>
+            <Point id="geom_311">
+                <coordinates>12.5560827039,55.6893150539,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_905">
+        <Placemark id="feat_315">
             <name>Amagerkollegiet</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I voldtægtssagen fra 2005, hvor en pige var blevet voldtaget på Amagerkollegiet, fandt man dna på en mælkekarton, som gerningsmanden havde drukket af, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_899">
-                <coordinates>12.5855059489,55.633439132,0.0</coordinates>
+            <Point id="geom_312">
+                <coordinates>12.5855566383,55.6334651867,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_906">
+        <Placemark id="feat_316">
             <name>Gurre Sø</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Han kunne jo ikke få udgangstilladelse ... Men nu ville Glistrup med på sådan en tur, og så havde han aftalt med en journalist inde fra Danmarks Radio, at de skulle mødes oppe ved broen i Gurre Sø.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Søren E. Jensen: Røde Kai og hans kriminelle karriere&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=R%C3%B8de%20Kai%20og%20hans%20kriminelle%20karriere&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_900">
-                <coordinates>12.4832118835,56.031790363,0.0</coordinates>
+            <Point id="geom_313">
+                <coordinates>12.4832231782,56.0318039008,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_907">
+        <Placemark id="feat_317">
             <name>Bådsmandsstræde</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»De boede i en lille lejlighed i Bådsmandsstræde, hvor pladsen var så trang, at Anker om natten var henvist til en gammeldags sofa i stuen.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jonas Wisbech Vange: Anker Jørgensen og det forunderlige liv&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Anker%20J%C3%B8rgensen%20og%20det%20forunderlige%20liv&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_901">
-                <coordinates>12.5958555627,55.6734393238,0.0</coordinates>
+            <Point id="geom_314">
+                <coordinates>12.5959001023,55.6735127839,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_908">
+        <Placemark id="feat_318">
             <name>Egernvej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Helle Virkner tog politikerrollen på sig, og som så mange gange før inddrog hun Egernvej og arrangerede et vælgermøde i hjemmet.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Anne-Sofie Storm Wesche: Helle Virkner&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20Virkner&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_902">
-                <coordinates>12.5244216563,55.6904534562,0.0</coordinates>
+            <Point id="geom_315">
+                <coordinates>12.5244587012,55.6904605577,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_909">
+        <Placemark id="feat_319">
             <name>Næstvedgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Bjørner blev kaldt ud til en nedstyrtningsulykke i Næstvedgade tæt ved brandstationen i Østbanegade og glemte i de næste par timer alt om invasionen.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ole Frøslev: Dragerkustens brudenat&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Dragerkustens%20brudenat&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_903">
-                <coordinates>12.5879050765,55.7010843353,0.0</coordinates>
+            <Point id="geom_316">
+                <coordinates>12.5879921396,55.701078781,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_910">
+        <Placemark id="feat_320">
             <name>Oehlenschlægersgade Skole</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Naser begyndte i en af de tre multietniske indslusningsklasser på Oehlenschlagergade Skole, hvor indvandrerbørn blev undervist i både dansk og deres modersmål.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Tanja Parker Astrup: Naser&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Naser&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_904">
-                <coordinates>12.5502926091,55.667508249,0.0</coordinates>
+            <Point id="geom_317">
+                <coordinates>12.5502070357,55.6674844028,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_911">
+        <Placemark id="feat_321">
             <name>Aarhus Arrest</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»ARRESTEN: INDLOGERET PÅ 1. SAL MED UDSIGT OVER MØLLEPARKEN«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Yahya Hassan: Yahya Hassan&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Yahya%20Hassan&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_905">
-                <coordinates>10.2012249039,56.1543666084,0.0</coordinates>
+            <Point id="geom_318">
+                <coordinates>10.2011837764,56.1543257845,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_912">
+        <Placemark id="feat_322">
             <name>Præstelundskolen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I 7.d på Præstelundskolen bliver Ida Hyldgaard, der ellers er suppleant til elevrådet, rød i hovedet midt i matematikopgaverne, da en vis person ser på hende med det dér blik.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Mikkel Wallentin: Lynet slår altid ned på mørke steder&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Lynet%20sl%C3%A5r%20altid%20ned%20p%C3%A5%20m%C3%B8rke%20steder&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_906">
-                <coordinates>9.1204564495,55.9427124236,0.0</coordinates>
+            <Point id="geom_319">
+                <coordinates>9.12046309044,55.9427206933,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_913">
+        <Placemark id="feat_323">
             <name>Pelargonievej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg åbnede det yderste vindue ud mod Pelargonievej, hvorfra jeg kunne se, hvem der ringede på, og anråbte den person, der stod ved fordøren nedenfor.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Lars Hedegaard: Attentatet&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Attentatet&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_907">
-                <coordinates>12.5144848077,55.6703701202,0.0</coordinates>
+            <Point id="geom_320">
+                <coordinates>12.5144240223,55.6704013111,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_914">
+        <Placemark id="feat_324">
             <name>Rosenborggade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»De sad alle sammen fulde af nervøs forventning i auditoriet i Rosenborggade og ventede på at få den første introduktion til deres nye studieliv. Så gik døren op, og ind trådte en lettere forpustet 20-årig kvinde med rødt krøllet hår.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jakob Nielsen: Helle for magten&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20for%20magten&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_908">
-                <coordinates>12.5738740768,55.6834355707,0.0</coordinates>
+            <Point id="geom_321">
+                <coordinates>12.5738460909,55.683455943,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_915">
+        <Placemark id="feat_325">
             <name>Café Amokka</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»For tidligere på dagen havde en anden kvindelig kandidat nemlig effektivt erobret den politiske kampplads med et andet, langt mere eksklusivt valgmøde, der var placeret på Café Amokka ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jakob Nielsen: Helle for magten&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20for%20magten&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_909">
-                <coordinates>12.5806088436,55.6957672239,0.0</coordinates>
+            <Point id="geom_322">
+                <coordinates>12.5806269656,55.6958035998,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_916">
+        <Placemark id="feat_326">
             <name>Katrinedals Skole</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg gik på Katrinedal Skole, som blev danmarksberømt på grund af skoleinspektøren, en dame, der hed Inger Merete Nordentoft.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Tom Christensen: Han fik morderne til at tilstå&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Han%20fik%20morderne%20til%20at%20tilst%C3%A5&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_910">
-                <coordinates>12.4978674988,55.690528391,0.0</coordinates>
+            <Point id="geom_323">
+                <coordinates>12.4979248627,55.6905544604,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_917">
+        <Placemark id="feat_327">
             <name>Dybendalsvej</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I 1954 flyttede vi til Dybendalsvej, også i Vanløse. Her boede jeg, til jeg flyttede hjemmefra. Det var en treværelses lejlighed med karbad. Fine forhold!«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Tom Christensen: Han fik morderne til at tilstå&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Han%20fik%20morderne%20til%20at%20tilst%C3%A5&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_911">
-                <coordinates>12.5007713101,55.6937714339,0.0</coordinates>
+            <Point id="geom_324">
+                <coordinates>12.5007908805,55.6937481752,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_918">
+        <Placemark id="feat_328">
             <name>Fredericiagade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Beskeden om, at noget skæbnesvangert var under opsejling, havde ramt skibsrederens hovedkontor i Fredericiagade i København tidligere på dagen, omkring klokken 13.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jens Peter Skov Jensen, Marlene Lyhne Sørensen: Dagbog fra Danica White&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Dagbog%20fra%20Danica%20White&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_912">
-                <coordinates>12.588654001,55.6862675329,0.0</coordinates>
+            <Point id="geom_325">
+                <coordinates>12.588658933,55.686291701,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_919">
+        <Placemark id="feat_329">
             <name>Ved Kløvermarken</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Nå, i al fald kommanderer indsatslederen de to til at bevogte Ved Kløvermarken, den sydlige ende, der er afspærret.«&lt;/p&gt;
-&lt;p&gt;&lt;i&gt;Søren Hammer, Lotte Hammer: Elskede Heidi&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Lotte Hammer, Søren Hammer: Elskede Heidi&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Elskede%20Heidi&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_913">
-                <coordinates>12.5984901034,55.6674122464,0.0</coordinates>
+            <Point id="geom_326">
+                <coordinates>12.5985095007,55.6674735781,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_920">
+        <Placemark id="feat_330">
             <name>Stasevang</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det er usandsynligt, at hun bliver fundet i omegnen af Stasevang, vi kan håbe, men jeg tror ikke mere på det. Hundene mistede færten af hende i går ved den skovvej, der løber øst-vest i Stasevang og hedder Kæmpehøjvej.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Lotte Hammer, Søren Hammer: Elskede Heidi&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Elskede%20Heidi&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_914">
-                <coordinates>12.4553628256,55.9005923692,0.0</coordinates>
+            <Point id="geom_327">
+                <coordinates>12.4554365821,55.9006389427,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_921">
+        <Placemark id="feat_331">
             <name>Kællingtandgårde</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»... til Kællingtandgaardene, som vi havde Respekt for, Gavlene saa saa sure ud allerede paa Afstand, med smaa Glugger under Tagskægget og en Loftslem som en flad Næse midt paa, og her havde vi haft Vanskeligheder med lokale studse Drenge, hvisaarsag vi ikke passerede Stedet uden Kæppe.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Vejviseren&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Vejviseren&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_915">
-                <coordinates>9.50794379636,56.7468001588,0.0</coordinates>
+            <Point id="geom_328">
+                <coordinates>9.50787170326,56.7467913764,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_922">
+        <Placemark id="feat_332">
             <name>Guldager</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Ad Svoldrupvejen gik vore første Udflugter, da vi blev store nok til selv paa egen Haand at finde Vej til vor Farbroders Gaard i Guldager, hvor vi tilbragte Ferierne, to-tre Mil østpaa ad Hobro til, ingen ringe Vejlængde for vor Alder; ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Vejviseren&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Vejviseren&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_916">
-                <coordinates>9.57952574892,56.7159686683,0.0</coordinates>
+            <Point id="geom_329">
+                <coordinates>9.57958729248,56.715882869,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_923">
+        <Placemark id="feat_333">
             <name>Skatskov</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Nogle Gange naar jeg har passeret Skat Skov, ad den gamle Guldagervej, er jeg staaet af et bestemt Sted og har begivet mig ind i Skoven ad en Sti der munder ud ved vejen.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Vejviseren&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Vejviseren&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_917">
-                <coordinates>9.54054724806,56.7291921303,0.0</coordinates>
+            <Point id="geom_330">
+                <coordinates>9.54056412195,56.7292295586,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_924">
+        <Placemark id="feat_334">
             <name>Kikkebjerget</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»And so, on this particular summer's day, he had climbed Kikkebjerg - 'Lookout Hill' - not far from the German base. He was trying to monitor the installation through a powerful pair of binoculars, and make sure the coast was clear ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Mark Ryan: The Hornet's sting&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=The%20Hornet%27s%20sting&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_918">
-                <coordinates>8.39413519685,55.4510395943,0.0</coordinates>
+            <Point id="geom_331">
+                <coordinates>8.39411630811,55.4510876309,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_925">
+        <Placemark id="feat_335">
             <name>Elsesminde</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»They noticed that a Hornet Moth was registered to a lieutenant in the Army Reserve named Poul Andersen, who owned a dairy farm called Elseminde near Odense on the island of Fyn.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Mark Ryan: The Hornet's sting&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=The%20Hornet%27s%20sting&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_919">
-                <coordinates>10.3314172331,55.3694851622,0.0</coordinates>
+            <Point id="geom_332">
+                <coordinates>10.3313954498,55.3694674061,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_926">
+        <Placemark id="feat_336">
             <name>Vangede Bygade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Og grønthandleren i Vangede / i min barndom i halvtredserne / havde forretning nær torvet på Bygaden«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Dan Turèll: Vangede&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Vangede&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_920">
-                <coordinates>12.5182150722,55.7495870497,0.0</coordinates>
+            <Point id="geom_333">
+                <coordinates>12.5182249711,55.7495366733,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_927">
+        <Placemark id="feat_337">
+            <name>Sankelmarksgade</name>
+            <description>&lt;hr&gt;
+&lt;p&gt;»Den lå lyst på tredje sal i Sankelmarksgade på Vesterbro. Han kunne hente nøglen hos formanden for foreningen, når det passede ham i løbet af dagen.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Nis Jakob: Mesteren fra Mors&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mesteren%20fra%20Mors&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+</description>
+            <Point id="geom_334">
+                <coordinates>12.5489109136,55.6662354503,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_338">
+            <name>Skt. Clemens Stræde</name>
+            <description>&lt;hr&gt;
+&lt;p&gt;»I en gade, der hed Clemensstræde, lå en bog- og papirhandel. I venstre side af butiksvinduet ville den bog, Hitler havde skrevet, &quot;Mein Kampf&quot;, stå udstillet. Hvis den var der, var banen klar, og vi kunne gå derind mellem klokken ti og elleve.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Jens Toldstrup: Kamp og sejr&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kamp%20og%20sejr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+</description>
+            <Point id="geom_335">
+                <coordinates>10.2080561568,56.1566501524,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_339">
+            <name>Thunøgade</name>
+            <description>&lt;hr&gt;
+&lt;p&gt;»Jeg har skaffet jer et godt sted at bo. Det er hos en enlig dame, føken Karlsen. Hun bor i Thunøgade nr. 105. I skal bare hilse fra Christoffersen, så ved hun besked.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Jens Toldstrup: Kamp og sejr&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kamp%20og%20sejr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+</description>
+            <Point id="geom_336">
+                <coordinates>10.2039361849,56.1610562266,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_340">
             <name>Rådhuspladsen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»...til Rådhuspladsen hvor alle flakser rundt mellem busser og biografer«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Dan Turèll: Gennem byen sidste gang&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Gennem%20byen%20sidste%20gang&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_921">
-                <coordinates>12.568811052,55.6760694678,0.0</coordinates>
+            <Point id="geom_337">
+                <coordinates>12.5688710185,55.6760718624,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_928">
+        <Placemark id="feat_341">
             <name>Gammel Sogn</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Sognepræst ved Gammel Sogn Kirke Gert Asmussen, f. 2. marts 1966 i Kertemindde - d. 16. februar 2013 i Ringkøbing. Bisættelsen finder sted i stilhed. - Det var jo ham. Hans dødsannonce. Det hele passede. Hans fødselsdato, fødeby, nuværende by og hans erhverv, ikke mindst ... men dødsdatoen? Den 16 februar var jo ... på lørdag. Han skulle dø om tre dage.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Julie Hastrup: Farlig fortid&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Farlig%20fortid&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_922">
-                <coordinates>8.21021827985,56.1039313081,0.0</coordinates>
+            <Point id="geom_338">
+                <coordinates>8.21028704457,56.1040120127,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_929">
+        <Placemark id="feat_342">
             <name>Kastellet</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Hun gik ned om Kastellet, så på de sandede veje, der snoede sig ud og ind, på broens snørklede jernrækværk.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Thit Jensen: Fru Astrid Grib&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Fru%20Astrid%20Grib&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_923">
-                <coordinates>12.5938929892,55.6910649109,0.0</coordinates>
+            <Point id="geom_339">
+                <coordinates>12.5939294239,55.6910698243,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_930">
+        <Placemark id="feat_343">
             <name>Korning</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Korning Kro! Her har jeg været til fest engang, da mormor blev 60. Jeg tror vi kan få et værelse her.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Henning Mortensen, Lone Hørslev: Midtjyske fortællinger&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Midtjyske%20fort%C3%A6llinger&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_924">
-                <coordinates>9.69940934214,55.8511194579,0.0</coordinates>
+            <Point id="geom_340">
+                <coordinates>9.69936100998,55.8511346525,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_931">
+        <Placemark id="feat_344">
             <name>Kongens Lyngby</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Om formiddagen tog jeg så med min far på sygebesøg, og på den måde lærte jeg Lyngby og omegn perfekt at kende. Fars patienter kom fra alle sociale lag.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jørn Lund: Lært: erindringer 1960 - 1990&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=L%C3%A6rt%3A%20erindringer%201960%20-%201990&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_925">
-                <coordinates>12.5000242317,55.7699775416,0.0</coordinates>
+            <Point id="geom_341">
+                <coordinates>12.5000406888,55.7699509947,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_932">
+        <Placemark id="feat_345">
             <name>Sneslev</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Efterårs- og juleferierne var tit på den anden gård, &quot;Hanehøj&quot;, hos moster Ingrid og onkel Carl i Sneslev mellem Ringsted og Haslev, en større gård med folkehold da vi var børn. Her blev der leget og leget, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Margrete Auken: På cykel gennem seks årtier&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=P%C3%A5%20cykel%20gennem%20seks%20%C3%A5rtier&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_926">
-                <coordinates>11.8424853375,55.3889331731,0.0</coordinates>
+            <Point id="geom_342">
+                <coordinates>11.8425107307,55.3888700619,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_933">
+        <Placemark id="feat_346">
             <name>Tranbjerg</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»De nåede frem til Torvevænget 174, som var et rødt murstenshus med grønmalede trævinduer og en hoveddør dækket  af et regnfang. En af mændene rev et tykt, gråt tæppe i stykker, og vædede et par stumper med benzin fra dunken.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Morten Skjoldager: Truslen indefra - de danske terrorister&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Truslen%20indefra%20-%20de%20danske%20terrorister&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_927">
-                <coordinates>10.1336375272,56.0899932732,0.0</coordinates>
+            <Point id="geom_343">
+                <coordinates>10.1336433548,56.0900294527,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_934">
+        <Placemark id="feat_347">
             <name>Hundslund Sogn</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det er søndag formiddag, og jeg kan svagt høre kirkeklokkerne i Hundslund, jeg hører også en bil standse nede ved lågen og kigger ud.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Henning Mortensen, Lone Hørslev: Midtjyske fortællinger&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Midtjyske%20fort%C3%A6llinger&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_928">
-                <coordinates>10.0516998256,55.9153153781,0.0</coordinates>
+            <Point id="geom_344">
+                <coordinates>10.0516710792,55.9153421705,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_935">
+        <Placemark id="feat_348">
             <name>Dragespringvandet</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Glæden i Helles øjne ved tanken om Tore pjaskvåd i springvandet på Rådhuspladsen var helt forsvundet«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Klaus Rifbjerg: Den kroniske uskyld&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Den%20kroniske%20uskyld&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_929">
-                <coordinates>12.5685775329,55.6756338667,0.0</coordinates>
+            <Point id="geom_345">
+                <coordinates>12.5686144087,55.6756999604,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_936">
+        <Placemark id="feat_349">
             <name>Farsø Sogn</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Men naar vi havde bragt disse umættelige Feticher vore Ofre i Form af velforstilt Artighed eller Lektier oplæste fra et Blad under Bordet, saa greb vi Bue og Pile og opslugtes af de øde Kær og skumle Heder, der strakte sig om Farsø By.«&lt;/p&gt;
@@ -1508,44 +1567,44 @@
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Vejviseren&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Vejviseren&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_930">
-                <coordinates>9.34000868448,56.7700021734,0.0</coordinates>
+            <Point id="geom_346">
+                <coordinates>9.33997546222,56.7700405745,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_937">
+        <Placemark id="feat_350">
             <name>Aarhus</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»TILBAGE TIL AARHUS OG ET UOVERSTIGELIGT MØRKE / TOSMØGSTOMHED OG KURT VILE«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Yahya Hassan: Yahya Hassan&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Yahya%20Hassan&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_931">
-                <coordinates>10.216625119,56.1500219335,0.0</coordinates>
+            <Point id="geom_347">
+                <coordinates>10.2167103169,56.1500304183,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_938">
+        <Placemark id="feat_351">
             <name>Odense</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»1805 levede i Odense i én lille fattig Stue et nygift Par, der holdt uendeligt meget af hinanden, en ung Skomager med sin Kone, han, næppe to og tyve År, et forunderligt begavet Menneske, en ægte poetisk Natur, hun, nogle År ældre, uvidende om Verden og Livet, men fuld af Hjerte.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Mit Livs Eventyr&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mit%20Livs%20Eventyr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_932">
-                <coordinates>10.383284964,55.3999723643,0.0</coordinates>
+            <Point id="geom_348">
+                <coordinates>10.383339683,55.4000319977,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_939">
+        <Placemark id="feat_352">
             <name>Humlebæk</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jette Hvidtfeldt, Thomas Buch-Andersen: Claus Hjort - strategen bag det nye Venstre&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Claus%20Hjort%20-%20strategen%20bag%20det%20nye%20Venstre&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_933">
-                <coordinates>12.5328436189,55.9599549284,0.0</coordinates>
+            <Point id="geom_349">
+                <coordinates>12.5327916453,55.9600100231,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_940">
+        <Placemark id="feat_353">
             <name>Helsingør</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -1556,165 +1615,176 @@
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_934">
-                <coordinates>12.6166445949,56.033362477,0.0</coordinates>
+            <Point id="geom_350">
+                <coordinates>12.6167091523,56.0333620023,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_941">
+        <Placemark id="feat_354">
             <name>Kolding</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jørn Lund: Hørt&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=H%C3%B8rt&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_935">
-                <coordinates>9.46997960475,55.4900075013,0.0</coordinates>
+            <Point id="geom_351">
+                <coordinates>9.46996715945,55.4900374213,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_942">
+        <Placemark id="feat_355">
             <name>Herning</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Intet, sagde han, og så kørte vi hurtigt og retningsbestemt i hans grønne folkevognspickup gennem Herning, som jeg for mig selv kaldte Det Store Intet, fordi det var, hvad der havde været, før husene kom, og stedet fik sit navn, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Henning Mortensen, Lone Hørslev: Midtjyske fortællinger&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Midtjyske%20fort%C3%A6llinger&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_936">
-                <coordinates>8.96667642107,56.1333394507,0.0</coordinates>
+            <Point id="geom_352">
+                <coordinates>8.96671270804,56.1333708497,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_943">
+        <Placemark id="feat_356">
             <name>Langeland</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg var 38 år og boede i en landsby på Langeland, hvor jeg arbejdede som forfatter og oversætter.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Arne Herløv Petersen: Skueprocessen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Skueprocessen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_937">
-                <coordinates>10.7780341449,54.9297273768,0.0</coordinates>
+            <Point id="geom_353">
+                <coordinates>10.7780167429,54.9297389308,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_944">
+        <Placemark id="feat_357">
             <name>Holbæk</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Og det er blot en af mange, mange gange, jeg er blevet overfaldet i min fødeby Holbæk, som er den by i verden, jeg både elsker og hader allermest«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Maria Haaning, Peter Bennett: Ham &amp; mig. Født som dreng, genfødt som kvinde&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Ham%20%26%20mig.%20F%C3%B8dt%20som%20dreng%2C%20genf%C3%B8dt%20som%20kvinde&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_938">
-                <coordinates>11.7103447807,55.7181174373,0.0</coordinates>
+            <Point id="geom_354">
+                <coordinates>11.7102921776,55.7180657825,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_945">
+        <Placemark id="feat_358">
             <name>Ballerup</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Og så fortæller han om en dag for ikke så længe siden, hvor han gik op og tog S-toget og kørte til Ballerup uden at have noget særligt formål med at skulle til lige præcis Ballerup.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jonas Wisbech Vange: Anker Jørgensen og det forunderlige liv&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Anker%20J%C3%B8rgensen%20og%20det%20forunderlige%20liv&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_939">
-                <coordinates>12.3666176218,55.7333185724,0.0</coordinates>
+            <Point id="geom_355">
+                <coordinates>12.3666912609,55.7333510224,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_946">
+        <Placemark id="feat_359">
             <name>Vor Frelsers Kirke</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»...we arrived at the Vor Frelsers Kirk. There was nothing remarkable about the church; but there was a reason why its tall spire had attracted the Professor's attention. Starting from the top of the tower, an external staircase wound around the spire, the spirals circling up into the sky.      &quot;Let us get to the top,&quot; said my uncle.      &quot;I shall be dizzy,&quot; I said.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jules Verne: Rejsen til Jordens Indre&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Rejsen%20til%20Jordens%20Indre&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_940">
-                <coordinates>12.5938893118,55.6727960561,0.0</coordinates>
+            <Point id="geom_356">
+                <coordinates>12.5938532949,55.672730492,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_947">
+        <Placemark id="feat_360">
             <name>Langelinie</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Hun gik ad Langelinie til med det faste forsæt at ville modtage indtryk, enten landskabet om hende ejede gnist af stemning eller ej.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Thit Jensen: Fru Astrid Grib&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Fru%20Astrid%20Grib&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_941">
-                <coordinates>12.5987468701,55.69244363,0.0</coordinates>
+            <Point id="geom_357">
+                <coordinates>12.5987005209,55.6923712368,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_948">
+        <Placemark id="feat_361">
+            <name>Haderslev</name>
+            <description>&lt;hr&gt;
+&lt;p&gt;»Vi boede i Haderslev på en lille plads, der hedder Naffet.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Jens Toldstrup: Kamp og sejr&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kamp%20og%20sejr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+</description>
+            <Point id="geom_358">
+                <coordinates>9.5000086691,55.249957226,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_362">
             <name>Nyborg Kommune</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Den 2. juni om aftenen - dagen efter, at Danica White var blevet kapret på den anden side af kloden - ringede telefonen i et bindingsværkshus på en snirklet markvej lidt uden for Nyborg.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jens Peter Skov Jensen, Marlene Lyhne Sørensen: Dagbog fra Danica White&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Dagbog%20fra%20Danica%20White&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_942">
-                <coordinates>10.7499769825,55.3332860767,0.0</coordinates>
+            <Point id="geom_359">
+                <coordinates>10.7499798996,55.3333224233,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_949">
+        <Placemark id="feat_363">
             <name>Frederiksberg</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Helle standsede uden for en villa, der lå trukket et stykke tilbage fra gaden. Det var en af deher rigtige frederiksbergfæstninger med tårne og efeu og gitterværk. Den var helt mørk.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Klaus Rifbjerg: Den kroniske uskyld&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Den%20kroniske%20uskyld&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_943">
-                <coordinates>12.5363539322,55.6775366909,0.0</coordinates>
+            <Point id="geom_360">
+                <coordinates>12.5364303654,55.6774891991,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_950">
+        <Placemark id="feat_364">
             <name>Aars</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Engang hvor min far fortalte om hvordan der blev gjort forskel på børnene på realskolen i Års, og hvor nedladende eller ligefrem ydmygende han og hans lige blev behandlet, spurgte jeg hvorfor forældrene fandt sig i det.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Margrete Auken: På cykel gennem seks årtier&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=P%C3%A5%20cykel%20gennem%20seks%20%C3%A5rtier&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_944">
-                <coordinates>9.51273227659,56.8030230352,0.0</coordinates>
+            <Point id="geom_361">
+                <coordinates>9.51275605091,56.8030930004,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_951">
+        <Placemark id="feat_365">
             <name>Farum Sø</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»For fem dage siden, den dag vi skulle flyve til Mallorca, standsede jeg op på min løbetur ad stien gennem skoven langs Farum Sø og gav mig selv tid og lov til at mærke hvor godt jeg egentlig har det.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Christian Jungersen: Du forsvinder&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Du%20forsvinder&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_945">
-                <coordinates>12.3666523343,55.8027588498,0.0</coordinates>
+            <Point id="geom_362">
+                <coordinates>12.3667325554,55.8027950254,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_952">
+        <Placemark id="feat_366">
             <name>Østrup</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»På stationen lugtede der vidunderligt af tjære, jeg kunne blive sniffer af det som af læderlugten hos skomageren. Når jeg møder den lugt i dag, vælter minderne frem om disse lange hede somre i Østrup.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Margrete Auken: På cykel gennem seks årtier&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=P%C3%A5%20cykel%20gennem%20seks%20%C3%A5rtier&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_946">
-                <coordinates>9.47417595296,56.7489136822,0.0</coordinates>
+            <Point id="geom_363">
+                <coordinates>9.47420554701,56.7489041407,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_953">
+        <Placemark id="feat_367">
             <name>Østre Anlæg</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Søndag eftermiddag havde en hundelufter fundet liget af en ung pige i Østre Anlæg.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Sara Blædel: Grønt støv&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Gr%C3%B8nt%20st%C3%B8v&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_947">
-                <coordinates>12.5819723407,55.6908306572,0.0</coordinates>
+            <Point id="geom_364">
+                <coordinates>12.5819291779,55.690845436,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_954">
+        <Placemark id="feat_368">
             <name>Primærrute 22</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I starten var det kun et øjeblik for sjov på den lange lige strækning på Rute 22 mellem landsbyen Svallerup og Gørlev.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Frederik Roed: Messedreng&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Messedreng&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_948">
-                <coordinates>11.2053975857,55.5505082488,0.0</coordinates>
+            <Point id="geom_365">
+                <coordinates>11.2054441567,55.5505574125,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_955">
+        <Placemark id="feat_369">
             <name>Tønder</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Omdrejningspunktet for sagen er en familie fra udkanten af Tønder. En far og mor og deres to piger. Siden de var helt små, har de to søstre været udsat for seksuelle overgreb af deres far.«&lt;/p&gt;
@@ -1725,198 +1795,198 @@
 &lt;p&gt;&lt;i&gt;Michael Falch: Trækruter&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Tr%C3%A6kruter&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_949">
-                <coordinates>8.86387017536,54.9428127894,0.0</coordinates>
+            <Point id="geom_366">
+                <coordinates>8.86389291403,54.9428266318,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_956">
+        <Placemark id="feat_370">
             <name>Alssund</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det var en Dag først i Oktober Maaned at de sejlede over Alssund«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_950">
-                <coordinates>9.75911464664,54.9384831199,0.0</coordinates>
+            <Point id="geom_367">
+                <coordinates>9.75911841693,54.938470353,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_957">
+        <Placemark id="feat_371">
             <name>Gentofte</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Næste aften mødtes vi nogle stykker hos os i Gentofte for at tage den definitive beslutning. Jeg kan med hånden på hjertet sige ... at det var ikke en beslutning, der havde været planlagt længe inden landsmødet, da vi stiftede Dansk Folkeparti.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Pia Kjærsgaard, Jette Meier Carlsen: Fordi jeg var nødt til det&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Fordi%20jeg%20var%20n%C3%B8dt%20til%20det&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_951">
-                <coordinates>12.5507822301,55.7516761937,0.0</coordinates>
+            <Point id="geom_368">
+                <coordinates>12.5507997515,55.7516816891,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_958">
+        <Placemark id="feat_372">
             <name>Nytorv</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»men luften er fyldt af noget ingen véd hvad hedder eller er og vi går dér i tavs samtale og hen imod Nytorv er de væk igen«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Dan Turèll: Gennem byen sidste gang&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Gennem%20byen%20sidste%20gang&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_952">
-                <coordinates>12.5729931973,55.6776399169,0.0</coordinates>
+            <Point id="geom_369">
+                <coordinates>12.573032316,55.6775741687,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_959">
+        <Placemark id="feat_373">
             <name>Vestre Kirkegård</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Grønlænderkirkegården er en del af Vestre Kirkegård. Med Esajas i sen kiste er kommet følge, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Peter Høeg: Frøken Smillas fornemmelse for sne&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Fr%C3%B8ken%20Smillas%20fornemmelse%20for%20sne&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_953">
-                <coordinates>12.5292269339,55.6578081587,0.0</coordinates>
+            <Point id="geom_370">
+                <coordinates>12.5291507368,55.657833014,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_960">
+        <Placemark id="feat_374">
             <name>Center Sandholm</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Desværre ved jeg ikke noget om Pelageja Semjonovna - den gamle enfoldige kone, som alle i Sandholm kendte. Det siges, at hun simplet hen forsvandt fra lejren en dag, uden at sige noget til nogen. Det forekommer også i Sandholm.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Dina Yafasova: Dagbog fra Sandholm&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Dagbog%20fra%20Sandholm&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_954">
-                <coordinates>12.4000072648,55.8725454417,0.0</coordinates>
+            <Point id="geom_371">
+                <coordinates>12.3999705762,55.8725075662,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_961">
+        <Placemark id="feat_375">
             <name>Ry</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det var en stor hvid villa med adresse på Kildebakken i Ry. Fra forældrenes soveværelse kunne hun på en klar dag se ud over Himmelbjerget, som i barnets forstand var det højeste og uopnåeligeste bjerg.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Anne-Sofie Storm Wesche: Helle Virkner&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20Virkner&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_955">
-                <coordinates>9.76405251257,56.0918154879,0.0</coordinates>
+            <Point id="geom_372">
+                <coordinates>9.76406954497,56.0917475527,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_962">
+        <Placemark id="feat_376">
             <name>Udenrigsministeriet</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Lørdag aften, mens Danica White styrede mod sin ankerplads ved Hobyo, mødtes en krisegruppe i Udenrigsministeriet.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jens Peter Skov Jensen, Marlene Lyhne Sørensen: Dagbog fra Danica White&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Dagbog%20fra%20Danica%20White&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_956">
-                <coordinates>12.5890822727,55.6745443524,0.0</coordinates>
+            <Point id="geom_373">
+                <coordinates>12.5890592582,55.6746094483,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_963">
+        <Placemark id="feat_377">
             <name>Mindelunden i Ryvangen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Kort efter høres geværsalver fra Ryvangen.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Axel Holm: Hvidsten Gruppen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Hvidsten%20Gruppen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_957">
-                <coordinates>12.5670455554,55.7257445421,0.0</coordinates>
+            <Point id="geom_374">
+                <coordinates>12.5671218791,55.7256509744,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_964">
+        <Placemark id="feat_378">
             <name>Vesterbrogade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»og jeg vil gå ned ad Istedgade eller Vesterbrogade«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Dan Turèll: Gennem byen sidste gang&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Gennem%20byen%20sidste%20gang&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_958">
-                <coordinates>12.5467089641,55.6717966961,0.0</coordinates>
+            <Point id="geom_375">
+                <coordinates>12.5466790208,55.6717907469,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_965">
+        <Placemark id="feat_379">
             <name>Skovlunde</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg var egentlig ikke ret gammel, da jeg ved min storebrors sikre hånd besteg linie 18 for at påbegynde rejsen ud til Skovlunde - ud til Bedste, som farmor blev kaldt.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ib Spang Olsen: Erindringer: 1921-1961&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Erindringer%3A%201921-1961&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_959">
-                <coordinates>12.3950003489,55.7196577501,0.0</coordinates>
+            <Point id="geom_376">
+                <coordinates>12.3950242902,55.7196750077,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_966">
+        <Placemark id="feat_380">
             <name>Farsø</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»DET ÅR ER DER UDSIGT TIL FLERE GAVER / OG MERE PÆDAGOGISK NÆRVÆR / I FORM AF MAGTANVENDELSER I JOHANNES V. JENSENS BY«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Yahya Hassan: Yahya Hassan&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Yahya%20Hassan&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_960">
-                <coordinates>9.33968142038,56.7722605039,0.0</coordinates>
+            <Point id="geom_377">
+                <coordinates>9.33975703466,56.7721792883,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_967">
+        <Placemark id="feat_381">
             <name>Marstal</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det var under den engelske belejring af Marstal i 1807, at kuglen var gået gennem taget på huset i Korsgade. Bedstemor blev så forskrækket, at hun fødte Laurids midt på køkkengulvet.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Carsten Jensen: Vi, de druknede&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Vi%2C%20de%20druknede&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_961">
-                <coordinates>10.5167037905,54.8499683929,0.0</coordinates>
+            <Point id="geom_378">
+                <coordinates>10.516653333,54.8499724015,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_968">
+        <Placemark id="feat_382">
             <name>Bredgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Jeg vil have sandheden frem. Fortsætter ned ad Bredgade. Begynder at småløbe.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Frederik Roed: Messedreng&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Messedreng&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_962">
-                <coordinates>12.5899979605,55.6838447282,0.0</coordinates>
+            <Point id="geom_379">
+                <coordinates>12.5899774888,55.6838686452,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_969">
+        <Placemark id="feat_383">
             <name>Nørreport</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Det var en dejlig Majdag. Mikkel gik rask ud gennem Nørreport.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_963">
-                <coordinates>12.5713013325,55.6837885526,0.0</coordinates>
+            <Point id="geom_380">
+                <coordinates>12.5712761772,55.6838166522,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_970">
+        <Placemark id="feat_384">
             <name>Højbro Plads</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Mikkel Thøgersen luskede afsted, vaad og krumrygget som en udsmidt Køter. Da han atter vovede sit beskæmmede Næb ud af Hætten for at se sig om, befandt han sig nede paa Højebroplads.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_964">
-                <coordinates>12.5799868719,55.678295349,0.0</coordinates>
+            <Point id="geom_381">
+                <coordinates>12.5800325084,55.6783351488,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_971">
+        <Placemark id="feat_385">
             <name>Holmens Kanal</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Nogle Skridt, og jeg var over Holmensbro; mit Blik vendte sig mod Kirken, og jeg tænkte paa Tordenskiold og Niels Juul; men snart blev jeg afbrudt af to qvindelige Væsener, som nærmede sig.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Fodreise fra Holmens Canal til Østpynten af Amager i Aarene 1828 og 1829&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Fodreise%20fra%20Holmens%20Canal%20til%20%C3%98stpynten%20af%20Amager%20i%20Aarene%201828%20og%201829&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_965">
-                <coordinates>12.5857571048,55.6777767184,0.0</coordinates>
+            <Point id="geom_382">
+                <coordinates>12.5858369934,55.6778385724,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_972">
+        <Placemark id="feat_386">
             <name>Høje Taastrup Station</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Vi går gennem ankomsthallen, og også her hæver der sig et kuplet tag over vores hoveder. Høje Taastrup Station skulle have været verdens navle.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Lone Aburas: Føtexsøen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=F%C3%B8texs%C3%B8en&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_966">
-                <coordinates>12.2691337282,55.648594832,0.0</coordinates>
+            <Point id="geom_383">
+                <coordinates>12.2691516152,55.6486587004,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_973">
+        <Placemark id="feat_387">
             <name>Grenaa</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -1927,77 +1997,88 @@
 &lt;p&gt;&lt;i&gt;Henning Mortensen, Lone Hørslev: Midtjyske fortællinger&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Midtjyske%20fort%C3%A6llinger&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_967">
-                <coordinates>10.875826944,56.4133541839,0.0</coordinates>
+            <Point id="geom_384">
+                <coordinates>10.8757961521,56.4133742299,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_974">
+        <Placemark id="feat_388">
+            <name>Randers Station</name>
+            <description>&lt;hr&gt;
+&lt;p&gt;»Da vi kom til Randers, spiste vi i jernbanerestaurationen, men vi fandt ud af, at det ikke var særlig klogt. Der var flere tyske vagtposter, men der var også Gestapofolk.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Jens Toldstrup: Kamp og sejr&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kamp%20og%20sejr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+</description>
+            <Point id="geom_385">
+                <coordinates>10.0219171036,56.4616550078,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_389">
             <name>Københavns Synagoge</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Bomben ved synagogen var placeret ved bygningens hovedport ud til synagogegården«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Bent Blüdnikow: Bombeterror i København. Trusler og terror 1968-1990&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bombeterror%20i%20K%C3%B8benhavn.%20Trusler%20og%20terror%201968-1990&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_968">
-                <coordinates>12.5734347367,55.6811438571,0.0</coordinates>
+            <Point id="geom_386">
+                <coordinates>12.5734211122,55.6810754697,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_975">
+        <Placemark id="feat_390">
             <name>Tingbjerg</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»&quot;Jeg står ude i Tingbjerg på Ruten. Der er en mand, der er blevet skudt og dræbt. ...&quot;«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_969">
-                <coordinates>12.4858482237,55.7200232088,0.0</coordinates>
+            <Point id="geom_387">
+                <coordinates>12.48577549,55.7200262395,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_976">
+        <Placemark id="feat_391">
             <name>Sønderborg Slot</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Endelig den tredie Dag slap de over Vindebroen og fik Lov til at spille for Slottets Folk i den ydre  Gaard.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_970">
-                <coordinates>9.78358770622,54.9069073071,0.0</coordinates>
+            <Point id="geom_388">
+                <coordinates>9.78359307398,54.9069678776,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_977">
+        <Placemark id="feat_392">
             <name>Bagsværd Kostskole og Gymnasium</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Da jeg søgte ind på BK, kom jeg cyklende ad ringvejen langs Bagsværd Sø til Bagsværd, kun udstyret med min karakterbog og min mor, men rektor Haderup, som han hed med et for en pædagog lidt uheldigt efternavn, kunne klare sig helt uden begge dele.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jørn Lund: Lært: erindringer 1960 - 1990&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=L%C3%A6rt%3A%20erindringer%201960%20-%201990&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_971">
-                <coordinates>12.4514296182,55.7644538432,0.0</coordinates>
+            <Point id="geom_389">
+                <coordinates>12.4514178989,55.764507657,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_978">
+        <Placemark id="feat_393">
             <name>Bispehaven</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Her havde jeg et lille værelse hos et par, som havde to interesser, der fyldte deres liv: at drikke og at slås«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Mikkel Wallentin: En ræv bag øret&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=En%20r%C3%A6v%20bag%20%C3%B8ret&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_972">
-                <coordinates>10.1549534482,56.1670468519,0.0</coordinates>
+            <Point id="geom_390">
+                <coordinates>10.1550269483,56.1670475868,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_979">
+        <Placemark id="feat_394">
             <name>Marselisborg Slot</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Mit objekt eller VIP'en, som det hedder i fagsproget, kom ud på pladsen foran Marselisborg Slot iført løbetøj«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jesper Palm Lundorf, Ivan Rod: I majestætens hemmelige tjeneste. En livvagts beretning&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=I%20majest%C3%A6tens%20hemmelige%20tjeneste.%20En%20livvagts%20beretning&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_973">
-                <coordinates>10.2027684547,56.1277672046,0.0</coordinates>
+            <Point id="geom_391">
+                <coordinates>10.2027854502,56.1277954613,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_980">
+        <Placemark id="feat_395">
             <name>Horserødlejren</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Med sine forretninger og sin respekt fik Røde Kai en let afsoning i Horserød, som endda havde sine morsomme momenter, for i nabocellen sad en fange, der ikke var revisor, men advokat. Han hed Mogens Glistrup.«&lt;/p&gt;
@@ -2008,176 +2089,176 @@
 &lt;p&gt;&lt;i&gt;Axel Holm: Hvidsten Gruppen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Hvidsten%20Gruppen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_974">
-                <coordinates>12.4945136219,56.0454758939,0.0</coordinates>
+            <Point id="geom_392">
+                <coordinates>12.4944769272,56.0454932446,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_981">
+        <Placemark id="feat_396">
             <name>Allerød Kommune</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Carl så mismodtigt på sit grå ansigt i bakspejlet, da han parkerede tjenestevognen foran enderækkehuset i Allerrød. Tættere på en umulig opgave kunne man dårligt komme.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jussi Adler-Olsen: Journal 64&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Journal%2064&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_975">
-                <coordinates>12.3666207629,55.8666570526,0.0</coordinates>
+            <Point id="geom_393">
+                <coordinates>12.3666550699,55.8666361209,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_982">
+        <Placemark id="feat_397">
             <name>Ringkøbing</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Hun havde ingen at betro sig til her i barndomsbyen Ringkøbing, med kæresten Niclas så langt væk som i Stockholm.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Julie Hastrup: Farlig fortid&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Farlig%20fortid&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_976">
-                <coordinates>8.2499615836,56.0833189452,0.0</coordinates>
+            <Point id="geom_394">
+                <coordinates>8.25002827979,56.0833158685,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_983">
+        <Placemark id="feat_398">
             <name>Vesterbro</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Og alligevel var Vesterbro lige så ulovligt, som det altid havde været også når det gjaldt kvarterets taxafirma, Codan Bilen.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Søren E. Jensen: Røde Kai og hans kriminelle karriere&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=R%C3%B8de%20Kai%20og%20hans%20kriminelle%20karriere&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_977">
-                <coordinates>12.5550512134,55.6671327732,0.0</coordinates>
+            <Point id="geom_395">
+                <coordinates>12.5550737415,55.6670802186,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_984">
+        <Placemark id="feat_399">
             <name>Dronningens Tværgade</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Den lå i et kælderlokale i Droningens Tværgade 6 i den &quot;pæne&quot; del af Københavns indre by, tæt på Amalienborg og Kongens Nytorv, og der havde været mange gæster den nat.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Ove Dahl, Stine Bolther: Drabschefen - nye sager&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Drabschefen%20-%20nye%20sager&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_978">
-                <coordinates>12.5858668969,55.6839419335,0.0</coordinates>
+            <Point id="geom_396">
+                <coordinates>12.5858856245,55.683962015,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_985">
+        <Placemark id="feat_400">
             <name>Foulum</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Deres ældste og, som det synes, eneste Søn, Niels, blev født d. 8de Juni 1761 i Foulumby, hvor Præsten og Degnen boede; hvorfra han i den følgende Tid fik Navnet Heidenreich (der ogsaa gik over paa Faderen) vides ikke.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Erich Christian Werlauff: Erindringer om Guldhornstyveriet&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Erindringer%20om%20Guldhornstyveriet&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_979">
-                <coordinates>9.58335628768,56.4972444277,0.0</coordinates>
+            <Point id="geom_397">
+                <coordinates>9.58333329844,56.4972415543,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_986">
+        <Placemark id="feat_401">
             <name>Frederiksberg Allé</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Vi drejede ned ad en af sidevejene til Frederiksberg Allé. Der var ingen af os, der sagde noget. Nu var det snart forbi med Helle, og det blev lidt svært at sige noget, fordi vi ikke vidste, hvornår vi skulle ses igen.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Klaus Rifbjerg: Den kroniske uskyld&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Den%20kroniske%20uskyld&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_980">
-                <coordinates>12.5416729299,55.6738669299,0.0</coordinates>
+            <Point id="geom_398">
+                <coordinates>12.5416896777,55.673923071,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_987">
+        <Placemark id="feat_402">
             <name>Svaneke</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Flere gange har jeg været på Bornholm som rejseholdsmand, både i drabssager og i særlige sager - og hver gang bor jeg i Svaneke, så vennerne kan blive passet, og Svaneke Bodega kan blive besøgt.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Tom Christensen: Han fik morderne til at tilstå&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Han%20fik%20morderne%20til%20at%20tilst%C3%A5&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_981">
-                <coordinates>15.1422317652,55.136108406,0.0</coordinates>
+            <Point id="geom_399">
+                <coordinates>15.1421903075,55.1361142876,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_988">
+        <Placemark id="feat_403">
             <name>Det Kongelige Teater</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Min første Vandring i Byen var hen til Theatret; jeg gik flere Gange omkring det, saae op ad Murene og betragtede den hele Bygning som et Hjem, der endnu ikke var aabnet for mig.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Mit Livs Eventyr&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mit%20Livs%20Eventyr&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_982">
-                <coordinates>12.5859888047,55.6796513547,0.0</coordinates>
+            <Point id="geom_400">
+                <coordinates>12.5860437744,55.679616643,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_989">
+        <Placemark id="feat_404">
             <name>Ishøj Gymnasium</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Da Helle Thorning-Schmidt begyndte i 1. y på den matematiske linje på Ishøj Amtsgymnasium i 1982, var hun en del af skolens første årgang.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Jakob Nielsen: Helle for magten&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Helle%20for%20magten&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_983">
-                <coordinates>12.3679333233,55.6173386264,0.0</coordinates>
+            <Point id="geom_401">
+                <coordinates>12.3679148194,55.6173186585,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_990">
+        <Placemark id="feat_405">
             <name>Middelfart</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Da Kongen kom til Middelfart, forlod han øjeblikkeligt Færgen og gik op idet nærmeste Hus. Det var ud paa Natten, Folkene blev banket op, deres Forvirring var stor. Kongen forlangte Natteleje, ...«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Kongens Fald&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Kongens%20Fald&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_984">
-                <coordinates>9.7499921456,55.5000074275,0.0</coordinates>
+            <Point id="geom_402">
+                <coordinates>9.74996240292,55.5000013778,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_991">
+        <Placemark id="feat_406">
             <name>Statsfængslet i Vridsløselille</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I 1976 var det de kriminelle fra Vesterbro som styrede Vridsløselille, og det erfarede Røde Kai da også med det samme, da han trådte ind i afdelingen og blev budt hjerteligt velkommen af gamle venner som Skyggen, Slagter Jørgen og Slumstormeren.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Søren E. Jensen: Røde Kai og hans kriminelle karriere&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=R%C3%B8de%20Kai%20og%20hans%20kriminelle%20karriere&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_985">
-                <coordinates>12.3475864894,55.6597843242,0.0</coordinates>
+            <Point id="geom_403">
+                <coordinates>12.3475614739,55.659808961,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_992">
+        <Placemark id="feat_407">
             <name>Sankt Thomas Plads</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Nede på St. Thomas Plads standsede jeg en taxa. Da Tore steg ind i den, så jeg hans ansigt i klart lys et øjeblik igen, og der var noget uroligt ved det, som fik mig til at tænke på, om det, der var sket nede på vejen, alligevel ikke havde rørt ham mere, end jeg troede.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Klaus Rifbjerg: Den kroniske uskyld&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Den%20kroniske%20uskyld&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_986">
-                <coordinates>12.547016911,55.6733228942,0.0</coordinates>
+            <Point id="geom_404">
+                <coordinates>12.5469861246,55.673312216,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_993">
+        <Placemark id="feat_408">
             <name>Studieskolen</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Arabisk på studieskolen tilbage i sluthalvfemserne var et mareridt. Læreren var frygtindgydende og fuld af foragt for os halvkaster, der ikke kunne et ord af det indviklede sprog.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Lone Aburas: Føtexsøen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=F%C3%B8texs%C3%B8en&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_987">
-                <coordinates>12.5845386915,55.6826111612,0.0</coordinates>
+            <Point id="geom_405">
+                <coordinates>12.5844675475,55.6826404789,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_994">
+        <Placemark id="feat_409">
             <name>Thy</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I Thy er død hans rige Frænde. „Frænde er Frænde værst,” det maa Enken dernede sande.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;H.C. Andersen: Bispen på Børglum og hans frænde&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bispen%20p%C3%A5%20B%C3%B8rglum%20og%20hans%20fr%C3%A6nde&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_988">
-                <coordinates>8.46661765374,56.8832889398,0.0</coordinates>
+            <Point id="geom_406">
+                <coordinates>8.46666030185,56.8833303172,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_995">
+        <Placemark id="feat_410">
             <name>Søgaderne</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Øster Søgade: Det er her, jeg bliver forladt for første gang, her står jeg og vipper på kantstenen i gummisko søndag eftermiddag.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Amalie Laulund Trudsø: Koordinater&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Koordinater&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_989">
-                <coordinates>12.5630500501,55.6839291324,0.0</coordinates>
+            <Point id="geom_407">
+                <coordinates>12.5631009291,55.6839156223,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_996">
+        <Placemark id="feat_411">
             <name>Vestre Fængsel</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Mange klienter har gennem årene fortalt mig , at det i Vestre Fængsel er muligt - somme tider mod høj betaling - at få alle de stoffer, man ønsker.«&lt;/p&gt;
@@ -2188,33 +2269,33 @@
 &lt;p&gt;&lt;i&gt;Axel Holm: Hvidsten Gruppen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Hvidsten%20Gruppen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_990">
-                <coordinates>12.5375453103,55.6617228236,0.0</coordinates>
+            <Point id="geom_408">
+                <coordinates>12.5374940698,55.6616620264,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_997">
+        <Placemark id="feat_412">
             <name>Hirtshals</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»I Hirtshals er navnet Espersen uløseligt forbundet med fiskerierhvervet. Selv om Ole Espersen er uddannet maskinmester, så er han kendt som &quot;direktøren&quot;, og familien bliver af samme grund kaldt &quot;de fine&quot;.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Kim Kristensen, Esben Agerlin Olsen: Bare kald mig Lene&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bare%20kald%20mig%20Lene&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_991">
-                <coordinates>9.96002298186,57.5899517027,0.0</coordinates>
+            <Point id="geom_409">
+                <coordinates>9.96001540456,57.5900424767,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_998">
+        <Placemark id="feat_413">
             <name>Brande</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Kan det betale sig at nævne Brande ved navn, at nævne Storegade, Branlundvej og omfartsvejen, er vi så på rette spor? Har vi da fanget essensen, eller er vi nødt til at gå til Carit Erlars vej og grave under en sten?«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Mikkel Wallentin: Lynet slår altid ned på mørke steder&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Lynet%20sl%C3%A5r%20altid%20ned%20p%C3%A5%20m%C3%B8rke%20steder&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_992">
-                <coordinates>9.12358040292,55.9439258811,0.0</coordinates>
+            <Point id="geom_410">
+                <coordinates>9.12363788478,55.9439101977,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_999">
+        <Placemark id="feat_414">
             <name>Aarhus Universitet</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»På Økonomisk Institut er det ikke usædvanligt, at de studerende fra første dag møder med jakke og slips, som var de allerede bankdirektører.«&lt;/p&gt;
@@ -2225,22 +2306,22 @@
 &lt;p&gt;&lt;i&gt;Axel Holm: Hvidsten Gruppen&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Hvidsten%20Gruppen&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_993">
-                <coordinates>10.2000156944,56.1666789894,0.0</coordinates>
+            <Point id="geom_411">
+                <coordinates>10.2000070914,56.16665943,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1000">
+        <Placemark id="feat_415">
             <name>Odder</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Bente Møller forlader den hyggelige politistation i Odder en eftermiddag lidt over tre.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Henning Mortensen: Næb og kløer&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=N%C3%A6b%20og%20kl%C3%B8er&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_994">
-                <coordinates>10.1496963378,55.9725441307,0.0</coordinates>
+            <Point id="geom_412">
+                <coordinates>10.1497143843,55.97252363,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1001">
+        <Placemark id="feat_416">
             <name>Christiansborg</name>
             <description>&lt;hr&gt;
 &lt;p&gt;&lt;/p&gt;
@@ -2259,41 +2340,52 @@
 &lt;p&gt;&lt;i&gt;Pia Kjærsgaard, Jette Meier Carlsen: Fordi jeg var nødt til det&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Fordi%20jeg%20var%20n%C3%B8dt%20til%20det&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_995">
-                <coordinates>12.5789128589,55.6758228684,0.0</coordinates>
+            <Point id="geom_413">
+                <coordinates>12.5789387066,55.6758686506,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1002">
+        <Placemark id="feat_417">
             <name>Nyhavn</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»På det tidspunkt meddelte en civil anmelder, at der var kastet en rød taske i kanalen ved Nyhavn nr. 19. Lind sendte omgående en patruljevogn til stedet og fik et signalement af manden, der havde kastet tasken.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Bent Blüdnikow: Bombeterror i København. Trusler og terror 1968-1990&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Bombeterror%20i%20K%C3%B8benhavn.%20Trusler%20og%20terror%201968-1990&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_996">
-                <coordinates>12.5907018953,55.6797063072,0.0</coordinates>
+            <Point id="geom_414">
+                <coordinates>12.5906345894,55.679646651,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1003">
+        <Placemark id="feat_418">
+            <name>Langebro</name>
+            <description>&lt;hr&gt;
+&lt;p&gt;»Det står en ludende skikkelse midt på Langebro i Køebnhavn.«&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Nis Jakob: Mesteren fra Mors&lt;/i&gt;&lt;/p&gt;
+&lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Mesteren%20fra%20Mors&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
+</description>
+            <Point id="geom_415">
+                <coordinates>12.5788369005,55.6702441058,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="feat_419">
             <name>Nørre Lyndelse Sogn</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Mine Forældre boede i et lille Bondehus midt paa en Mark i Nørre-Lyndelse paa Fyn. Den nærmeste Omegn hedder Sortelung. Min Mor var ene hjemme med nogle af de mindre Børn, da hun skulle føde mig. Det var meget strengt, og hun gik uden for Huset, tog omkring et Træ og bankede sit Hoved imod Stammen.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Carl Nielsen: Min fynske barndom&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Min%20fynske%20barndom&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_997">
-                <coordinates>10.3958305274,55.303645949,0.0</coordinates>
+            <Point id="geom_416">
+                <coordinates>10.39586824,55.3036749057,0.0</coordinates>
             </Point>
         </Placemark>
-        <Placemark id="feat_1004">
+        <Placemark id="feat_420">
             <name>Vognsild</name>
             <description>&lt;hr&gt;
 &lt;p&gt;»Ved Vognsild laa der et Gadekær med livligt grønne Bredder, hvor Gæs stod paa Græs; her var en Pige bleven dræbt af Lynet, da hun i et Tordenvejr vilde hente Gæslingerne hjem; hun fik en Tanke, idet vi passerede forbi.«&lt;/p&gt;
 &lt;p&gt;&lt;i&gt;Johannes V. Jensen: Vejviseren&lt;/i&gt;&lt;/p&gt;
 &lt;a href=&quot;https://bibliotek.dk/da/search/work?search_block_form=Vejviseren&quot;&gt;Søg på bibliotek.dk efter bogen&lt;/a&gt;
 </description>
-            <Point id="geom_998">
-                <coordinates>9.4235920124,56.7586238568,0.0</coordinates>
+            <Point id="geom_417">
+                <coordinates>9.42362521973,56.7585600692,0.0</coordinates>
             </Point>
         </Placemark>
     </Document>
