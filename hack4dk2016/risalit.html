@@ -12,7 +12,12 @@
 	<img id="floor" src="risalit-floor-tile.jpg">
 	<img id="tapet" src="risalit-tapet-tile.jpg">
 
-	<a-mixin id="tree-color" material="color: red"></a-mixin>
+	<img id="eckersberg-florentine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_W_Eckersberg_1841_-_Kvinde_foran_et_spejl.jpg/464px-C_W_Eckersberg_1841_-_Kvinde_foran_et_spejl.jpg">
+	<img id="eckersberg-florentine-tegning" src="http://dms07.dimu.org/image/026nBupit?dimension=600x600">
+	<img id="smith-florentine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Modellen_Florestine_foran_et_spejl_1841.jpg/581px-Modellen_Florestine_foran_et_spejl_1841.jpg">
+	<img id="henriques-florentine" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Henriques%2C_Sally_-_Female_model_Standing_Before_a_Mirror.jpg">
+
+	<a-mixin id="tree-color" material="color: #525049"></a-mixin>
       </a-assets>
 
       <a-box color="black" 
@@ -77,6 +82,8 @@
                 position="0 1.5 5">
       </a-entity>
 
+
+
       <a-entity rotation="-15 0 0">
 	<a-box mixin="tree-color" 
 	       depth="0.02" height="1.80" width="0.02"
@@ -103,14 +110,99 @@
 	       rotation="0 0 0"
 	       position="0 0.7 0"></a-box>
 
-
-	<a-image src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_W_Eckersberg_1841_-_Kvinde_foran_et_spejl.jpg/792px-C_W_Eckersberg_1841_-_Kvinde_foran_et_spejl.jpg" width="0.26" height="0.335" position="0 1.19 0.02"></a-image>
+	<a-image src="#eckersberg-florentine-tegning" width="0.26" height="0.335" position="-0.135 1.18 0.02"></a-image>
+	<a-image src="#eckersberg-florentine" width="0.26" height="0.335"
+		 position="0.135 1.18 0.02"></a-image>
 	</a-entity>
       
+      <a-box mixin="tree-color" 
+	     depth="0.02" height="1.53" width="0.02"
+             rotation="15 0 0"
+	     position="0 0.765 -0.6"></a-box>
+
+
+      <a-entity position="1.2 0 0">
+
+	<a-entity rotation="-15 0 0">
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="1.80" width="0.02"
+		 rotation="0 0 12"
+		 position="0.3 0.9 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="1.80" width="0.02"
+		 rotation="0 0 -12"
+		 position="-0.3 0.9 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.02" width="0.32"
+		 rotation="0 0 0"
+		 position="0 1.6 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.90" width="0.02"
+		 rotation="0 0 0"
+		 position="0 1.15 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.05" height="0.02" width="0.65"
+		 rotation="0 0 0"
+		 position="0 0.72 0.025"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.02" width="0.68"
+		 rotation="0 0 0"
+		 position="0 0.7 0"></a-box>
+
+	  <a-image src="#smith-florentine" width="0.93" height="1.20"
+		   position="0 1.32 0.02"></a-image>
+	</a-entity>
+	
 	<a-box mixin="tree-color" 
-	       depth="0.02" height="1.58" width="0.02"
+	       depth="0.02" height="1.53" width="0.02"
                rotation="15 0 0"
-	       position="0 0.79 -0.6"></a-box>
+	       position="0 0.765 -0.6"></a-box>
+	
+	</a-entity>
+
+
+      <!-- Henriques -->
+      <a-entity position="2.5 0 0">
+
+	<a-entity rotation="-15 0 0">
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="1.80" width="0.02"
+		 rotation="0 0 12"
+		 position="0.3 0.9 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="1.80" width="0.02"
+		 rotation="0 0 -12"
+		 position="-0.3 0.9 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.02" width="0.32"
+		 rotation="0 0 0"
+		 position="0 1.6 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.90" width="0.02"
+		 rotation="0 0 0"
+		 position="0 1.15 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.05" height="0.02" width="0.65"
+		 rotation="0 0 0"
+		 position="0 0.8 0.025"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.02" width="0.68"
+		 rotation="0 0 0"
+		 position="0 0.7 0"></a-box>
+
+	  <a-image src="#henriques-florentine" width="0.62" height="0.88"
+		   position="0 1.24 0.02"></a-image>
+	</a-entity>
+	
+	<a-box mixin="tree-color" 
+	       depth="0.02" height="1.53" width="0.02"
+               rotation="15 0 0"
+	       position="0 0.765 -0.6"></a-box>
+	
+	</a-entity>
+
+
+
 
     </a-scene>
   </body>
