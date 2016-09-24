@@ -7,19 +7,26 @@
     <script src="aframe.min.js"></script>
   </head>
   <body>
-    <a-scene fog="color: #bc483e; near: 0; far: 65;">
+    <a-scene>
       <a-assets>
-	<img id="floor" src="risalit-floor-tile.jpg">
+	<img id="floor" src="risalit-floorplan.jpg">
 	<img id="tapet" src="risalit-tapet-tile.jpg">
+	<img id="window" src="slks-vindue-transparent.png">
 
 	<img id="eckersberg-florentine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_W_Eckersberg_1841_-_Kvinde_foran_et_spejl.jpg/464px-C_W_Eckersberg_1841_-_Kvinde_foran_et_spejl.jpg">
 	<img id="eckersberg-florentine-tegning" src="http://dms07.dimu.org/image/026nBupit?dimension=600x600">
 	<img id="smith-florentine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Modellen_Florestine_foran_et_spejl_1841.jpg/581px-Modellen_Florestine_foran_et_spejl_1841.jpg">
 	<img id="henriques-florentine" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Henriques%2C_Sally_-_Female_model_Standing_Before_a_Mirror.jpg">
+	<img id="rørbye-tegning" src="Martinus Rørbye - Interiør fra Akademiet med malende og tegnende kunstnere, 800.jpg"> 
+	<img id="dorph-tegning" src="Anton Dorph - Interiør fra C.W. Eckersbergs atelier, 800.jpg"> 
 
 	<a-mixin id="tree-color" material="color: #525049"></a-mixin>
       </a-assets>
 
+      <a-sky src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Eckersberg%2C_CW_-_Teglv%C3%A6rket_Renbj%C3%A6rg_ved_Flensborg_Fjord_-_1830.jpeg"></a-sky>
+      <!-- https://upload.wikimedia.org/wikipedia/commons/8/83/Eckersberg%2C_CW_-_Studie_af_skyer_over_%C3%98resund_-_1826.jpeg -->
+
+      <!-- Guide points -->
       <a-box color="black" 
 	     depth="0.1" height="0.1" width="0.1"
 	     position="0 0 0"></a-box>
@@ -49,37 +56,99 @@
 	     depth="0.1" height="0.1" width="0.1"
 	     position="-5 3 5"></a-box>
 
-      <!-- Carpet. -->
+      <!-- Floor -->
       <a-entity geometry="primitive: box; depth: 10; height: 0.02; width: 10"
-                material="color: #AAAAAA; metalness: 0; src: #floor;
-                          repeat: 20 20; roughness: 1"
+                material="src: #floor; repeat: 1 1; roughness: 1"
                 position="0 0 0">
       </a-entity>
+      <!-- Ground -->
+      <a-entity geometry="primitive: plane; height: 100; width: 100"
+                material="color: #333333"
+		rotation="-90 0 0"
+                position="0 -0.01 0">
+      </a-entity>
 
-      <!-- Tarpet -->
+      <!-- Ceiling -->
+      <a-entity geometry="primitive: box; depth: 10; height: 0.02; width: 10"
+                material="color: #FEFEFE; repeat: 1 1;"
+                position="0 3.01 0">
+      </a-entity>
+
+
+      <!-- North wall -->
       <a-entity geometry="primitive: box; depth: 10; height: 3; width: 0.01"
-                material="color: #FFFFFF; metalness: 0; src: #tapet;
-                          repeat: 20 6; roughness: 1"
+                material="src: #tapet; repeat: 20 6; roughness: 1"
 		rotation="0 90 0"
                 position="0 1.5 -5">
       </a-entity>
-      <a-entity geometry="primitive: box; depth: 10; height: 3; width: 0.01"
+
+      <!-- South wall --> 
+      <a-entity geometry="primitive: box; depth: 10; height: 3; width: 1"
                 material="color: #FFFFFF; metalness: 0; src: #tapet;
                           repeat: 20 6; roughness: 1"
-		rotation="0 0 0"
-                position="5 1.5 0">
+                position="4.5 1.5 0">
       </a-entity>
+
       <a-entity geometry="primitive: box; depth: 10; height: 3; width: 0.01"
-                material="color: #FFFFFF; metalness: 0; src: #tapet;
-                          repeat: 20 6; roughness: 1"
-		rotation="0 0 0"
+                material="src: #tapet; repeat: 20 6"
                 position="-5 1.5 0">
       </a-entity>
-      <a-entity geometry="primitive: box; depth: 10; height: 3; width: 0.01"
-                material="color: #FFFFFF; metalness: 0; src: #tapet;
-                          repeat: 20 6; roughness: 1"
-		rotation="0 90 0"
-                position="0 1.5 5">
+      
+      <!-- Wall towards Kongens Nytorv -->
+      <a-entity geometry="primitive: box; depth: 1; height: 3; width: 2.4"
+                material="src: #tapet; repeat: 4 6"
+                position="-3.8 1.5 4.5">
+      </a-entity>
+      <a-image src="#window" width="1.4" height="1.80"
+	       position="-1.9 2.1 5"></a-image>
+      <a-entity geometry="primitive: box; depth: 0.5; height: 1.2; width: 1.4"
+                material="color: #DDDDDD"
+                position="-1.9 0.6 4.75">
+      </a-entity>
+      <!-- Forhøjning -->
+      <a-entity geometry="primitive: box; depth: 0.8; height: 0.1; width: 1.4"
+                material="color: #DDDDDD"
+                position="-1.9 0.15 4.1">
+      </a-entity>
+      <!-- ben -->
+      <a-entity geometry="primitive: box; depth: 0.1; height: 0.1; width: 0.1"
+                material="color: #DDDDDD"
+                position="-2.55 0.05 3.75">
+      </a-entity>
+      <!-- ben -->
+      <a-entity geometry="primitive: box; depth: 0.1; height: 0.1; width: 0.1"
+                material="color: #DDDDDD"
+                position="-1.25 0.05 3.75">
+      </a-entity>
+      <!-- middle part -->
+      <a-entity geometry="primitive: box; depth: 1; height: 3; width: 2.4"
+                material="src: #tapet; repeat: 4 6"
+                position="0 1.5 4.5">
+      </a-entity>
+      <a-image src="#window" width="1.4" height="1.80"
+	       position="1.9 2.1 5"></a-image>
+      <a-entity geometry="primitive: box; depth: 0.5; height: 1.2; width: 1.4"
+                material="color: #DDDDDD"
+                position="1.9 0.6 4.75">
+      </a-entity>
+      <!-- Forhøjning -->
+      <a-entity geometry="primitive: box; depth: 0.8; height: 0.1; width: 1.4"
+                material="color: #DDDDDD"
+                position="1.9 0.15 4.1">
+      </a-entity>
+      <!-- ben -->
+      <a-entity geometry="primitive: box; depth: 0.1; height: 0.1; width: 0.1"
+                material="color: #DDDDDD"
+                position="2.55 0.05 3.75">
+      </a-entity>
+      <!-- ben -->
+      <a-entity geometry="primitive: box; depth: 0.1; height: 0.1; width: 0.1"
+                material="color: #DDDDDD"
+                position="1.25 0.05 3.75">
+      </a-entity>
+      <a-entity geometry="primitive: box; depth: 1; height: 3; width: 2.4"
+                material="src: #tapet; repeat: 4 6"
+                position="3.8 1.5 4.5">
       </a-entity>
 
 
@@ -202,6 +271,17 @@
 	</a-entity>
 
 
+      <a-entity position="-2 1.4 0.3">
+	  <a-entity geometry="primitive: plane" material="src: #rørbye-tegning; transparent: true; opacity: 0.75"
+		    width="0.80" height="0.64"
+		    rotation="0 -120 0"></a-entity>
+      </a-entity>
+
+      <a-entity position="-0.7 1.5 0.8">
+	  <a-entity geometry="primitive: plane" material="src: #dorph-tegning; transparent: true; opacity: 0.75"
+		    width="0.30" height="0.29"
+		    rotation="0 140 0"></a-entity>
+      </a-entity>
 
 
     </a-scene>
