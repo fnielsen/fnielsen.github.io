@@ -12,6 +12,9 @@
 	<img id="floor" src="risalit-floorplan.jpg">
 	<img id="tapet" src="risalit-tapet-tile.jpg">
 	<img id="window" src="slks-vindue-transparent.png">
+	<img id="door" src="door.jpg">
+
+	<img id="florentine-transparent" src="Florentine, transparent.png">
 
 	<img id="eckersberg-florentine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/C_W_Eckersberg_1841_-_Kvinde_foran_et_spejl.jpg/464px-C_W_Eckersberg_1841_-_Kvinde_foran_et_spejl.jpg">
 	<img id="eckersberg-florentine-tegning" src="http://dms07.dimu.org/image/026nBupit?dimension=600x600">
@@ -20,14 +23,21 @@
 	<img id="rørbye-tegning" src="Martinus Rørbye - Interiør fra Akademiet med malende og tegnende kunstnere, 800.jpg"> 
 	<img id="dorph-tegning" src="Anton Dorph - Interiør fra C.W. Eckersbergs atelier, 800.jpg"> 
 
-	<a-mixin id="tree-color" material="color: #525049"></a-mixin>
+	<a-mixin id="tree-color" 
+		 material="color: #525049; 
+			   roughness: 1;
+			   metalness: 0"></a-mixin>
       </a-assets>
+
+      <a-entity position="-1.2 -0.2 1.8">
+	<a-camera></a-camera>
+      </a-entity>
 
       <a-sky src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Eckersberg%2C_CW_-_Teglv%C3%A6rket_Renbj%C3%A6rg_ved_Flensborg_Fjord_-_1830.jpeg"></a-sky>
       <!-- https://upload.wikimedia.org/wikipedia/commons/8/83/Eckersberg%2C_CW_-_Studie_af_skyer_over_%C3%98resund_-_1826.jpeg -->
 
       <!-- Guide points -->
-      <a-box color="black" 
+      <!-- a-box color="black" 
 	     depth="0.1" height="0.1" width="0.1"
 	     position="0 0 0"></a-box>
       <a-box color="blue" 
@@ -54,7 +64,7 @@
 	     position="-5 3 -5"></a-box>
       <a-box color="blue" 
 	     depth="0.1" height="0.1" width="0.1"
-	     position="-5 3 5"></a-box>
+	     position="-5 3 5"></a-box -->
 
       <!-- Floor -->
       <a-entity geometry="primitive: box; depth: 10; height: 0.02; width: 10"
@@ -76,22 +86,60 @@
 
 
       <!-- North wall -->
-      <a-entity geometry="primitive: box; depth: 10; height: 3; width: 0.01"
-                material="src: #tapet; repeat: 20 6; roughness: 1"
-		rotation="0 90 0"
-                position="0 1.5 -5">
+      <a-entity geometry="primitive: box; depth: 10; height: 3; width: 1"
+                material="src: #tapet; repeat: 20 6"
+                position="-4.5 1.5 0">
       </a-entity>
+      <a-entity geometry="primitive: plane; height: 2.2; width: 1.4"
+                material="src: #door; repeat: 1 1"
+		rotation="0 90 0"
+                position="-3.98 1.1 -2.4">
+      </a-entity>
+      <a-entity geometry="primitive: box; depth: 0.7; height: 2; width: 0.7"
+                material="src: #door; repeat: 1 1"
+                position="-3.60 1 3.60">
+      </a-entity>
+      <!-- Bord -->
+      <a-entity geometry="primitive: box; depth: 0.80; height: 0.75; width: 0.6"
+                material="color: #003300"
+                position="-3.70 0.375 2.55">
+      </a-entity>
+      <!-- mirror -->
+      <a-entity position="-3.99 1.65 1.55" rotation="0 0 90" scale="0.40 1 0.3">
+	<a-cylinder color="crimson" height="0.02" radius="1"></a-cylinder>
+	<a-cylinder color="brown" height="0.025" radius="0.85"></a-cylinder>
+      </a-entity>
+      <!-- model -->
+      <a-image src="#florentine-transparent"
+	       width="1.08" height="1.3"
+	       rotation="0 90 0"
+	       position="-3.60 1.35 1.8"></a-image>
+      <!-- a-box position="-3.6 0.87 1.8" width="0.05" height="1.74" depth="0.05">	      </a-box>
+      <a-box position="-3.6 0.46 1.6" width="0.05" height="0.92" depth="0.05">
+      </a-box -->
+
 
       <!-- South wall --> 
       <a-entity geometry="primitive: box; depth: 10; height: 3; width: 1"
-                material="color: #FFFFFF; metalness: 0; src: #tapet;
-                          repeat: 20 6; roughness: 1"
+                material="src: #tapet; repeat: 20 6"
                 position="4.5 1.5 0">
       </a-entity>
+      <a-entity geometry="primitive: plane; height: 2.2; width: 1.4"
+                material="src: #door; repeat: 1 1"
+		rotation="0 -90 0"
+                position="3.98 1.1 -2.4">
+      </a-entity>
+      <a-entity geometry="primitive: plane; height: 2.2; width: 1.4"
+                material="src: #door; repeat: 1 1"
+		rotation="0 -90 0"
+                position="3.98 1.1 2.4">
+      </a-entity>
 
-      <a-entity geometry="primitive: box; depth: 10; height: 3; width: 0.01"
+
+      <!-- East wall -->
+      <a-entity geometry="primitive: box; depth: 0.5; height: 3; width: 10"
                 material="src: #tapet; repeat: 20 6"
-                position="-5 1.5 0">
+                position="0 1.5 -4.75">
       </a-entity>
       
       <!-- Wall towards Kongens Nytorv -->
@@ -151,125 +199,128 @@
                 position="3.8 1.5 4.5">
       </a-entity>
 
+      <a-entity rotation="0 90 0"
+		position="-1.5 0 2">
 
+	<!-- Eckersberg -->
+	<a-entity rotation="-15 0 0">
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="1.80" width="0.02"
+		 rotation="0 0 12"
+		 position="0.3 0.9 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="1.80" width="0.02"
+		 rotation="0 0 -12"
+		 position="-0.3 0.9 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.02" width="0.32"
+		 rotation="0 0 0"
+		 position="0 1.6 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.90" width="0.02"
+		 rotation="0 0 0"
+		 position="0 1.15 0"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.05" height="0.02" width="0.65"
+		 rotation="0 0 0"
+		 position="0 1.0 0.025"></a-box>
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="0.02" width="0.68"
+		 rotation="0 0 0"
+		 position="0 0.7 0"></a-box>
 
-      <a-entity rotation="-15 0 0">
-	<a-box mixin="tree-color" 
-	       depth="0.02" height="1.80" width="0.02"
-               rotation="0 0 12"
-	       position="0.3 0.9 0"></a-box>
-	<a-box mixin="tree-color" 
-	       depth="0.02" height="1.80" width="0.02"
-	       rotation="0 0 -12"
-	       position="-0.3 0.9 0"></a-box>
-	<a-box mixin="tree-color" 
-	       depth="0.02" height="0.02" width="0.32"
-	       rotation="0 0 0"
-	       position="0 1.6 0"></a-box>
-	<a-box mixin="tree-color" 
-	       depth="0.02" height="0.90" width="0.02"
-	       rotation="0 0 0"
-	       position="0 1.15 0"></a-box>
-	<a-box mixin="tree-color" 
-	       depth="0.05" height="0.02" width="0.65"
-	       rotation="0 0 0"
-	       position="0 1.0 0.025"></a-box>
-	<a-box mixin="tree-color" 
-	       depth="0.02" height="0.02" width="0.68"
-	       rotation="0 0 0"
-	       position="0 0.7 0"></a-box>
-
-	<a-image src="#eckersberg-florentine-tegning" width="0.26" height="0.335" position="-0.135 1.18 0.02"></a-image>
-	<a-image src="#eckersberg-florentine" width="0.26" height="0.335"
-		 position="0.135 1.18 0.02"></a-image>
+	  <a-image src="#eckersberg-florentine-tegning" width="0.26" height="0.335" position="-0.135 1.18 0.02"></a-image>
+	  <a-image src="#eckersberg-florentine" width="0.26" height="0.335"
+		   position="0.135 1.18 0.02"></a-image>
 	</a-entity>
+	
+	<a-box mixin="tree-color" 
+	       depth="0.02" height="1.53" width="0.02"
+               rotation="15 0 0"
+	       position="0 0.765 -0.6"></a-box>
+
+	<!-- Smith -->
+	<a-entity position="1.1 0 1.5">
+
+	  <a-entity rotation="-15 0 0">
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="1.80" width="0.02"
+		   rotation="0 0 12"
+		   position="0.3 0.9 0"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="1.80" width="0.02"
+		   rotation="0 0 -12"
+		   position="-0.3 0.9 0"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="0.02" width="0.32"
+		   rotation="0 0 0"
+		   position="0 1.6 0"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="0.90" width="0.02"
+		   rotation="0 0 0"
+		   position="0 1.15 0"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.05" height="0.02" width="0.65"
+		   rotation="0 0 0"
+		   position="0 0.72 0.025"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="0.02" width="0.68"
+		   rotation="0 0 0"
+		   position="0 0.7 0"></a-box>
+
+	    <a-image src="#smith-florentine" width="0.93" height="1.20"
+		     position="0 1.32 0.02"></a-image>
+	  </a-entity>
+	  
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="1.53" width="0.02"
+		 rotation="15 0 0"
+		 position="0 0.765 -0.6"></a-box>
+	  
+	</a-entity>
+
+
+	<!-- Henriques -->
+	<a-entity position="0.85 0 -0.1">
+
+	  <a-entity rotation="-15 0 0">
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="1.80" width="0.02"
+		   rotation="0 0 12"
+		   position="0.3 0.9 0"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="1.80" width="0.02"
+		   rotation="0 0 -12"
+		   position="-0.3 0.9 0"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="0.02" width="0.32"
+		   rotation="0 0 0"
+		   position="0 1.6 0"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="0.90" width="0.02"
+		   rotation="0 0 0"
+		   position="0 1.15 0"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.05" height="0.02" width="0.65"
+		   rotation="0 0 0"
+		   position="0 0.8 0.025"></a-box>
+	    <a-box mixin="tree-color" 
+		   depth="0.02" height="0.02" width="0.68"
+		   rotation="0 0 0"
+		   position="0 0.7 0"></a-box>
+
+	    <a-image src="#henriques-florentine" width="0.62" height="0.88"
+		     position="0 1.24 0.02"></a-image>
+	  </a-entity>
+	  
+	  <a-box mixin="tree-color" 
+		 depth="0.02" height="1.53" width="0.02"
+		 rotation="15 0 0"
+		 position="0 0.765 -0.6"></a-box>
+	  
+	</a-entity>
+      </a-entity>
       
-      <a-box mixin="tree-color" 
-	     depth="0.02" height="1.53" width="0.02"
-             rotation="15 0 0"
-	     position="0 0.765 -0.6"></a-box>
-
-
-      <a-entity position="1.2 0 0">
-
-	<a-entity rotation="-15 0 0">
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="1.80" width="0.02"
-		 rotation="0 0 12"
-		 position="0.3 0.9 0"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="1.80" width="0.02"
-		 rotation="0 0 -12"
-		 position="-0.3 0.9 0"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="0.02" width="0.32"
-		 rotation="0 0 0"
-		 position="0 1.6 0"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="0.90" width="0.02"
-		 rotation="0 0 0"
-		 position="0 1.15 0"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.05" height="0.02" width="0.65"
-		 rotation="0 0 0"
-		 position="0 0.72 0.025"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="0.02" width="0.68"
-		 rotation="0 0 0"
-		 position="0 0.7 0"></a-box>
-
-	  <a-image src="#smith-florentine" width="0.93" height="1.20"
-		   position="0 1.32 0.02"></a-image>
-	</a-entity>
-	
-	<a-box mixin="tree-color" 
-	       depth="0.02" height="1.53" width="0.02"
-               rotation="15 0 0"
-	       position="0 0.765 -0.6"></a-box>
-	
-	</a-entity>
-
-
-      <!-- Henriques -->
-      <a-entity position="2.5 0 0">
-
-	<a-entity rotation="-15 0 0">
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="1.80" width="0.02"
-		 rotation="0 0 12"
-		 position="0.3 0.9 0"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="1.80" width="0.02"
-		 rotation="0 0 -12"
-		 position="-0.3 0.9 0"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="0.02" width="0.32"
-		 rotation="0 0 0"
-		 position="0 1.6 0"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="0.90" width="0.02"
-		 rotation="0 0 0"
-		 position="0 1.15 0"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.05" height="0.02" width="0.65"
-		 rotation="0 0 0"
-		 position="0 0.8 0.025"></a-box>
-	  <a-box mixin="tree-color" 
-		 depth="0.02" height="0.02" width="0.68"
-		 rotation="0 0 0"
-		 position="0 0.7 0"></a-box>
-
-	  <a-image src="#henriques-florentine" width="0.62" height="0.88"
-		   position="0 1.24 0.02"></a-image>
-	</a-entity>
-	
-	<a-box mixin="tree-color" 
-	       depth="0.02" height="1.53" width="0.02"
-               rotation="15 0 0"
-	       position="0 0.765 -0.6"></a-box>
-	
-	</a-entity>
-
 
       <a-entity position="-2 1.4 0.3">
 	  <a-entity geometry="primitive: plane" material="src: #rørbye-tegning; transparent: true; opacity: 0.75"
@@ -283,6 +334,9 @@
 		    rotation="0 140 0"></a-entity>
       </a-entity>
 
+      <a-entity 
+          position="0 0 0" sound="src: url(flyvfugl.mp3); autoplay: true; loop: true; volume: 1">
+      </a-entity>
 
     </a-scene>
   </body>
