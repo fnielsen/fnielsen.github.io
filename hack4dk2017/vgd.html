@@ -11,14 +11,41 @@
 
 	<a-scene>
 	    <a-sky color="#111111"></a-sky>
-	    
-	    <a-assets>
-		<img id="image1"
-		     src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Marie_malende_i_Ravello.jpg">
-	    </a-assets>
+	    <a-entity position="0 -1.6 0">
+		<a-camera></a-camera>
+	    </a-entity>
+
+
+	    <a-entity>
+		<a-plane 
+		    src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Marie_malende_i_Ravello.jpg"
+		    height="10" width="10" material="side: double">
+		    <a-animation attribute="rotation"
+				 dur="60000"
+				 from="0 0  0"
+				 direction="normal"
+				 to="0 360 0"
+				 repeat="indefinite"></a-animation>
+		    <a-entity 
+			position="0 0 0"
+			sound="src: url(https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac); autoplay: true; loop: true; volume: 1">
+		    </a-entity>
+		</a-plane>
+
+
+		<a-animation attribute="position" 
+			     from="0 0 -50"
+			     to="0 0 50"
+			     dur="100000"
+			     direction="alternate"
+			     repeat="indefinite"
+		></a-animation>
+	    </a-entity>
 	    
 	    <a-entity>
-		<a-plane id="image1-panel" src="#image1" height="10" width="10" material="side: double">
+		<a-plane 
+		    src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Michael_Ancher_-_A_stroll_on_the_beach_-_Google_Art_Project.jpg"
+		    height="6.9" width="16.1" material="side: double">
 		    <a-animation attribute="rotation"
 				 dur="60000"
 				 from="0 0  0"
@@ -29,15 +56,45 @@
 
 		<a-entity 
 		    position="0 0 0"
-		    sound="src: url(https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac); autoplay: true; loop: true; volume: 1">
+		    sound="src: url(https://upload.wikimedia.org/wikipedia/commons/d/dc/125%2C1_Toreadorens_sang_spillet_p%C3%A5_violin.flac); autoplay: true; loop: true; volume: 1">
 		</a-entity>
 
 		<a-animation attribute="position" 
-			     from="0 0 -50"
-			     to="0 0 50"
-			     dur="100000"></a-animation>
+			     from="40 50 -100"
+			     to="-40 -50 100"
+			     dur="73009"
+			     direction="alternate"
+			     repeat="indefinite"
+		></a-animation>
 	    </a-entity>
-   
+
+
+	    <a-entity>
+		<a-plane 
+		    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Oscar_Bj%C3%B6rck_-_Launching_the_boat._Skagen_-_Google_Art_Project.jpg/1233px-Oscar_Bj%C3%B6rck_-_Launching_the_boat._Skagen_-_Google_Art_Project.jpg"
+		    height="16" width="19.4" material="side: double">
+		    <a-animation attribute="rotation"
+				 dur="71993"
+				 from="0 0  0"
+				 direction="normal"
+				 to="0 360 0"
+				 repeat="indefinite"></a-animation>
+		</a-plane>
+
+		<a-entity 
+		    position="0 0 0"
+		    sound="src: url(https://upload.wikimedia.org/wikipedia/commons/0/0a/140%2C1_To_danske_sange_spillet_af_hornorkester.flac); autoplay: true; loop: true; volume: 1">
+		</a-entity>
+
+		<a-animation attribute="position" 
+			     from="-80 10 50"
+			     to="80 -10 -50"
+			     dur="91193"
+			     direction="alternate"
+			     repeat="indefinite"
+		></a-animation>
+	    </a-entity>
+
 	</a-scene>
 
     </body>
