@@ -5,30 +5,20 @@
 	<title>Virtual Gallery of Denmark</title>
 	<meta name="description" content="Virtual Gallery of Denmark">
 	<script src="aframe.min.js"></script>
-
-	<!-- https://github.com/maxlath/wikidata-sdk -->
-	<!-- script src="wikidata-sdk.min.js"></script -->
-
 	<script src="jquery-3.2.1.min.js"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 
 	<script type="text/javascript">
 
 	 function setupFlyer(imageUrl, soundUrl, height, width, duration, fromPosition, toPosition) {
 	     scene = document.querySelector('a-scene');
-	     console.log('Duration: ' + duration);
+
 	     var flyer = document.createElement('a-entity');
-	     flyer.setAttribute('position', '0 0 -10');
 	     
 	     var plane = document.createElement('a-plane');
 	     plane.setAttribute('material', 'side: double;');
 	     plane.setAttribute('src', imageUrl);
-	     console.log('Setting plane src ' + imageUrl);
 	     plane.setAttribute('height', height);
 	     plane.setAttribute('width', width);
-	     
-	     console.log('Adding plane: ' + plane);
 	     flyer.appendChild(plane);
 	     
 	     rotationAnimation = document.createElement('a-animation');
@@ -42,7 +32,7 @@
 	     
 	     var sound = document.createElement('a-entity');
 	     sound.setAttribute('position', "0 0 0");
-	     sound.setAttribute('sound', 'src: url(' + soundUrl + '); autoplay: true; loop: true; volume: 1');
+	     sound.setAttribute('sound', 'src: url(' + soundUrl + '); autoplay: true; loop: true; volume: 0.5');
 	     plane.appendChild(sound);
 	     
 	     var translationAnimation = document.createElement('a-animation');
@@ -57,85 +47,58 @@
 	     scene.appendChild(flyer);
 	 }
 
-	 const primes = [
-	     18481, 60649, 65537, 83339, 86243, 95369, 110503, 117239, 127031,
-	     132049, 138937, 141079, 160001, 267017, 269987, 294001, 374321];
-
 	 function setupScene() {
+
+	     // SPARQL query to Wikidata Query Service
 	     sparql = `
 	     SELECT * WHERE {
 	       ?painting wdt:P195 wd:Q3555520 .
 	       ?painting wdt:P18 ?image .
 	       ?painting wdt:P2048 ?height .
 	       ?painting wdt:P2049 ?width .
-               # BIND(STR(?image) AS ?url)
-               BIND(CONCAT('https://commons.wikimedia.org/w/api.php?action=query&origin=*&format=json&prop=imageinfo&iiprop=url&titles=File:', SUBSTR(STR(?image), 52)) AS ?url)
-	       # BIND(CONCAT('https://commons.wikimedia.org/w/thumb.php?f=', SUBSTR(STR(?image), 52), '&width=256') AS ?url) .
+               BIND(CONCAT('https://commons.wikimedia.org/w/api.php?action=query&origin=*&format=json&prop=imageinfo&iiprop=url|size&titles=File:', SUBSTR(STR(?image), 52)) AS ?url)
 	     }
-             LIMIT 12
+             LIMIT 20
 	     `;		      
 	     
 	     var url = "https://query.wikidata.org/sparql?query=" + 
 		       encodeURIComponent(sparql) + '&format=json';
-	     console.log(url)
 	     
 	     $.getJSON(url, function(response) {
 		 let data = response.results.bindings;
+
 		 for (var n in data) {
+
+		     // URL to Wikimedia Commons API
 		     commonsUrl = data[n].url.value;
 		     $.getJSON(commonsUrl, function(response2) {
-			 width = data[n].width.value;
-			 height = data[n].height.value;
 			 try {
 			     pages = response2.query.pages;
 			     imageUrl = pages[Object.keys(pages)[0]].imageinfo[0].url;
+			     imageWidth = pages[Object.keys(pages)[0]].imageinfo[0].width;
+			     imageHeight = pages[Object.keys(pages)[0]].imageinfo[0].height;
 			 }
 			 catch(e) {
 			     console.log('Error ' + e);
 			 }
-			 x = (Math.random() - 0.5) * 50;
-			 y = (Math.random() - 0.5) * 10;
-			 z = (Math.random() - 0.5) * 50;
-			 from_ = " " + x + " " + y + " " + z; 
-			 to = " " + (-x) + " " + (-y) + " " + (-z);
-			 console.log("from= " + from_ + " to=" + to);
-			 
-			 duration = Math.random() * 80000 + 20000; 
-			 setupFlyer(imageUrl,
-				    'https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac',
-				    height / 10, width / 10,
-				    duration, from_, to);
-			 
+
+			 // Avoid too large textures.
+			 if (imageWidth < 5000) {
+			     theta = Math.random() * 2 * Math.PI;
+			     x = Math.cos(theta) * 50;
+			     y = (Math.random() - 0.5) * 10;
+			     z = Math.sin(theta) * 50;
+			     from_ = " " + x + " " + y + " " + z; 
+			     to = " " + (-x) + " " + (-y) + " " + (-z);
+			     duration = Math.random() * 120000 + 40000; 
+			     setupFlyer(imageUrl,
+					'https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac',
+					10, 10 * imageHeight / imageWidth,
+					duration, from_, to);
+			 }
 		     });
-
-
 		 }
 	     });
-
-	     
-
-	     //.fail(function(jqxhr, textStatus, errorThrown) {
-	     //		console.log(errorThrown);
-	     //		    });
-	     
-
-	     commonsUrl = "https://commons.wikimedia.org/w/api.php?origin=*&action=query&format=json&prop=imageinfo&iiprop=url&titles=File:P.S.%20Kr%C3%B8yer%20-%20Summer%20evening%20on%20Skagen%27s%20Beach.%20Anna%20Ancher%20and%20Marie%20Kr%C3%B8yer%20walking%20together.%20-%20Google%20Art%20Project.jpg";
-	     // commonsUrl = "https://www.dr.dk";
-	     console.log('calling: ' + commonsUrl);
-	     // });
-	     //	  .fail(function(jqxhr, textStatus, errorThrown) {
-	     //		      console.log(textStatus);
-	     // });
-	     
-	     /*
-		setupFlyer('https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Adrian_Stokes_-_Hunters_on_the_moor_north_of_Skagen_-_Google_Art_Project.jpg/1280px-Adrian_Stokes_-_Hunters_on_the_moor_north_of_Skagen_-_Google_Art_Project.jpg',
-		'https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac',
-		height=3.75, 
-		width=6.15,
-		duration=73009,
-		fromPosition="0 0 -10",
-		toPosition="0 0 10");
-	      */
 	 }
 	 
 	 window.onload = setupScene;
@@ -150,87 +113,6 @@
 	    <a-entity position="0 -1.6 0">
 		<a-camera></a-camera>
 	    </a-entity>
-
-
-	    <!-- a-entity>
-		<a-plane 
-		    src="http://commons.wikimedia.org/wiki/Special:FilePath/P.S.%20Kr%C3%B8yer%20-%20Summer%20evening%20on%20Skagen%27s%20Beach.%20Anna%20Ancher%20and%20Marie%20Kr%C3%B8yer%20walking%20together.%20-%20Google%20Art%20Project.jpg"
-		    height="10" width="10" material="side: double">
-		    <a-animation attribute="rotation"
-				 dur="60000"
-				 from="0 0  0"
-				 direction="normal"
-				 to="0 360 0"
-				 repeat="indefinite"></a-animation>
-		    <a-entity 
-			position="0 0 0"
-			sound="src: url(https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac); autoplay: true; loop: true; volume: 1">
-		    </a-entity>
-		</a-plane>
-
-
-		<a-animation attribute="position" 
-			     from="0 0 -50"
-			     to="0 0 50"
-			     dur="100000"
-			     direction="alternate"
-			     repeat="indefinite"
-		></a-animation>
-	    </a-entity>
-	    
-	    <a-entity>
-		<a-plane 
-		    src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Michael_Ancher_-_A_stroll_on_the_beach_-_Google_Art_Project.jpg"
-		    height="6.9" width="16.1" material="side: double">
-		    <a-animation attribute="rotation"
-				 dur="60000"
-				 from="0 0  0"
-				 direction="normal"
-				 to="0 360 0"
-				 repeat="indefinite"></a-animation>
-		</a-plane>
-
-		<a-entity 
-		    position="0 0 0"
-		    sound="src: url(https://upload.wikimedia.org/wikipedia/commons/d/dc/125%2C1_Toreadorens_sang_spillet_p%C3%A5_violin.flac); autoplay: true; loop: true; volume: 1">
-		</a-entity>
-
-		<a-animation attribute="position" 
-			     from="40 50 -100"
-			     to="-40 -50 100"
-			     dur="73009"
-			     direction="alternate"
-			     repeat="indefinite"
-		></a-animation>
-	    </a-entity>
-
-
-	    <a-entity>
-		<a-plane 
-		    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Oscar_Bj%C3%B6rck_-_Launching_the_boat._Skagen_-_Google_Art_Project.jpg/1233px-Oscar_Bj%C3%B6rck_-_Launching_the_boat._Skagen_-_Google_Art_Project.jpg"
-		    height="16" width="19.4" material="side: double">
-		    <a-animation attribute="rotation"
-				 dur="71993"
-				 from="0 0  0"
-				 direction="normal"
-				 to="0 360 0"
-				 repeat="indefinite"></a-animation>
-		</a-plane>
-
-		<a-entity 
-		    position="0 0 0"
-		    sound="src: url(https://upload.wikimedia.org/wikipedia/commons/0/0a/140%2C1_To_danske_sange_spillet_af_hornorkester.flac); autoplay: true; loop: true; volume: 1">
-		</a-entity>
-
-		<a-animation attribute="position" 
-			     from="-80 10 50"
-			     to="80 -10 -50"
-			     dur="91193"
-			     direction="alternate"
-			     repeat="indefinite"
-		></a-animation>
-	    </a-entity -->
-
 	</a-scene>
 
     </body>
