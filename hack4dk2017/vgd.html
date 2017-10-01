@@ -17,7 +17,7 @@
 
 	 function setupFlyer(imageUrl, soundUrl, height, width, duration, fromPosition, toPosition) {
 	     scene = document.querySelector('a-scene');
-	     
+	     console.log('Duration: ' + duration);
 	     var flyer = document.createElement('a-entity');
 	     flyer.setAttribute('position', '0 0 -10');
 	     
@@ -33,7 +33,7 @@
 	     
 	     rotationAnimation = document.createElement('a-animation');
 	     rotationAnimation.setAttribute('attribute', 'rotation');
-	     rotationAnimation.setAttribute('dur', 80000);
+	     rotationAnimation.setAttribute('dur', Math.ceil(50000 * Math.random()) + 10000);
 	     rotationAnimation.setAttribute('from', '0 0 0');
 	     rotationAnimation.setAttribute('direction', 'normal');
 	     rotationAnimation.setAttribute('to', '0 360 0');
@@ -72,7 +72,7 @@
                BIND(CONCAT('https://commons.wikimedia.org/w/api.php?action=query&origin=*&format=json&prop=imageinfo&iiprop=url&titles=File:', SUBSTR(STR(?image), 52)) AS ?url)
 	       # BIND(CONCAT('https://commons.wikimedia.org/w/thumb.php?f=', SUBSTR(STR(?image), 52), '&width=256') AS ?url) .
 	     }
-             LIMIT 8
+             LIMIT 12
 	     `;		      
 	     
 	     var url = "https://query.wikidata.org/sparql?query=" + 
@@ -93,18 +93,18 @@
 			 catch(e) {
 			     console.log('Error ' + e);
 			 }
-			 x = Math.random() * 50;
-			 y = Math.random() * 10;
-			 z = Math.random() * 50;
+			 x = (Math.random() - 0.5) * 50;
+			 y = (Math.random() - 0.5) * 10;
+			 z = (Math.random() - 0.5) * 50;
 			 from_ = " " + x + " " + y + " " + z; 
-			 to = " " + (-x) + " " + (-y) + " " + (-z); 
+			 to = " " + (-x) + " " + (-y) + " " + (-z);
+			 console.log("from= " + from_ + " to=" + to);
+			 
+			 duration = Math.random() * 80000 + 20000; 
 			 setupFlyer(imageUrl,
 				    'https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac',
-				    height=height / 10, 
-				    width=width / 10,
-				    duration=primes[n],
-				    fromPosition=from_,
-				    toPosition=to);
+				    height / 10, width / 10,
+				    duration, from_, to);
 			 
 		     });
 
