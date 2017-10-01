@@ -5,6 +5,142 @@
 	<title>Virtual Gallery of Denmark</title>
 	<meta name="description" content="Virtual Gallery of Denmark">
 	<script src="aframe.min.js"></script>
+
+	<!-- https://github.com/maxlath/wikidata-sdk -->
+	<script src="wikidata-sdk.min.js"></script>
+
+	<script src="jquery-3.2.1.min.js"></script>
+
+
+
+	<script type="text/javascript">
+
+	 function setupFlyer(imageUrl, soundUrl, height, width, duration, fromPosition, toPosition) {
+	     scene = document.querySelector('a-scene');
+	     
+	     var flyer = document.createElement('a-entity');
+	     flyer.setAttribute('position', '0 0 -10');
+	     
+	     var plane = document.createElement('a-plane');
+	     plane.setAttribute('material', 'side: double;');
+	     plane.setAttribute('src', imageUrl);
+	     console.log('Setting plane src ' + imageUrl);
+	     plane.setAttribute('height', height);
+	     plane.setAttribute('width', width);
+	     
+	     console.log('Adding plane: ' + plane);
+	     flyer.appendChild(plane);
+	     
+	     rotationAnimation = document.createElement('a-animation');
+	     rotationAnimation.setAttribute('attribute', 'rotation');
+	     rotationAnimation.setAttribute('dur', 80000);
+	     rotationAnimation.setAttribute('from', '0 0 0');
+	     rotationAnimation.setAttribute('direction', 'normal');
+	     rotationAnimation.setAttribute('to', '0 360 0');
+	     rotationAnimation.setAttribute('repeat', 'indefinite');
+	     plane.appendChild(rotationAnimation);
+	     
+	     var sound = document.createElement('a-entity');
+	     sound.setAttribute('position', "0 0 0");
+	     sound.setAttribute('sound', 'src: url(' + soundUrl + '); autoplay: true; loop: true; volume: 1');
+	     plane.appendChild(sound);
+	     
+	     var translationAnimation = document.createElement('a-animation');
+	     translationAnimation.setAttribute('attribute', 'position');
+	     translationAnimation.setAttribute('from', fromPosition);
+	     translationAnimation.setAttribute('to', toPosition);
+	     translationAnimation.setAttribute('dur', duration);
+	     translationAnimation.setAttribute('direction', 'alternate');
+	     translationAnimation.setAttribute('repeat', 'indefinite');
+	     flyer.append(translationAnimation);
+	     
+	     scene.appendChild(flyer);
+	 }
+
+	 const primes = [
+	     18481, 60649, 65537, 83339, 86243, 95369, 110503, 117239, 127031,
+	     132049, 138937, 141079, 160001, 267017, 269987, 294001, 374321];
+
+	 function setupScene() {
+	     sparql = `
+	     SELECT * WHERE {
+	       ?painting wdt:P195 wd:Q3555520 .
+	       ?painting wdt:P18 ?image .
+	       ?painting wdt:P2048 ?height .
+	       ?painting wdt:P2049 ?width .
+               # BIND(STR(?image) AS ?url)
+               BIND(CONCAT('https://commons.wikimedia.org/w/api.php?action=query&origin=*&format=json&prop=imageinfo&iiprop=url&titles=File:', SUBSTR(STR(?image), 52)) AS ?url)
+	       # BIND(CONCAT('https://commons.wikimedia.org/w/thumb.php?f=', SUBSTR(STR(?image), 52), '&width=256') AS ?url) .
+	     }
+             LIMIT 8
+	     `;		      
+	     
+	     var url = "https://query.wikidata.org/sparql?query=" + 
+		       encodeURIComponent(sparql) + '&format=json';
+	     console.log(url)
+	     
+	     $.getJSON(url, function(response) {
+		 let data = response.results.bindings;
+		 for (var n in data) {
+		     commonsUrl = data[n].url.value;
+		     $.getJSON(commonsUrl, function(response2) {
+			 width = data[n].width.value;
+			 height = data[n].height.value;
+			 try {
+			     pages = response2.query.pages;
+			     imageUrl = pages[Object.keys(pages)[0]].imageinfo[0].url;
+			 }
+			 catch(e) {
+			     console.log('Error ' + e);
+			 }
+			 x = Math.random() * 50;
+			 y = Math.random() * 10;
+			 z = Math.random() * 50;
+			 from_ = " " + x + " " + y + " " + z; 
+			 to = " " + (-x) + " " + (-y) + " " + (-z); 
+			 setupFlyer(imageUrl,
+				    'https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac',
+				    height=height / 10, 
+				    width=width / 10,
+				    duration=primes[n],
+				    fromPosition=from_,
+				    toPosition=to);
+			 
+		     });
+
+
+		 }
+	     });
+
+	     
+
+	     //.fail(function(jqxhr, textStatus, errorThrown) {
+	     //		console.log(errorThrown);
+	     //		    });
+	     
+
+	     commonsUrl = "https://commons.wikimedia.org/w/api.php?origin=*&action=query&format=json&prop=imageinfo&iiprop=url&titles=File:P.S.%20Kr%C3%B8yer%20-%20Summer%20evening%20on%20Skagen%27s%20Beach.%20Anna%20Ancher%20and%20Marie%20Kr%C3%B8yer%20walking%20together.%20-%20Google%20Art%20Project.jpg";
+	     // commonsUrl = "https://www.dr.dk";
+	     console.log('calling: ' + commonsUrl);
+	     // });
+	     //	  .fail(function(jqxhr, textStatus, errorThrown) {
+	     //		      console.log(textStatus);
+	     // });
+	     
+	     /*
+		setupFlyer('https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Adrian_Stokes_-_Hunters_on_the_moor_north_of_Skagen_-_Google_Art_Project.jpg/1280px-Adrian_Stokes_-_Hunters_on_the_moor_north_of_Skagen_-_Google_Art_Project.jpg',
+		'https://upload.wikimedia.org/wikipedia/commons/a/ac/114%2C2_Jomfru-march_spillet_af_hornorkester.flac',
+		height=3.75, 
+		width=6.15,
+		duration=73009,
+		fromPosition="0 0 -10",
+		toPosition="0 0 10");
+	      */
+	 }
+	 
+	 window.onload = setupScene;
+	</script>
+	
     </head>
     
     <body>
@@ -16,9 +152,9 @@
 	    </a-entity>
 
 
-	    <a-entity>
+	    <!-- a-entity>
 		<a-plane 
-		    src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Marie_malende_i_Ravello.jpg"
+		    src="http://commons.wikimedia.org/wiki/Special:FilePath/P.S.%20Kr%C3%B8yer%20-%20Summer%20evening%20on%20Skagen%27s%20Beach.%20Anna%20Ancher%20and%20Marie%20Kr%C3%B8yer%20walking%20together.%20-%20Google%20Art%20Project.jpg"
 		    height="10" width="10" material="side: double">
 		    <a-animation attribute="rotation"
 				 dur="60000"
@@ -93,7 +229,7 @@
 			     direction="alternate"
 			     repeat="indefinite"
 		></a-animation>
-	    </a-entity>
+	    </a-entity -->
 
 	</a-scene>
 
