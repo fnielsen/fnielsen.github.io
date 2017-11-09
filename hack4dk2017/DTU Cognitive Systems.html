@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>DTU Cognitive Systems</title>
+	<meta name="description" content="DTU Cognitive Systems">
+	<script src="aframe.min.js"></script>
+	<script src="jquery-3.2.1.min.js"></script>
+
+	<script type="text/javascript">
+
+	 function setupFlyer(imageUrl, height, width, duration, fromPosition, toPosition) {
+	     scene = document.querySelector('a-scene');
+
+	     var flyer = document.createElement('a-entity');
+	     
+	     var plane = document.createElement('a-plane');
+	     plane.setAttribute('material', 'side: double;');
+	     plane.setAttribute('src', imageUrl);
+	     plane.setAttribute('height', height);
+	     plane.setAttribute('width', width);
+	     flyer.appendChild(plane);
+	     
+	     rotationAnimation = document.createElement('a-animation');
+	     rotationAnimation.setAttribute('attribute', 'rotation');
+	     rotationAnimation.setAttribute('dur', Math.ceil(50000 * Math.random()) + 10000);
+	     rotationAnimation.setAttribute('from', '0 0 0');
+	     rotationAnimation.setAttribute('direction', 'normal');
+	     rotationAnimation.setAttribute('to', '0 360 0');
+	     rotationAnimation.setAttribute('repeat', 'indefinite');
+	     plane.appendChild(rotationAnimation);
+	     
+	     var translationAnimation = document.createElement('a-animation');
+	     translationAnimation.setAttribute('attribute', 'position');
+	     translationAnimation.setAttribute('from', fromPosition);
+	     translationAnimation.setAttribute('to', toPosition);
+	     translationAnimation.setAttribute('dur', duration);
+	     translationAnimation.setAttribute('direction', 'alternate');
+	     translationAnimation.setAttribute('repeat', 'indefinite');
+	     flyer.append(translationAnimation);
+	     
+	     scene.appendChild(flyer);
+	 }
+
+	 function setupScene() {
+
+	     // SPARQL query to Wikidata Query Service
+	     sparql = `
+SELECT DISTINCT ?image ?url WHERE {
+  ?researcher wdt:P108 | wdt:P463 | wdt:P1416/wdt:P361* wd:Q24283660 . 
+  ?work wdt:P50 ?researcher .
+  ?work wdt:P18 ?image .
+  BIND(CONCAT('https://commons.wikimedia.org/w/api.php?action=query&origin=*&format=json&prop=imageinfo&iiprop=url|size&titles=File:', SUBSTR(STR(?image), 52)) AS ?url)
+	     }
+LIMIT 20
+	     `;		      
+	     
+	     var url = "https://query.wikidata.org/sparql?query=" + 
+		       encodeURIComponent(sparql) + '&format=json';
+	     
+	     $.getJSON(url, function(response) {
+		 let data = response.results.bindings;
+
+		 for (var n in data) {
+
+		     // URL to Wikimedia Commons API
+		     commonsUrl = data[n].url.value;
+		     $.getJSON(commonsUrl, function(response2) {
+			 try {
+			     pages = response2.query.pages;
+			     imageUrl = pages[Object.keys(pages)[0]].imageinfo[0].url;
+			     imageWidth = pages[Object.keys(pages)[0]].imageinfo[0].width;
+			     imageHeight = pages[Object.keys(pages)[0]].imageinfo[0].height;
+			 }
+			 catch(e) {
+			     console.log('Error ' + e);
+			 }
+
+			 // Avoid too large textures.
+			 if (imageWidth < 5000) {
+			     theta = Math.random() * 2 * Math.PI;
+			     x = Math.cos(theta) * 50;
+			     y = (Math.random() - 0.5) * 10;
+			     z = Math.sin(theta) * 50;
+			     from_ = " " + x + " " + y + " " + z; 
+			     to = " " + (-x) + " " + (-y) + " " + (-z);
+			     duration = Math.random() * 120000 + 40000;
+			     setupFlyer(imageUrl,
+					10, 10 * imageHeight / imageWidth,
+					duration, from_, to);
+			 }
+		     });
+		 }
+	     });
+	 }
+	 
+	 window.onload = setupScene;
+	</script>
+	
+    </head>
+    
+    <body>
+
+	<a-scene>
+	    <a-sky color="#FFFFFF"></a-sky>
+	    <a-entity position="0 -1.6 0">
+		<a-camera></a-camera>
+	    </a-entity>
+	</a-scene>
+
+    </body>
+</html>
