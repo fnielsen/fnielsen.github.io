@@ -80,13 +80,13 @@ LIMIT 20
 			 if (imageWidth < 5000) {
 			     theta = Math.random() * 2 * Math.PI;
 			     x = Math.cos(theta) * 50;
-			     y = (Math.random() - 0.5) * 10;
+			     y = (Math.random() - 0.5) * 30;
 			     z = Math.sin(theta) * 50;
 			     from_ = " " + x + " " + y + " " + z; 
 			     to = " " + (-x) + " " + (-y) + " " + (-z);
 			     duration = Math.random() * 120000 + 40000;
 			     setupFlyer(imageUrl,
-					10, 10 * imageHeight / imageWidth,
+					10, 10 * imageWidth / imageHeight,
 					duration, from_, to);
 			 }
 		     });
