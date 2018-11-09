@@ -10,16 +10,51 @@
 
 	<h1>Danske film</h1>
 
-	Statistikken er baseret på data i <a href="https://www.wikidata.org/">Wikidata</a>.
 
 	<h2>Kønsfordelingen af filminstruktører</h2>
 
 
 	<iframe style="width: 100vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ABarChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%3Fcount%0A%20%20%3FgenderLabel%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fyear_%0A%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%20%20%3Fgender%0A%20%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20%3Fgender%20.%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fyear_%20%3Fgender%0A%7D%20AS%20%25results%0AWHERE%20%7B%0A%20%20INCLUDE%20%25results%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+	
+	<h3>Beskrivelse</h3>
 
-	Kønsfordelingen af filminstruktører af film med Danmark som oprindelsesland.
+	<p>
+	    Kønsfordelingen af filminstruktører af film med Danmark som
+	    oprindelsesland.
+	    Film der har mere end en instruktør er talt med flere gange. 
+	    Hvis der findes personer der har flere køn er det talt med
+	    flere gange.
+	    Som dato for film er taget den registrede tidligste udgivelsesdato.
+	</p>
+
+	<p>
+	    Listen indholder alt hvad der på Wikidata er kategoriseret
+	    som "film", hvilket inkluderer spillefilm, dokumentarfilm,
+	    kortfilm og filmskolefilm.
+	    Året med flest film ifølge Wikidata er 2010 hvor 156 film
+	    er registreret. 
+	    En liste med dem og deres instruktører finder man <a
+	    href="http://tinyurl.com/y8yt6jk8">her</a>, hvor blandt
+	    andre <em>Armadillo</em>, <em>Klovn - The Movie</em> og <em>Tommy</em> optræder
+	</p>
+
+
 
 	<hr/>
+
+	Statistikken er baseret på data i <a href="https://www.wikidata.org/">Wikidata</a>.
+	Wikidata's danske filmdata bygger hovedsageligt på Det Danske
+	Filminstituts data, der er kopieret til Wikidata af Steen Thomassen.
+	Data er ikke nødvendigvis fuldstændig eller korrekt. 
+	Som eksempel på fejl der kan dukke op i Wikidata er data om
+	instruktøren for <em>Into Eternity</em>, &mdash; en film fra
+	2010 af Michael Madsen. Der er både en dansk filminstruktør og
+	en amerikansk skuespiller der bærer navnet, og to
+	Wikidata-redaktører
+	<a href="https://www.wikidata.org/wiki/Talk:Q1671510">har tilsyneladende ladet sig forvirre</a>.
+	
+	<hr/>
+
 	Finn Årup Nielsen | HACK4DK 2018 
 
     </body>
