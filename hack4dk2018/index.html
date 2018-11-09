@@ -1,0 +1,26 @@
+<html>
+    <head>
+	<title>Danske film</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-language" content="da">
+	
+    </head>
+    <body>
+
+	<h1>Danske film</h1>
+
+	Statistikken er baseret på data i <a href="https://www.wikidata.org/">Wikidata</a>.
+
+	<h2>Kønsfordelingen af filminstruktører</h2>
+
+
+	<iframe style="width: 100vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ABarChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%3Fcount%0A%20%20%3FgenderLabel%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fyear_%0A%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%20%20%3Fgender%0A%20%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20%3Fgender%20.%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fyear_%20%3Fgender%0A%7D%20AS%20%25results%0AWHERE%20%7B%0A%20%20INCLUDE%20%25results%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
+	Kønsfordelingen af filminstruktører af film med Danmark som oprindelsesland.
+
+	<hr/>
+	Finn Årup Nielsen | HACK4DK 2018 
+
+    </body>
+</html>
