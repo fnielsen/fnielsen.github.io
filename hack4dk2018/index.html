@@ -10,12 +10,45 @@
 
 	<h1>Danske film</h1>
 
+	<hr/>
+
+	<p>
+	    I 2018 indførte Det Danske Filminstitut (DFI) og Producentforeningen 
+	    en kønsselvangivelse, &mdash; i første omgang frivillig.
+	    Her skal filmproducenterne indgive oplysninger om kønsfordelingen
+	    for deres filmprojekter.
+	    Læs mere om indførelsen af selvangivelsen i DFI's artikel 
+	    <a href="https://www.dfi.dk/nyheder/nu-indfores-selvangivelse-om-konsfordeling-i-filmproduktioner"><em>Nu indføres selvangivelse om kønsfordeling i filmproduktioner</em></a>.
+	</p>
+
+	<p>
+	    Wikipedia's søsterproject <a href="https://www.wikidata.org/"><em>Wikidata</em></a> har en veludbygget del om danske film. 
+	    Wikidata's danske filmdata bygger hovedsageligt på Det Danske
+	    Filminstituts data, der er kopieret til Wikidata af Steen Thomassen.
+	    Data er ikke nødvendigvis fuldstændig eller korrekt. 
+	    Som eksempel på fejl der kan dukke op i Wikidata er data om
+	    instruktøren for <em>Into Eternity</em>, &mdash; en film fra
+	    2010 af Michael Madsen. Der er både en dansk filminstruktør og
+	    en amerikansk skuespiller der bærer navnet, og to
+	    Wikidata-redaktører
+	    <a href="https://www.wikidata.org/wiki/Talk:Q1671510">har tilsyneladende ladet sig forvirre</a>.
+	    Statistikken er herunder er baseret på data i Wikidata,
+	    hvor køn og filmdata er koblet.  
+	</p>
+
+
+	<hr/>
+
 
 	<h2>Kønsfordelingen af filminstruktører</h2>
 
 
 	<iframe style="width: 100vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ABarChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%3Fcount%0A%20%20%3FgenderLabel%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fyear_%0A%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%20%20%3Fgender%0A%20%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20%3Fgender%20.%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fyear_%20%3Fgender%0A%7D%20AS%20%25results%0AWHERE%20%7B%0A%20%20INCLUDE%20%25results%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 	
+	<h3>Forhold</h3>
+
+	<iframe style="width: 100vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ALineChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%28COALESCE%28SAMPLE%28%3Fnumber_of_female_films%29%2C%200%29%0A%20%20%20%2F%20%28COALESCE%28SAMPLE%28%3Fnumber_of_female_films%29%2C%200%29%0A%20%20%20%20%20%20%2B%20SAMPLE%28%3Fnumber_of_male_films%29%29%20AS%20%3Ffemale_ratio%29%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWHERE%20%7B%0A%20%20%7B%20%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fyear_%0A%20%20%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fnumber_of_female_films%29%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20wd%3AQ6581072%20.%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fyear_%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fyear_%0A%20%20%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fnumber_of_male_films%29%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20wd%3AQ6581097%20.%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fyear_%0A%20%20%7D%20%20%0A%7D%0AGROUP%20BY%20%3Fyear_%0AORDER%20BY%20%3Fyear" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
 	<h3>Beskrivelse</h3>
 
 	<p>
@@ -42,18 +75,6 @@
 
 	<hr/>
 
-	Statistikken er baseret på data i <a href="https://www.wikidata.org/">Wikidata</a>.
-	Wikidata's danske filmdata bygger hovedsageligt på Det Danske
-	Filminstituts data, der er kopieret til Wikidata af Steen Thomassen.
-	Data er ikke nødvendigvis fuldstændig eller korrekt. 
-	Som eksempel på fejl der kan dukke op i Wikidata er data om
-	instruktøren for <em>Into Eternity</em>, &mdash; en film fra
-	2010 af Michael Madsen. Der er både en dansk filminstruktør og
-	en amerikansk skuespiller der bærer navnet, og to
-	Wikidata-redaktører
-	<a href="https://www.wikidata.org/wiki/Talk:Q1671510">har tilsyneladende ladet sig forvirre</a>.
-	
-	<hr/>
 
 	Finn Årup Nielsen | HACK4DK 2018 
 
