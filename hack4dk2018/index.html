@@ -83,6 +83,13 @@
 	    elleve dokumentarfilm fra Jette Bang.
 	</p>
 
+	<h2>Instruktøralder</h2>
+
+	Instruktøralder ved udgivelsestidspunkt.
+
+	<iframe style="width: 95vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ALineChart%0ASELECT%0A%20%20%28CONCAT%28%2200%22%2C%20STR%28%3Fdirector_age%29%29%20AS%20%3Falder%29%0A%20%20%3Fantal%0A%20%20%3Fk%C3%B8n%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fpublication_datetimes%29%20AS%20%3Fpublication_datetime%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fpublication_datetimes%20.%20%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fdirector_age%0A%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%20%20%3Fgender%0A%20%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%3Ffilm%20wdt%3AP57%20%3Fdirector%20.%0A%20%20%20%20%3Fdirector%20wdt%3AP21%20%3Fgender%20.%0A%20%20%20%20%3Fdirector%20p%3AP569%20%3Fbirthdatetime_statement%20.%0A%20%20%20%20%3Fbirthdatetime_statement%20ps%3AP569%20%3Fbirthdatetime%20.%20%0A%20%20%20%20%3Fbirthdatetime_statement%20psv%3AP569%20%2F%20wikibase%3AtimePrecision%209%20.%0A%20%20%20%20BIND%28%28xsd%3Ainteger%28%28%3Fpublication_datetime%20-%20%3Fbirthdatetime%29%20%2F%20365.25%29%29%20AS%20%3Fdirector_age%29%20%20%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fdirector_age%20%3Fgender%0A%20%20ORDER%20BY%20%3Fdirector_age%0A%7D%20AS%20%25director_ages%0AWITH%20%7B%20%0A%20%20SELECT%20%3Fdirector_age%20WHERE%20%7B%20INCLUDE%20%25director_ages%20%7D%20GROUP%20BY%20%3Fdirector_age%0A%7D%20AS%20%25years%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0AWITH%20%7B%0A%20%20SELECT%20%3Fdirector_age%20%28SUM%28%3Fcount%29%20AS%20%3Fantal%29%20%3Fgender%20WHERE%20%7B%0A%20%20%20%20%7B%20%0A%20%20%20%20%20%20INCLUDE%20%25years%0A%20%20%20%20%20%20VALUES%20%3Fgender%20%7B%20wd%3AQ6581097%20wd%3AQ6581072%20%7D%0A%20%20%20%20%20%20BIND%280%20AS%20%3Fcount%29%0A%20%20%20%20%7D%0A%20%20%20%20UNION%0A%20%20%20%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25director_ages%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fdirector_age%20%3Fgender%0A%7D%20AS%20%25results%0AWHERE%20%7B%20%20%20%0A%20%20INCLUDE%20%25results%20%0A%20%20%3Fgender%20rdfs%3Alabel%20%3Fk%C3%B8n%20.%0A%20%20FILTER%20%28LANG%28%3Fk%C3%B8n%29%20%3D%20%27da%27%29%0A%7D%0AORDER%20BY%20%3Fx" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
+
 	<h2>Geografisk fordeling</h2>
 
 	<h3>Handlingssteder</h3>
