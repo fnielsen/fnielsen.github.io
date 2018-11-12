@@ -8,7 +8,7 @@
     </head>
     <body>
 
-	<h1>Danske film</h1>
+	<h1>Danske film og mangfoldighedsindsats</h1>
 
 	<hr/>
 
@@ -24,7 +24,9 @@
 	</p>
 
 	<p>
-	    Wikipedia's søsterproject <a href="https://www.wikidata.org/"><em>Wikidata</em></a> har en veludbygget del om danske film. 
+	    Wikipedia's
+	    søsterproject <a href="https://www.wikidata.org/"><em>Wikidata</em></a>
+	    har en veludbygget del om danske film.   
 	    Wikidata's danske filmdata bygger hovedsageligt på Det Danske
 	    Filminstituts data, der er kopieret til Wikidata af Steen Thomassen.
 	    Data er ikke nødvendigvis fuldstændig eller korrekt. 
@@ -33,25 +35,26 @@
 	    2010 af Michael Madsen. Der er både en dansk filminstruktør og
 	    en amerikansk skuespiller der bærer navnet, og to
 	    Wikidata-redaktører
-	    <a href="https://www.wikidata.org/wiki/Talk:Q1671510">har tilsyneladende ladet sig forvirre</a>.
+	    <a href="https://www.wikidata.org/wiki/Talk:Q1671510">har
+	      tilsyneladende ladet sig forvirre</a>.
+
+	    Wikidata's <em>Linked Open Data</em> i
+	    SPARQL-endpointet <em><a href="https://query.wikidata.org/">Wikidata
+	    Query Service</a></em> gør det forholdsvist nemt at
+	    formulere database-forespørgsler og få statistik ud med
+	    relation til danske film og mangfoldighedsindsatsen. 
 	    Statistikken herunder er baseret på data i Wikidata,
-	    hvor køn og filmdata er koblede.  
+	    hvor filmdata er koblede med data om filmfolk såsom køn og
+	    fødselsdato. 
 	</p>
 
 
 	<hr/>
 
 
-	<h2>Kønsfordelingen af filminstruktører</h2>
+	<h2>Filminstruktører</h2>
 
-
-	<iframe style="width: 100vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ABarChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%3Fcount%0A%20%20%3FgenderLabel%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fyear_%0A%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%20%20%3Fgender%0A%20%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20%3Fgender%20.%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fyear_%20%3Fgender%0A%7D%20AS%20%25results%0AWHERE%20%7B%0A%20%20INCLUDE%20%25results%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
-	
-	<h3>Forhold</h3>
-
-	<iframe style="width: 100vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ALineChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%28COALESCE%28SAMPLE%28%3Fnumber_of_female_films%29%2C%200%29%0A%20%20%20%2F%20%28COALESCE%28SAMPLE%28%3Fnumber_of_female_films%29%2C%200%29%0A%20%20%20%20%20%20%2B%20SAMPLE%28%3Fnumber_of_male_films%29%29%20AS%20%3Ffemale_ratio%29%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWHERE%20%7B%0A%20%20%7B%20%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fyear_%0A%20%20%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fnumber_of_female_films%29%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20wd%3AQ6581072%20.%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fyear_%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fyear_%0A%20%20%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fnumber_of_male_films%29%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20wd%3AQ6581097%20.%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fyear_%0A%20%20%7D%20%20%0A%7D%0AGROUP%20BY%20%3Fyear_%0AORDER%20BY%20%3Fyear" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
-
-	<h3>Beskrivelse</h3>
+	<h3>Kønsfordelingen af filminstruktører</h3>
 
 	<p>
 	    Kønsfordelingen af filminstruktører af film med Danmark som
@@ -59,7 +62,8 @@
 	    Film der har mere end en instruktør er talt med flere gange. 
 	    Hvis der findes personer der har flere køn er det talt med
 	    flere gange.
-	    Som dato for film er taget den registrede tidligste udgivelsesdato.
+	    Som dato for film er taget den registrede tidligste
+	    udgivelsesdato.
 	</p>
 
 	<p>
@@ -73,6 +77,12 @@
 	    andre <em>Armadillo</em>, <em>Klovn - The Movie</em> og
 	    <em>Tommy</em> optræder.
 	</p>
+	
+	<iframe style="width: 100vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ABarChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%3Fcount%0A%20%20%3FgenderLabel%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fyear_%0A%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%20%20%3Fgender%0A%20%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20%3Fgender%20.%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fyear_%20%3Fgender%0A%7D%20AS%20%25results%0AWHERE%20%7B%0A%20%20INCLUDE%20%25results%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+	
+	<h3>Kønsforholdet for filminstruktører</h3>
+
+	<iframe style="width: 100vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ALineChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%28COALESCE%28SAMPLE%28%3Fnumber_of_female_films%29%2C%200%29%0A%20%20%20%2F%20%28COALESCE%28SAMPLE%28%3Fnumber_of_female_films%29%2C%200%29%0A%20%20%20%20%20%20%2B%20SAMPLE%28%3Fnumber_of_male_films%29%29%20AS%20%3Ffemale_ratio%29%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWHERE%20%7B%0A%20%20%7B%20%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fyear_%0A%20%20%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fnumber_of_female_films%29%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20wd%3AQ6581072%20.%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fyear_%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fyear_%0A%20%20%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fnumber_of_male_films%29%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%20%20%3Ffilm%20wdt%3AP57%20%2F%20wdt%3AP21%20wd%3AQ6581097%20.%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fyear_%0A%20%20%7D%20%20%0A%7D%0AGROUP%20BY%20%3Fyear_%0AORDER%20BY%20%3Fyear" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 	<p>
 	    Et forholdsvist stort kvindeforhold på 41% ses for året 1939.
@@ -81,22 +91,63 @@
 	    udelukkende er 
 	    drevet af film fra to kvinder: to film fra Alice O'Fredericks og 
 	    elleve dokumentarfilm fra Jette Bang.
+	    Ser man bort fra denne top kan kønsforholdet igennem tiderne summeres med:
+	    Frem til 1934 er der ingen registrerede kvindelige
+	    filminstruktører, 
+	    herefter en periode med omkring 10%'s kvindelige
+	    instruktører frem til den sene del
+	    af <a href="https://da.wikipedia.org/wiki/Anden_b%C3%B8lge_af_feminisme">Andenbølgefeministerne</a>
+	    hvor forholdet begynder at stige frem mod midten af
+	    1990'erne hvorefter det holder sig på omkring 30%.
 	</p>
 
-	<h2>Instruktøralder</h2>
+	<h3>Filminstruktøralder</h3>
 
 	Instruktøralder ved udgivelsestidspunkt.
 
 	<iframe style="width: 95vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ALineChart%0ASELECT%0A%20%20%28CONCAT%28%2200%22%2C%20STR%28%3Fdirector_age%29%29%20AS%20%3Falder%29%0A%20%20%3Fantal%0A%20%20%3Fk%C3%B8n%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fpublication_datetimes%29%20AS%20%3Fpublication_datetime%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fpublication_datetimes%20.%20%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fdirector_age%0A%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%20%20%3Fgender%0A%20%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%3Ffilm%20wdt%3AP57%20%3Fdirector%20.%0A%20%20%20%20%3Fdirector%20wdt%3AP21%20%3Fgender%20.%0A%20%20%20%20%3Fdirector%20p%3AP569%20%3Fbirthdatetime_statement%20.%0A%20%20%20%20%3Fbirthdatetime_statement%20ps%3AP569%20%3Fbirthdatetime%20.%20%0A%20%20%20%20%3Fbirthdatetime_statement%20psv%3AP569%20%2F%20wikibase%3AtimePrecision%209%20.%0A%20%20%20%20BIND%28%28xsd%3Ainteger%28%28%3Fpublication_datetime%20-%20%3Fbirthdatetime%29%20%2F%20365.25%29%29%20AS%20%3Fdirector_age%29%20%20%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fdirector_age%20%3Fgender%0A%20%20ORDER%20BY%20%3Fdirector_age%0A%7D%20AS%20%25director_ages%0AWITH%20%7B%20%0A%20%20SELECT%20%3Fdirector_age%20WHERE%20%7B%20INCLUDE%20%25director_ages%20%7D%20GROUP%20BY%20%3Fdirector_age%0A%7D%20AS%20%25years%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0AWITH%20%7B%0A%20%20SELECT%20%3Fdirector_age%20%28SUM%28%3Fcount%29%20AS%20%3Fantal%29%20%3Fgender%20WHERE%20%7B%0A%20%20%20%20%7B%20%0A%20%20%20%20%20%20INCLUDE%20%25years%0A%20%20%20%20%20%20VALUES%20%3Fgender%20%7B%20wd%3AQ6581097%20wd%3AQ6581072%20%7D%0A%20%20%20%20%20%20BIND%280%20AS%20%3Fcount%29%0A%20%20%20%20%7D%0A%20%20%20%20UNION%0A%20%20%20%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25director_ages%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fdirector_age%20%3Fgender%0A%7D%20AS%20%25results%0AWHERE%20%7B%20%20%20%0A%20%20INCLUDE%20%25results%20%0A%20%20%3Fgender%20rdfs%3Alabel%20%3Fk%C3%B8n%20.%0A%20%20FILTER%20%28LANG%28%3Fk%C3%B8n%29%20%3D%20%27da%27%29%0A%7D%0AORDER%20BY%20%3Fx" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
+	<p>
+	  I forbindelse med denne statistik blev flere
+	  fejlregistreringer opdaget i Wikidata.
+	  Disse fejl blev opdaget da kurven viste usædvanlig lav alder
+	  og visse filminstruktører.
+	</p>
+	
 
 	<h2>Medvirkende</h2>
+	
+	<h3>Kønsfordeling for medvirkende</h3>
 
+	Med medvirkende menes her filmfolk foran kameraet.
+	
 	<iframe style="width: 95vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ABarChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%3Fcount%0A%20%20%3FgenderLabel%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fyear_%0A%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%20%20%3Fgender%0A%20%20WHERE%20%7B%0A%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%3Ffilm%20wdt%3AP161%20%2F%20wdt%3AP21%20%3Fgender%20.%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fyear_%20%3Fgender%0A%7D%20AS%20%25results%0AWHERE%20%7B%0A%20%20INCLUDE%20%25results%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 	<iframe style="width: 95vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3ALineChart%0ASELECT%0A%20%20%28STR%28%3Fyear_%29%20AS%20%3Fyear%29%0A%20%20%28COALESCE%28SAMPLE%28%3Fnumber_of_female_films%29%2C%200%29%0A%20%20%20%2F%20%28COALESCE%28SAMPLE%28%3Fnumber_of_female_films%29%2C%200%29%0A%20%20%20%20%20%20%2B%20SAMPLE%28%3Fnumber_of_male_films%29%29%20AS%20%3Ffemale_ratio%29%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%28MIN%28%3Fyears%29%20AS%20%3Fyear_%29%0A%20%20%20%20%3Ffilm%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWHERE%20%7B%0A%20%20%7B%20%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fyear_%0A%20%20%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fnumber_of_female_films%29%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%20%20%3Ffilm%20wdt%3AP161%20%2F%20wdt%3AP21%20wd%3AQ6581072%20.%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fyear_%0A%20%20%7D%0A%20%20UNION%0A%20%20%7B%0A%20%20%20%20SELECT%0A%20%20%20%20%20%20%3Fyear_%0A%20%20%20%20%20%20%28COUNT%28%3Ffilm%29%20AS%20%3Fnumber_of_male_films%29%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20INCLUDE%20%25films%0A%20%20%20%20%20%20%3Ffilm%20wdt%3AP161%20%2F%20wdt%3AP21%20wd%3AQ6581097%20.%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fyear_%0A%20%20%7D%20%20%0A%7D%0AGROUP%20BY%20%3Fyear_%0AORDER%20BY%20%3Fyear" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
+	<p>
+	  Kønsforholdet viser sig at være forholdsvis konstant gennem
+	  tiden.
+	  I forhold til den tilsvarende statistik for instruktører er
+	  forholdet påfaldende jævnt.
+	</p>
 
+	<h3>Bechdel-testen</h3>
+
+	<p>
+	  Udfaldet af Bechdel-testen kan registreres i Wikidata, men
+	  per 2018 er det kun gjort meget sparsomt.
+	</p>
+
+	<h4>Den normale Bechdel-test</h4>
+
+	<iframe style="width: 95vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AAreaChart%0ASELECT%0A%20%20%3Fyear%20%0A%20%20%28COUNT%28DISTINCT%20%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%3Fbechdel%20%3FbechdelLabel%0AWITH%20%7B%0A%20%20SELECT%20%3Ffilm%20%28MIN%28%3Fyears%29%20AS%20%3Fyear%29%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWHERE%20%7B%0A%20%20VALUES%20%3Fbechdel%20%7B%0A%20%20%20%20wd%3AQ45171911%20wd%3AQ45172088%0A%20%20%20%20%23%20wd%3AQ58483045%20wd%3AQ58483041%0A%20%20%7D%0A%20%20INCLUDE%20%25films%0A%20%20%3Ffilm%20wdt%3AP1552%20%3Fbechdel%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D%20%0AGROUP%20BY%20%3Fyear%20%3Fbechdel%20%3FbechdelLabel" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
+	<h4>Den omvendte Bechdel-test</h4>
+	
+	<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AAreaChart%0ASELECT%0A%20%20%3Fyear%20%0A%20%20%28COUNT%28DISTINCT%20%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%3Fbechdel%20%3FbechdelLabel%0AWITH%20%7B%0A%20%20SELECT%20%3Ffilm%20%28MIN%28%3Fyears%29%20AS%20%3Fyear%29%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWHERE%20%7B%0A%20%20VALUES%20%3Fbechdel%20%7B%0A%20%20%20%20%23%20wd%3AQ45171911%20wd%3AQ45172088%0A%20%20%20%20wd%3AQ58483045%20wd%3AQ58483041%0A%20%20%7D%0A%20%20INCLUDE%20%25films%0A%20%20%3Ffilm%20wdt%3AP1552%20%3Fbechdel%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D%20%0AGROUP%20BY%20%3Fyear%20%3Fbechdel%20%3FbechdelLabel" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+	
+	
 	<h2>Geografisk fordeling</h2>
 
 	<h3>Handlingssteder</h3>
