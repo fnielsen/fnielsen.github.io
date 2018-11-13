@@ -159,11 +159,15 @@
 	
 	<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AAreaChart%0ASELECT%0A%20%20%3Fyear%20%0A%20%20%28COUNT%28DISTINCT%20%3Ffilm%29%20AS%20%3Fcount%29%0A%20%20%3Fbechdel%20%3FbechdelLabel%0AWITH%20%7B%0A%20%20SELECT%20%3Ffilm%20%28MIN%28%3Fyears%29%20AS%20%3Fyear%29%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%0A%20%20%20%20BIND%28STR%28YEAR%28%3Fdatetime%29%29%20AS%20%3Fyears%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Ffilm%0A%7D%20AS%20%25films%0AWHERE%20%7B%0A%20%20VALUES%20%3Fbechdel%20%7B%0A%20%20%20%20%23%20wd%3AQ45171911%20wd%3AQ45172088%0A%20%20%20%20wd%3AQ58483045%20wd%3AQ58483041%0A%20%20%7D%0A%20%20INCLUDE%20%25films%0A%20%20%3Ffilm%20wdt%3AP1552%20%3Fbechdel%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D%20%0AGROUP%20BY%20%3Fyear%20%3Fbechdel%20%3FbechdelLabel" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
-	<h4>Bechdel-testene og solgte billeter</h4>
+	<h4>Bechdel-testene og solgte billetter</h4>
 
-	Statistik på antal solgte biografbilleter er tilgængelig fra Danmarks Statistik: <em><a href="https://www.dst.dk/da/Statistik/emner/kultur-og-kirke/film-boeger-og-medier/biografer-og-film">Biografer og film</a></em>.
-	Per November 2018 har Wikidata kun ganske få danske film med både solgte
-	billeter-statistik og Bechdel-test-resultater registreret.
+	Statistik på antal solgte biografbilletter er tilgængelig fra
+	Danmarks
+	Statistik: <em><a href="https://www.dst.dk/da/Statistik/emner/kultur-og-kirke/film-boeger-og-medier/biografer-og-film">Biografer
+	og film</a></em>.  
+	Per November 2018 har Wikidata kun ganske få danske film med
+	registrering af både solgte billetter-statistik og
+	Bechdel-test-resultat.  
 
 	<iframe style="width: 95vw; height: 95vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AScatterChart%0ASELECT%0A%20%20%3Fdatetime%0A%20%20%3Fattendance%20%0A%20%20%3Ftest%20%20%20%0A%20%20%23%20filmLabel%20%0AWITH%20%7B%0A%20%20SELECT%0A%20%20%20%20%3Fattendance%0A%20%20%20%20%3Ffilm%0A%20%20%20%20%28MIN%28%3Fdatetime%29%20AS%20%3Fdatetime%29%0A%20%20%20%20%28CONCAT%28SAMPLE%28%3Ftest1%29%2C%20%22%20%7C%20%22%2C%20SAMPLE%28%3Ftest2%29%29%20AS%20%3Ftest%29%0A%20%20WHERE%20%7B%0A%20%20%20%20%3Ffilm%20wdt%3AP31%20wd%3AQ11424%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP495%20wd%3AQ35%20.%0A%20%20%20%20%3Ffilm%20p%3AP1110%20%3Fattendance_statement%20.%0A%20%20%20%20%3Ffilm%20wdt%3AP577%20%3Fdatetime%20.%20%0A%20%20%20%20%3Fattendance_statement%20ps%3AP1110%20%3Fattendance%20.%0A%20%20%20%20%3Fattendance_statement%20pq%3AP3005%20wd%3AQ35%20.%0A%20%20%20%20BIND%28IF%28EXISTS%20%7B%20%3Ffilm%20wdt%3AP1552%20wd%3AQ45171911%20%7D%2C%20%22%2BBechdel%22%2C%20IF%28EXISTS%20%7B%20%3Ffilm%20wdt%3AP1552%20wd%3AQ45172088%20%7D%2C%20%22-Bechdel%22%2C%20%22%3F%22%29%29%20AS%20%3Ftest1%29%0A%20%20%20%20BIND%28IF%28EXISTS%20%7B%20%3Ffilm%20wdt%3AP1552%20wd%3AQ58483045%20%7D%2C%20%22%2BOmvendte%22%2C%20IF%28EXISTS%20%7B%20%3Ffilm%20wdt%3AP1552%20wd%3AQ58483041%20%7D%2C%20%22-Omvendte%22%2C%20%22%3F%22%29%29%20AS%20%3Ftest2%29%0A%20%20%7D%0A%20%20GROUP%20BY%20%3Fattendance%20%3Ffilm%0A%7D%20AS%20%25results%0AWHERE%20%7B%0A%20%20INCLUDE%20%25results%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22da%22.%20%7D%0A%7D%0AORDER%20BY%20DESC%28%3Fattendance%29" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 	
