@@ -52,13 +52,13 @@
 	     // SPARQL query to Wikidata Query Service
 	     sparql = `
 	     SELECT * WHERE {
-	  # ?painting wdt:P195 wd:Q3555520 .
-		     ?painting wdt:P170 wd:Q4994489 .
+	       ?painting wdt:P170 wd:Q4994489 .
 	       ?painting wdt:P18 ?image .
 	       ?painting wdt:P2048 ?height .
 	       ?painting wdt:P2049 ?width .
                BIND(CONCAT('https://commons.wikimedia.org/w/api.php?action=query&origin=*&format=json&prop=imageinfo&iiprop=url|size&titles=File:', SUBSTR(STR(?image), 52)) AS ?url)
-	     }
+               FILTER (STRENDS(?url, '.jpg'))
+             }
              LIMIT 20
 	     `;		      
 	     
