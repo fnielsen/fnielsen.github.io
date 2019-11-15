@@ -1,0 +1,71 @@
+<html>
+    <head>
+	<meta charset="UTF-8">
+	<script src="jquery.min.js"></script>
+    </head>
+    
+    <body style="background-color: black;">
+	<div style="display: block; margin-left: auto;margin-right: auto; width: 50%;">
+	    <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Otto_Bache%2C_En_malkepige%2C_1876%2C_0071NMK%2C_Niaagaards_Malerisamling.jpg/574px-Otto_Bache%2C_En_malkepige%2C_1876%2C_0071NMK%2C_Niaagaards_Malerisamling.jpg" ismap/>
+	</div>
+	<audio id="audio" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Meow.ogg"></audio>
+    </body>
+
+    <script>
+     let audio = document.getElementById("audio")
+     let image = document.getElementById("image")
+
+     let data = {};
+     
+     $(document).ready(function() {
+	 let sparql = `
+           SELECT
+             ?art ?position
+             (SAMPLE(?sound_) AS ?sound)
+             (SAMPLE(?image_) AS ?image)
+           WHERE {
+             ?art wdt:P195 / wdt:P17 wd:Q35 ;
+	     wdt:P18 ?image_ ;
+	     p:P180 ?sound_statement .
+             ?sound_statement ps:P180 / wdt:P51 ?sound_ ;
+                              pq:P2677 ?position . 
+	   }
+           GROUP BY ?art ?position
+	 `;
+
+	 let url = "https://query.wikidata.org/sparql?query=" + 
+		   encodeURIComponent(sparql) + '&format=json';
+
+	 $.getJSON(url, function(response) {
+	     let response_data = response.results.bindings;
+	     for (var i = 0; i < response_data.length; i++) {
+		 if (data[response_data[i]['art']['value']] === undefined) {
+		     data[response_data[i]['art']['value']] = new Array();
+		 }
+		 data[response_data[i]['art']['value']].push({
+		     position: response_data[i]['position']['value'],
+		     sound: response_data[i]['sound']['value'],
+		     image: response_data[i]['image']['value']
+		 });
+		 
+	     } 
+	     
+	 });
+	 
+	 $("#image").on("click", function(event) {
+	     console.log("click");
+	     let x = event.pageX - this.offsetLeft;
+	     let y = event.pageY - this.offsetTop;
+	     console.log("X Coordinate: " + x + " Y Coordinate: " + y);
+	     if (x > 420 & x < 590 & y > 540 & y < 700) {
+		 console.log('play');
+		 audio.play();
+	     }
+	     console.log(data);
+	 });
+     });
+     
+     
+    </script>
+    
+</html>
