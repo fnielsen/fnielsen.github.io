@@ -1,22 +1,68 @@
+<!DOCTYPE html>
 <html>
     <head>
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"></meta>
 	<script src="jquery.min.js" type="text/javascript"></script>
     </head>
     
-    <body style="background-color: black;">
-	<div style="display: block; margin-left: auto;margin-right: auto; width: 50%;">
-	    <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Otto_Bache%2C_En_malkepige%2C_1876%2C_0071NMK%2C_Niaagaards_Malerisamling.jpg/574px-Otto_Bache%2C_En_malkepige%2C_1876%2C_0071NMK%2C_Niaagaards_Malerisamling.jpg" ismap/>
+    <body style="background-color: red;">
+	<div> <!-- style="display: block; margin-left: auto;margin-right: auto; width: 50%;"> --> 
+	    <font size="50"><button id="previous" type="button" onclick="previousImage();">◀</button></font>
+	    <img id="image" style="object-fit: contain;" src=""/>
+	    <font size="50"><button id="next" type="button" onclick="nextImage();">▶</button></font>
 	</div>
-	<audio id="audio" src="https://upload.wikimedia.org/wikipedia/commons/6/62/Meow.ogg"></audio>
     </body>
 
     <script>
-     let audio = document.getElementById("audio")
-     let image = document.getElementById("image")
-
-     let data = {};
+     let image = document.getElementById("image");
+     let imageWidth;
+     let imageHeight;
      
+     let data = {};
+     let dataKeys = [];
+     let audios = [];
+     let positionToAudio = {};
+     
+     let imageIndex = 0;
+     updateImage = function(n) {
+	 if (n < 0) { n = 0; }
+	 if (n > dataKeys.length - 1) { n = dataKeys.length - 1; }
+	 let key = dataKeys[n];
+
+	 let imageWidth = window.innerWidth - 100;
+	 let imageUrl = data[key][0].image + "?width=" + imageWidth;
+	 $("#image").attr("src", imageUrl);
+
+	 positionToAudio = [];
+	 for (let i = 0; i < data[key].length & i < 5 ; i++) {
+	     positionToAudio[data[key][i].position] = new Audio(data[key][i].sound);
+	 }
+
+	 if (imageIndex === dataKeys.length - 1) {
+	     document.getElementById('next').style.visibility = 'hidden';
+	 }
+	 else {
+	     document.getElementById('next').style.visibility = 'visible';
+	 }	     
+	 if (imageIndex === 0) {
+	     document.getElementById('previous').style.visibility = 'hidden';
+	 }
+	 else {
+	     document.getElementById('previous').style.visibility = 'visible';
+	 }
+
+	 nextImage = function() {
+	     imageIndex = imageIndex + 1;
+	     if (imageIndex > dataKeys.length - 1) { imageIndex = dataKeys.length - 1; }
+	     updateImage(imageIndex);
+	 }
+	 previousImage = function() {
+	     imageIndex = imageIndex - 1;
+	     if (imageIndex < 0) { imageIndex = 0; }
+	     updateImage(imageIndex);
+	 }
+     }
+
      $(document).ready(function() {
 	 let sparql = `
            SELECT
@@ -25,47 +71,55 @@
              (SAMPLE(?image_) AS ?image)
            WHERE {
              ?art wdt:P195 / wdt:P17 wd:Q35 ;
-	     wdt:P18 ?image_ ;
-	     p:P180 ?sound_statement .
-             ?sound_statement ps:P180 / wdt:P51 ?sound_ ;
-                              pq:P2677 ?position . 
+	          wdt:P18 ?image_ ;
+	          p:P180 ?depict_statement .
+             ?depict_statement ps:P180 / wdt:P51 ?sound_ ;
+                               pq:P2677 ?position .
+             # FILTER (STRENDS(?image, '.jpg'))
 	   }
            GROUP BY ?art ?position
 	 `;
 
-	 let url = "https://query.wikidata.org/sparql?query=" + 
-		   encodeURIComponent(sparql) + '&format=json';
+	     let url = "https://query.wikidata.org/sparql?query=" + 
+		       encodeURIComponent(sparql) + '&format=json';
 
-	 $.getJSON(url, function(response) {
-	     let response_data = response.results.bindings;
-	     for (var i = 0; i < response_data.length; i++) {
-		 if (data[response_data[i]['art']['value']] === undefined) {
-		     data[response_data[i]['art']['value']] = new Array();
-		 }
-		 data[response_data[i]['art']['value']].push({
-		     position: response_data[i]['position']['value'],
-		     sound: response_data[i]['sound']['value'],
-		     image: response_data[i]['image']['value']
-		 });
+	     $.getJSON(url, function(response) {
+		 let responseData = response.results.bindings;
+		 for (let i = 0; i < responseData.length; i++) {
+		     if (data[responseData[i].art.value] === undefined) {
+			 data[responseData[i].art.value] = [];
+		     }
+
+		     data[responseData[i].art.value].push({
+			 position: responseData[i].position.value,
+			 sound: responseData[i].sound.value,
+			 image: responseData[i].image.value,
+		     });
+		 } 
+		 dataKeys = Object.keys(data);
 		 
-	     } 
+		 updateImage(0);
+	     });
 	     
+	     $("#image").on("click", function(event) {
+		 let xPixel = event.pageX - this.offsetLeft;
+		 let yPixel = event.pageY - this.offsetTop;
+		 let xPercentage = xPixel / document.getElementById("image").width * 100;
+		 let yPercentage = yPixel / document.getElementById("image").height * 100;
+		 positionKeys = Object.keys(positionToAudio)
+		 for (let j = 0 ; j < positionKeys.length ; j++) {
+		     percentages = positionKeys[j].substring(4).split(',').map(Number);
+		     if (xPercentage >= percentages[0] &
+			 xPercentage <= percentages[0] + percentages[2] &
+			 yPercentage >= percentages[1] &
+			 yPercentage <= percentages[1] + percentages[3]) {
+			 positionToAudio[positionKeys[j]].play();
+		     }
+		 }
+	     });
 	 });
 	 
-	 $("#image").on("click", function(event) {
-	     console.log("click");
-	     let x = event.pageX - this.offsetLeft;
-	     let y = event.pageY - this.offsetTop;
-	     console.log("X Coordinate: " + x + " Y Coordinate: " + y);
-	     if (x > 420 & x < 590 & y > 540 & y < 700) {
-		 console.log('play');
-		 audio.play();
-	     }
-	     console.log(data);
-	 });
-     });
-     
-     
+	 
     </script>
     
 </html>
