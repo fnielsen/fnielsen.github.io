@@ -3,13 +3,43 @@
     <head>
 	<meta charset="UTF-8"></meta>
 	<script src="jquery.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     
-    <body style="background-color: red;">
-	<div> <!-- style="display: block; margin-left: auto;margin-right: auto; width: 50%;"> --> 
-	    <font size="50"><button id="previous" type="button" onclick="previousImage();">◀</button></font>
-	    <img id="image" style="object-fit: contain;" src=""/>
-	    <font size="50"><button id="next" type="button" onclick="nextImage();">▶</button></font>
+    <body class="container-fluid bg-dark text-white">
+	<div>
+	    <div class="row">
+		<div class="col-sm text-center">
+		    <button id="previous" type="button"
+			    class="btn btn-lg bg-dark text-white"
+			    onclick="previousImage();">◀</button>
+		</div>
+		<div class="col-sm text-center">
+		    <button id="next" type="button"
+			    class="btn btn-lg bg-dark text-white"
+			    onclick="nextImage();">▶</button>
+		</div>
+	    </div>
+
+	    <div class="row">
+		<div class="col-sm text-center">
+		    <img id="image" style="object-fit: contain;" src=""/>
+		</div>
+	    </div>
+
+	    <div class="row">
+		<div class="col-sm text-center">
+		    <div id="title"></div>
+		</div>
+	    </div>
+
+	    <div class="row">
+		<div class="col-sm text-center">
+		    <div id="collection"></div>
+		</div>
+	    </div>
+
 	</div>
     </body>
 
@@ -29,10 +59,13 @@
 	 if (n > dataKeys.length - 1) { n = dataKeys.length - 1; }
 	 let key = dataKeys[n];
 
-	 let imageWidth = window.innerWidth - 100;
+	 let imageWidth = Math.round(window.innerWidth * 0.80);
 	 let imageUrl = data[key][0].image + "?width=" + imageWidth;
 	 $("#image").attr("src", imageUrl);
 
+	 // $("#title").text(data[key][0].title);
+	 // $("#collection").text(data[key][0].collection);
+	 
 	 positionToAudio = [];
 	 for (let i = 0; i < data[key].length & i < 5 ; i++) {
 	     positionToAudio[data[key][i].position] = new Audio(data[key][i].sound);
@@ -69,57 +102,82 @@
              ?art ?position
              (SAMPLE(?sound_) AS ?sound)
              (SAMPLE(?image_) AS ?image)
+             (SAMPLE(?artLabel_) AS ?artLabel)
+             (SAMPLE(?collection_) AS ?collection)
+             (SAMPLE(?collectionLabel_) AS ?collectionLabel)
            WHERE {
-             ?art wdt:P195 / wdt:P17 wd:Q35 ;
+             ?art wdt:P195 ?collection_ ;
 	          wdt:P18 ?image_ ;
 	          p:P180 ?depict_statement .
              ?depict_statement ps:P180 / wdt:P51 ?sound_ ;
                                pq:P2677 ?position .
-             # FILTER (STRENDS(?image, '.jpg'))
+             ?collection_ wdt:P17 wd:Q35 .
+             OPTIONAL {
+               ?art wd:P1476 ?artLabel_ .
+               FILTER (LANG(?artLabel_) = 'da')
+             } 
+             OPTIONAL {
+               ?collection_ rdfs:label ?collectionLabel_ .
+               FILTER (LANG(?collectionLabel_) = 'da')
+             }
 	   }
            GROUP BY ?art ?position
 	 `;
 
-	     let url = "https://query.wikidata.org/sparql?query=" + 
-		       encodeURIComponent(sparql) + '&format=json';
+	 let url = "https://query.wikidata.org/sparql?query=" + 
+		   encodeURIComponent(sparql) + '&format=json';
 
-	     $.getJSON(url, function(response) {
-		 let responseData = response.results.bindings;
-		 for (let i = 0; i < responseData.length; i++) {
-		     if (data[responseData[i].art.value] === undefined) {
-			 data[responseData[i].art.value] = [];
-		     }
-
-		     data[responseData[i].art.value].push({
-			 position: responseData[i].position.value,
-			 sound: responseData[i].sound.value,
-			 image: responseData[i].image.value,
-		     });
-		 } 
-		 dataKeys = Object.keys(data);
-		 
-		 updateImage(0);
-	     });
-	     
-	     $("#image").on("click", function(event) {
-		 let xPixel = event.pageX - this.offsetLeft;
-		 let yPixel = event.pageY - this.offsetTop;
-		 let xPercentage = xPixel / document.getElementById("image").width * 100;
-		 let yPercentage = yPixel / document.getElementById("image").height * 100;
-		 positionKeys = Object.keys(positionToAudio)
-		 for (let j = 0 ; j < positionKeys.length ; j++) {
-		     percentages = positionKeys[j].substring(4).split(',').map(Number);
-		     if (xPercentage >= percentages[0] &
-			 xPercentage <= percentages[0] + percentages[2] &
-			 yPercentage >= percentages[1] &
-			 yPercentage <= percentages[1] + percentages[3]) {
-			 positionToAudio[positionKeys[j]].play();
-		     }
+	 $.getJSON(url, function(response) {
+	     let responseData = response.results.bindings;
+	     for (let i = 0; i < responseData.length; i++) {
+		 if (data[responseData[i].art.value] === undefined) {
+		     data[responseData[i].art.value] = [];
 		 }
-	     });
+
+		 let title = "";
+		 if (responseData[i].artLabel) {
+		     title = responseData[i].artLabel.value;
+		 }
+		 let collection = "";
+		 if (responseData[i].collectionLabel) {
+		     collection = responseData[i].collectionLabel.value;
+		 }
+		 
+		 data[responseData[i].art.value].push({
+		     position: responseData[i].position.value,
+		     sound: responseData[i].sound.value,
+		     image: responseData[i].image.value,
+		     title: title,
+		     collection: collection,
+		 });
+	     } 
+	     dataKeys = Object.keys(data);
+	     
+	     updateImage(0);
 	 });
 	 
-	 
+	 $("#image").on("click", function(event) {
+	     let xPixel = event.pageX - this.offsetLeft;
+	     let yPixel = event.pageY - this.offsetTop;
+	     let xPercentage = xPixel / document.getElementById("image").width * 100;
+
+	     // Hack
+	     let yPercentage = yPixel / document.getElementById("image").height * 90;
+
+	     positionKeys = Object.keys(positionToAudio)
+	     for (let j = 0 ; j < positionKeys.length ; j++) {
+		 percentages = positionKeys[j].substring(4).split(',').map(Number);
+		 if (xPercentage >= percentages[0] &
+		     xPercentage <= percentages[0] + percentages[2] &
+		     yPercentage >= percentages[1] &
+		     yPercentage <= percentages[1] + percentages[3]) {
+		     positionToAudio[positionKeys[j]].play();
+		 }
+	     }
+	 });
+     });
+     
+     
     </script>
     
 </html>
