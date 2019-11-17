@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="bootstrap.min.css">
     </head>
     
-    <body class="container-fluid bg-dark text-white">
-	<div>
+    <body class="bg-dark text-white">
+	<div class="container-fluid">
 	    <div class="row">
 		<div class="col-sm text-center">
 		    <button id="previous" type="button"
@@ -40,6 +40,14 @@
 		</div>
 	    </div>
 
+	    <div class="row">
+		<div class="col-sm text-center text-muted">
+		    <div>Sounds and images from Wikimedia Commons</div>
+		    <div is="license"></div>
+		</div>
+	    </div>
+
+	    
 	</div>
     </body>
 
@@ -96,6 +104,18 @@
 	 }
      }
 
+     document.onkeydown = function (e) {
+	 switch (e.key) {
+             case 'ArrowLeft':
+		 previousImage();
+		 break;
+             case 'ArrowRight':
+		 nextImage();
+		 break;
+	 }
+     };
+
+     
      $(document).ready(function() {
 	 let sparql = `
            SELECT
