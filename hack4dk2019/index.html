@@ -67,7 +67,7 @@
 	 $("#collection").text(data[key][0].collection);
 	 
 	 positionToAudio = [];
-	 for (let i = 0; i < data[key].length & i < 5 ; i++) {
+	 for (let i = 0; i < data[key].length ; i++) {
 	     positionToAudio[data[key][i].position] = new Audio(data[key][i].sound);
 	 }
 
@@ -113,7 +113,7 @@
                                pq:P2677 ?position .
              ?collection_ wdt:P17 wd:Q35 .
              OPTIONAL {
-               ?art wd:P1476 ?artLabel_ .
+               ?art wdt:P1476 ?artLabel_ .
                FILTER (LANG(?artLabel_) = 'da')
              } 
              OPTIONAL {
