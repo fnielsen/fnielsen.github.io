@@ -124,9 +124,19 @@
 	 }
      };
 
-     
+     function shuffle(arr) {
+	 for (i = arr.length - 1 ; i !== 0 ; i--) {
+	     j = Math.floor(Math.random() * (i + 1));
+	     element = arr[i];
+	     arr[i] = arr[j];
+	     arr[j] = element;
+	 }
+	 return arr
+     }
+	     
+	     
      $(document).ready(function() {
-	 let sparql = `
+		 let sparql = `
            SELECT
              ?art ?position
              (SAMPLE(?sound_) AS ?sound)
@@ -155,14 +165,14 @@
 
 	 let url = "https://query.wikidata.org/sparql?query=" + 
 		   encodeURIComponent(sparql) + '&format=json';
-
+	 
 	 $.getJSON(url, function(response) {
 	     let responseData = response.results.bindings;
 	     for (let i = 0; i < responseData.length; i++) {
 		 if (data[responseData[i].art.value] === undefined) {
 		     data[responseData[i].art.value] = [];
 		 }
-
+		 
 		 let title = "";
 		 if (responseData[i].artLabel) {
 		     title = responseData[i].artLabel.value;
@@ -180,7 +190,7 @@
 		     collection: collection,
 		 });
 	     } 
-	     dataKeys = Object.keys(data);
+	     dataKeys = shuffle(Object.keys(data));
 	     
 	     updateImage(0);
 	 });
@@ -189,10 +199,10 @@
 	     let xPixel = event.pageX - this.offsetLeft;
 	     let yPixel = event.pageY - this.offsetTop;
 	     let xPercentage = xPixel / document.getElementById("image").width * 100;
-
+	     
 	     // Hack
 	     let yPercentage = yPixel / document.getElementById("image").height * 90;
-
+	     
 	     positionKeys = Object.keys(positionToAudio)
 	     for (let j = 0 ; j < positionKeys.length ; j++) {
 		 percentages = positionKeys[j].substring(4).split(',').map(Number);
@@ -205,8 +215,7 @@
 	     }
 	 });
      });
-     
-     
+	     
     </script>
     
 </html>
