@@ -112,7 +112,7 @@
 	     document.getElementById('previous').style.visibility = 'visible';
 	 }
      }
-	 
+     
      nextImage = function() {
 	 imageIndex = imageIndex + 1;
 	 if (imageIndex > dataKeys.length - 1) { imageIndex = dataKeys.length - 1; }
@@ -136,11 +136,11 @@
      };
 
      document.addEventListener('swiped-left', function(e) {
-	 previousImage();
+	 nextImage();
      });
 
      document.addEventListener('swiped-right', function(e) {
-	 nextImage();
+	 previousImage();
      });
      
      function shuffle(arr) {
