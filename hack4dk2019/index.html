@@ -10,22 +10,25 @@
     <body class="bg-dark text-white">
 	<div class="container-fluid">
 	    <div class="row">
-		<div class="col-sm text-center">
+		<div class="col-1 text-right"
+		     style="padding-left: 0px; padding-right: 0px;">
 		    <button id="previous" type="button"
 			    class="btn btn-lg bg-dark text-white"
-			    onclick="previousImage();">◀</button>
+			    onclick="previousImage();">&laquo;</button>
 		</div>
-		<div class="col-sm text-center">
+
+		<div id="image-div" class="col-10 text-center"
+		     style="padding-left: 0px; padding-right: 0px;">
+		    <img id="image" src="" style="object-fit: contain;"/>
+		</div>
+
+		<div class="col-1 text-left"
+		     style="padding-left: 0px; padding-right: 0px;">
 		    <button id="next" type="button"
 			    class="btn btn-lg bg-dark text-white"
-			    onclick="nextImage();">▶</button>
+			    onclick="nextImage();">&raquo;</button>
 		</div>
-	    </div>
-
-	    <div class="row">
-		<div class="col-sm text-center">
-		    <img id="image" style="object-fit: contain;" src=""/>
-		</div>
+		
 	    </div>
 
 	    <div class="row">
@@ -72,7 +75,10 @@
 	 if (n > dataKeys.length - 1) { n = dataKeys.length - 1; }
 	 let key = dataKeys[n];
 
-	 let imageWidth = Math.round(window.innerWidth * 0.80);
+	 let imageWidth = document.getElementById("image-div").width;
+	 if (imageWidth === undefined) {
+	     imageWidth = Math.round(window.innerWidth * 0.8);
+	 }
 	 let imageUrl = data[key][0].image + "?width=" + imageWidth;
 	 $("#image").attr("src", imageUrl);
 
@@ -133,10 +139,10 @@
 	 }
 	 return arr
      }
-	     
-	     
+     
+     
      $(document).ready(function() {
-		 let sparql = `
+	 let sparql = `
            SELECT
              ?art ?position
              (SAMPLE(?sound_) AS ?sound)
@@ -196,13 +202,11 @@
 	 });
 	 
 	 $("#image").on("click", function(event) {
-	     let xPixel = event.pageX - this.offsetLeft;
+	     let xPixel = event.pageX - this.offsetLeft - this.offsetParent.offsetLeft;
 	     let yPixel = event.pageY - this.offsetTop;
 	     let xPercentage = xPixel / document.getElementById("image").width * 100;
-	     
-	     // Hack
-	     let yPercentage = yPixel / document.getElementById("image").height * 90;
-	     
+	     let yPercentage = yPixel / document.getElementById("image").height *100;
+
 	     positionKeys = Object.keys(positionToAudio)
 	     for (let j = 0 ; j < positionKeys.length ; j++) {
 		 percentages = positionKeys[j].substring(4).split(',').map(Number);
@@ -211,11 +215,12 @@
 		     yPercentage >= percentages[1] &
 		     yPercentage <= percentages[1] + percentages[3]) {
 		     positionToAudio[positionKeys[j]].play();
+		     return;
 		 }
 	     }
 	 });
      });
-	     
+     
     </script>
     
 </html>
