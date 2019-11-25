@@ -93,7 +93,8 @@
 	 
 	 positionToAudio = [];
 	 for (let i = 0; i < data[key].length ; i++) {
-	     positionToAudio[data[key][i].position] = new Audio(data[key][i].sound);
+	     let audioUrl = "https" + data[key][i].sound.substring(4);
+	     positionToAudio[data[key][i].position] = new Audio(audioUrl);
 	     $("#license-link").append("<a href='https://commons.wikimedia.org/wiki/File:" +
 				       data[key][i].sound.substring(51) +
 				       "'>🔗</a> ");
