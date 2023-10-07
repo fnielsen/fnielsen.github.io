@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henriette og Poul-Ole forklarer</title>
+<style>
+        body {
+            background-color: #333;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+        header, footer {
+            padding: 10px;
+            text-align: center;
+            background-color: #555;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            width: 80%;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+        h1, h2 {
+            margin-bottom: 10px; /* Ensure some space below headers */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            width: 100%;
+        }
+        .top-image {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .square {
+            width: 49%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+        }
+        .disabled {
+            filter: grayscale(100%);
+            pointer-events: none;
+        }
+    </style>
+    
+  </head>
+  
+  <body>
+    <header>
+      <h1>Henriette og Poul-Ole forklarer</h1>
+    </header>
+
+    <main>
+      <section>
+	<h2>Solvognen</h2>
+	<div class="row">
+	  <img src="Solvognen-00100.jpg" alt="Solvognen" class="top-image"/>
+	</div>
+	<div class="row">
+	  <img src="Henriette-2.png" alt="Henriette" onclick="speakText('henriette', 'solvognen', 0)" class="square"/>
+	  <img src="Poul-Ole-1.png" alt="Poul-Ole" onclick="speakText('poulole', 'solvognen', 0)" class="square"/>
+	</div>
+      </section>
+      <section>
+	<h2>Egtvedpigen</h2>
+	<div class="row">
+	  <img src="640px-Egtvedpigen.jpg" alt="Egtvedpigen" class="top-image"/>
+	</div>
+	<div class="row">
+	  <img src="Henriette-2.png" alt="Henriette" onclick="speakText('henriette', 'egtvedpigen', 0)" class="square"/>
+	  <img src="Poul-Ole-1.png" alt="Poul-Ole" onclick="speakText('poulole', 'egtvedpigen', 0)" class="square"/>
+	</div>
+      </section>
+    </main>
+    
+    <footer>
+      Indhold fra <a href="https://natmus.dk/">Nationalmuseet</a> og generering med
+      <a href="https://chat.openai.com/">ChatGPT</a>, DALL-E 3 og responsiveVoice.
+    </footer>  
+      
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=Dtkq00a8"></script>
+    <script>
+      let text = {
+	  egtvedpigen: {
+	      henriette: [
+		  "Årh, hvorfor skal jeg nu også snakke om den der Egtvedpige? Det er så kedeligt, men fint, hvis I absolut skal høre om det. Så Egtvedpigen, hun er åbenbart kendt eller noget, selvom hun bare er en gammel pige fra oldtiden. Hun døde da hun var 16 eller 18 år. Og så blev hun begravet i en kiste af eg, og der blev lavet en gravhøj over hende i 1370 før Jesus eller noget.",
+		  "Åh gud, hvorfor skal vi tale om tøj fra oldtiden? Det er da mega kedeligt. Men okay, Egtvedpigen havde åbenbart en kort trøje og et skørt lavet af snore på. Jeg mener, come on, det lyder da mega ubehageligt at have på?",
+		  "Og så havde hun en bælteplade af bronze med nogle spiraler på maven. Jeg ved ikke, hvorfor man ville gå med en tung bronzeting om maven, det lyder da mega upraktisk. ",
+		  "Og så havde hun en kam i bæltet. Hvem har lige en kam i bæltet? Det er da totalt mærkeligt. Jeg forstår bare ikke, hvorfor voksne synes, det er så spændende at tale om, hvad folk gik i for tusindvis af år siden. Det er da ligegyldigt! Kan vi ikke tale om noget, der rent faktisk betyder noget? ",
+	      ],
+	      poulole: [
+	      ],
+	  },
+	  solvognen: {
+	      henriette: [
+		  "Ååååh, det gider jeg altså ikke at svare på. Jeg synes det er et åndsvagt emne. Men fint, hvis I absolut skal vide det, så er Solvognen bare sådan en gammel ting fra stenalderen eller noget. Den blev fundet i Danmark, og folk synes åbenbart, det er vildt interessant, fordi den er lavet af guld og har noget med solen og himlen at gøre. Jeg ved ikke, hvorfor voksne altid skal være så optagede af gamle ting. Det er jo bare en vogn, ikke? Kan vi ikke tale om noget mere spændende?",
+		  "Åååh, okay, okay, det var ikke stenalderen, men bronzealderen, stor forskel. Så Solvognen blev fundet i 1902 i en mose i Sjælland eller noget. Den er fra omkring 1400 før Jesus, og den har nogle spiraler og ting på sig, som gør, at folk tror, den er fra Norden. Den forestiller solen, der bliver trukket af en hest på en vogn, men vognen er bare der for at vise, hvordan solen bevæger sig på himlen eller noget. Jeg ved ikke, hvorfor det er så vigtigt. Det er jo bare en gammel ting, og solen bevæger sig jo bare, ikke? Hvad er det, de voksne ikke forstår ved det?",
+	      ],
+	      poulole: [
+		  "Ah, Solvognen, et emne af stor betydning og fascination! Lad mig dele nogle indsigter, som I måske ikke er bekendte med. Solvognen, mine damer og herrer, blev fundet i Trundholm Mose i Nordvestsjælland i september 1902. Et ganske bemærkelsesværdig fund, må jeg sige. Den stammer fra den ældre bronzealder, for at være præcis omkring 1400 før Kristi. Nu, det er her, det bliver virkelig interessant.",
+		  "Denne pragtfulde artefakt er prydet med en udsøgt spiralornamentik på den gyldne solskive, hvilket klart indikerer dens nordiske herkomst. Man kan virkelig fornemme den tid og det håndværk, der er lagt i denne skønhed, når man betragter den fine detaljerigdom i ornamentikken", 
+		  "Solvognen er ikke blot en simpel genstand, nej, den repræsenterer en dybdegående kosmologisk forestilling fra bronzealderens samfund. Den illustrerer nemlig den forestilling, at solen, dette livgivende himmellegeme, blev trukket på sin evige rejse tværs over himlen af en guddommelig hest. En forestilling, der uden tvivl har haft en betydelig betydning i datidens religiøse og kulturelle liv.",
+		  "Og lad mig understrege, at vognen ikke er en del af selve trosforestillingen. Nej, solbilledet og hesten er anbragt på hjul, netop for at kunne illustrere solens bevægelse på en måde, der var forståelig og konkret for mennesker i bronzealderen.", 
+		  "Det er essentielt at forstå, at disse gamle artefakter ikke blot er gamle genstande. De er vidnesbyrd om fortidens mennesker, deres tro, deres liv og deres samfund. Og det er netop derfor, vi skal værdsætte og studere dem med den respekt og nysgerrighed, de fortjener. Jeg håber, I finder dette lige så fascinerende som jeg gør, for historie, mine kære, er ikke blot fortiden - det er også en del af vores nutid og fremtid.",
+	      ],
+	  }
+      };
+      
+      function speakText(person, topic, segment) {
+	  if (person === "henriette") {
+	      responsiveVoice.speak(text[topic][person][segment], "Danish Female", {pitch: 0.8, rate: 1.2});
+	  }
+	  else if (person === 'poulole') {
+	      responsiveVoice.speak(text[topic][person][segment], "Danish Male", {pitch: 0.6, rate: 0.9});
+	  }
+	  else {
+	      console.log('Wrong person');
+	  }
+      }
+    </script>
+
+	
+  </body>
+</html>
