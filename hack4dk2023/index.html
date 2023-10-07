@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henriette og Poul-Ole forklarer</title>
-<style>
+    <title>Henriette og Poul-Ole forklarer…</title>
+    <style>
         body {
             background-color: #333;
             color: white;
@@ -16,6 +16,21 @@
             text-align: center;
             background-color: #555;
         }
+	footer a {
+	    color: #ccc; /* Color for links */
+	    text-decoration: none; /* Removes underlining from links */
+	}
+	
+	footer a:hover {
+	    text-decoration: underline; /* Adds underlining back on hover for better UX */
+	}
+
+	.quote {
+	    font-family: 'Georgia', serif;
+	    font-size: 18px;
+	    color: #ccc;
+	    margin: 5px 0;
+	}
         main {
             display: flex;
             flex-direction: column;
@@ -49,6 +64,8 @@
             width: 49%;
             aspect-ratio: 1/1;
             object-fit: cover;
+	    opacity: 0.5; /* Grey out the image */
+	    pointer-events: none; /* Disable clicks */
         }
         .disabled {
             filter: grayscale(100%);
@@ -60,35 +77,58 @@
   
   <body>
     <header>
-      <h1>Henriette og Poul-Ole forklarer</h1>
+      <h1>Henriette og Poul-Ole forklarer…</h1>
+      <p class="quote">"Det er et vindue til en svunden tid" — Poul-Ole</p>
+      <p class="quote">"Åååh, okay, okay, det var ikke stenalderen, men bronzealderen, stor forskel" — Henriette</p>
     </header>
 
     <main>
+
       <section>
 	<h2>Solvognen</h2>
 	<div class="row">
 	  <img src="Solvognen-00100.jpg" alt="Solvognen" class="top-image"/>
 	</div>
 	<div class="row">
-	  <img src="Henriette-2.png" alt="Henriette" onclick="speakText('henriette', 'solvognen', 0)" class="square"/>
-	  <img src="Poul-Ole-1.png" alt="Poul-Ole" onclick="speakText('poulole', 'solvognen', 0)" class="square"/>
+	  <img src="Henriette-2.png" alt="Henriette" onclick="speakText('henriette', 'solvognen')" class="square person"/>
+	  <img src="Poul-Ole-1.png" alt="Poul-Ole" onclick="speakText('poulole', 'solvognen')" class="square person"/>
 	</div>
       </section>
+      
       <section>
 	<h2>Egtvedpigen</h2>
 	<div class="row">
 	  <img src="640px-Egtvedpigen.jpg" alt="Egtvedpigen" class="top-image"/>
 	</div>
 	<div class="row">
-	  <img src="Henriette-2.png" alt="Henriette" onclick="speakText('henriette', 'egtvedpigen', 0)" class="square"/>
-	  <img src="Poul-Ole-1.png" alt="Poul-Ole" onclick="speakText('poulole', 'egtvedpigen', 0)" class="square"/>
+	  <img src="Henriette-2.png" alt="Henriette" onclick="speakText('henriette', 'egtvedpigen', 0)" class="square person"/>
+	  <img src="Poul-Ole-1.png" alt="Poul-Ole" onclick="speakText('poulole', 'egtvedpigen', 0)" class="square person"/>
 	</div>
       </section>
+
+
+      <section>
+	<h2>Klapstolen fra Guldhøj</h2>
+	<div class="row">
+	  <img src="Vamdrup_folding_chair.jpg" alt="Klapstolen" class="top-image"/>
+	</div>
+	<div class="row">
+	  <img src="Henriette-2.png" alt="Henriette" onclick="speakText('henriette', 'klapstolen', 0)" class="square person"/>
+	  <img src="Poul-Ole-1.png" alt="Poul-Ole" onclick="speakText('poulole', 'klapstolen', 0)" class="square person"/>
+	</div>
+      </section>
+
+      
     </main>
     
     <footer>
-      Indhold fra <a href="https://natmus.dk/">Nationalmuseet</a> og generering med
-      <a href="https://chat.openai.com/">ChatGPT</a>, DALL-E 3 og responsiveVoice.
+      Teksten er fra eller baseret på <a href="https://natmus.dk/">Nationalmuseet</a> og generering er med
+      <a href="https://chat.openai.com/">ChatGPT</a>,
+      <a href="https://openai.com/dall-e-3">DALL-E 3</a> og
+      <a href="https://responsivevoice.org/">ResponsiveVoice</a>.
+      <a href="https://commons.wikimedia.org/wiki/File:Solvognen-00100.jpg">Billedet af Solvognen</a> af Nationalmuseet, CC-BY 3.0,
+      <a href="https://commons.wikimedia.org/wiki/File:Egtvedpigen.jpg"/>Billedet af Egtvedpigen</a> af Thomas Hansen, public domain,
+      <a href="https://commons.wikimedia.org/wiki/File:Vamdrup_folding_chair.jpg">Billedet af klapstol</a> af Bullenwächter, CC-BY.
     </footer>  
       
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=Dtkq00a8"></script>
@@ -102,15 +142,35 @@
 		  "Og så havde hun en kam i bæltet. Hvem har lige en kam i bæltet? Det er da totalt mærkeligt. Jeg forstår bare ikke, hvorfor voksne synes, det er så spændende at tale om, hvad folk gik i for tusindvis af år siden. Det er da ligegyldigt! Kan vi ikke tale om noget, der rent faktisk betyder noget? ",
 	      ],
 	      poulole: [
+		  "Ah, Egtvedpigen, en fascinerende skikkelse fra vores fortid, og en historie, der virkelig kan få historiens vingesus til at mærkes i nutiden! Lad os dykke ned i denne betagende fortælling sammen, skal vi?",
+		  "Egtvedpigen, mine damer og herrer, er en af de mest kendte personer fra oldtiden, og hendes historie er en, der virkelig kan få os til at reflektere over livets skrøbelighed og vores forfædres liv og død. Hun var blot en ung pige, kun 16-18 år, da hun døde i Midtjylland. En sommerdag i 1370 før vor tidsregning blev hun begravet i en egekiste, og en gravhøj, den såkaldte Storehøj nær Egtved By, vest for Vejle, blev opført som hendes sidste hvilested.",
+		  "Selvom der ikke er meget tilbage af Egtvedpigen i dag, er hendes historie intet mindre end medrivende og giver os et unikt indblik i bronzealderfolkets liv og død. Hvad vi har tilbage af hende, er hår, hjerne, tænder, negle og en smule hud. Hendes tænder har afsløret hendes unge alder ved døden, og hendes beklædning og de genstande, hun blev begravet med, giver os et fascinerende indblik i datidens kultur og skikke.",
+		  "Hun bar en kort trøje og et knælangt skørt lavet af snore. På maven bar hun en bælteplade af bronze, udsmykket med spiraler, og hun havde en kam af horn fastgjort i bæltet. Om hver arm bar hun en ring af bronze, og en spinkel ring sad om hendes øre. Ved hendes ansigt lå en lille æske af bark med en bronzesyl og resterne af et hårnet. Ved hendes fødder var placeret en lille spand af bark, som indeholdt en form for øl. Her lå også en lille tøjbylt med brændte barneknogler fra et 5-6-årigt barn. Enkelte knogler fra det samme barn fandtes i barkæsken.",
+		  "Egtvedpigen blev genopdaget, da hendes grav blev udgravet i 1921, efter næsten 3300 år. En forbløffende tidsperiode, ikke sandt?",
+		  "Dette er ikke blot en historie om død, men også om livet i bronzealderen, om de mennesker, der levede, åndede og følte, ligesom vi gør i dag. Det er en påmindelse om, at vores forfædre var mennesker med håb, drømme og sorger, og at de, ligesom os, forsøgte at finde mening og skabe skønhed i deres liv. Jeg håber, I finder denne historie lige så betagende og tankevækkende som jeg gør. For historien, kære tilhørere, er en evig kilde til viden og forundring.",
+	      ],
+	  },
+	  klapstolen: {
+	      henriette: [
+		  "Klapstolen fra Guldhøj synes jeg er meganederen. Det gider jeg altså ikke at fortælle om. Men okay, hvis I absolut skal høre om det, så er der den her gamle stol, som nogle arkæologer fandt i en gravhøj i Sønderjylland i 1891. Den er fra bronzealderen, hvilket betyder, at den er super gammel, ligesom fra 1400-årene før Jesus eller noget i den stil.",
+		  "Den er lavet af asketræ og har nogle sorte mønstre og et sæde af odderskind, selvom der kun er en lille stump tilbage af det. Og så er den åbenbart den eneste fuldstændigt bevarede stol fra bronzealderen i Europa, hvilket nogle synes er vildt spændende. Der er fundet nogle andre stol-rester rundt omkring i Danmark og i Sverige og Tyskland, men ingen så hele som den fra Guldhøj. Jeg forstår bare ikke, hvorfor det er så interessant med en gammel stol. Det er jo bare noget gammelt træ og skind. Kan vi ikke tale om noget, der rent faktisk er interessant?"
+	      ],
+	      poulole: [
+		  "Åh, klapstolen fra Guldhøj, et emne, der virkelig inviterer til en dybdegående diskussion om bronzealderens håndværk og kultur! Lad os dykke ned i dette fascinerende kapitel af vores fortid, skal vi?",
+		  "Guldhøj, som ligger i det maleriske Sønderjylland, blev udgravet i 1891 og har sidenhen været kilde til mange spændende diskussioner i arkæologiske kredse. Indenfor dens ældgamle jord blev der fundet en egekiste, og heri hvilede en mand fra bronzealderen. Men det, der virkelig fangede opmærksomheden, var en ganske usædvanlig genstand, nemlig en klapstol!",
+		  "Denne lille, fornemme stol er et mesterværk af datidens håndværk. Den er lavet af asketræ og prydet med udskårne mønstre, der er indlagt med sort beg, hvilket viser en forbløffende forståelse og anvendelse af forskellige materialer og teknikker. Sædet, selvom kun en stump er bevaret, var af odderskind, hvilket indikerer en vis luksus og status i ejerskabet af denne stol.",
+		  "Klapstolen fra Guldhøj er dateret til anden halvdel af 1400-årene før vor tidsregning og bærer med sig en unik status som den eneste fuldstændigt bevarede stol fra bronzealderen i hele Europa. Dette er ikke blot en stol, mine damer og herrer, det er et vindue til en svunden tid, der giver os et glimt af de mennesker, der levede, arbejdede og skabte for over 3000 år siden.",
+		  "Selvom der er fundet fragmenter af lignende klapstole andetsteds, som i Store Høj i Vestjylland og endda så langt væk som Sverige og Nordtyskland, står klapstolen fra Guldhøj som et enestående eksempel på bronzealderens håndværksmæssige kunnen og æstetiske sans.",
+		  "Det er disse genstande, der giver os mulighed for at forbinde os med vores forfædre, at forstå deres liv og kultur, og at anerkende og værdsætte de færdigheder og kundskaber, de besad. Jeg håber, I finder dette lige så betagende som jeg, for historien er virkelig en uendelig kilde til viden og forundring!",
 	      ],
 	  },
 	  solvognen: {
 	      henriette: [
-		  "Ååååh, det gider jeg altså ikke at svare på. Jeg synes det er et åndsvagt emne. Men fint, hvis I absolut skal vide det, så er Solvognen bare sådan en gammel ting fra stenalderen eller noget. Den blev fundet i Danmark, og folk synes åbenbart, det er vildt interessant, fordi den er lavet af guld og har noget med solen og himlen at gøre. Jeg ved ikke, hvorfor voksne altid skal være så optagede af gamle ting. Det er jo bare en vogn, ikke? Kan vi ikke tale om noget mere spændende?",
+		  "Ååååh, det gider jeg altså ikke at sige noget om Solvognen. Jeg synes det er et åndsvagt emne. Men fint, hvis I absolut skal vide det, så er Solvognen bare sådan en gammel ting fra stenalderen eller noget. Den blev fundet i Danmark, og folk synes åbenbart, det er vildt interessant, fordi den er lavet af guld og har noget med solen og himlen at gøre. Jeg ved ikke, hvorfor voksne altid skal være så optagede af gamle ting. Det er jo bare en vogn, ikke? Kan vi ikke tale om noget mere spændende?",
 		  "Åååh, okay, okay, det var ikke stenalderen, men bronzealderen, stor forskel. Så Solvognen blev fundet i 1902 i en mose i Sjælland eller noget. Den er fra omkring 1400 før Jesus, og den har nogle spiraler og ting på sig, som gør, at folk tror, den er fra Norden. Den forestiller solen, der bliver trukket af en hest på en vogn, men vognen er bare der for at vise, hvordan solen bevæger sig på himlen eller noget. Jeg ved ikke, hvorfor det er så vigtigt. Det er jo bare en gammel ting, og solen bevæger sig jo bare, ikke? Hvad er det, de voksne ikke forstår ved det?",
 	      ],
 	      poulole: [
-		  "Ah, Solvognen, et emne af stor betydning og fascination! Lad mig dele nogle indsigter, som I måske ikke er bekendte med. Solvognen, mine damer og herrer, blev fundet i Trundholm Mose i Nordvestsjælland i september 1902. Et ganske bemærkelsesværdig fund, må jeg sige. Den stammer fra den ældre bronzealder, for at være præcis omkring 1400 før Kristi. Nu, det er her, det bliver virkelig interessant.",
+		  "Ah, Solvognen, et emne af stor betydning og fascination! Lad mig dele nogle indsigter, som I måske ikke er bekendte med. Solvognen, mine damer og herrer, blev fundet i Trundholm Mose i Nordvestsjælland i september 1902. Et ganske bemærkelsesværdig fund, må jeg sige. Den stammer fra den ældre bronzealder, for at være præcis omkring 1400 før Kristi fødsel. Nu, det er her, det bliver virkelig interessant.",
 		  "Denne pragtfulde artefakt er prydet med en udsøgt spiralornamentik på den gyldne solskive, hvilket klart indikerer dens nordiske herkomst. Man kan virkelig fornemme den tid og det håndværk, der er lagt i denne skønhed, når man betragter den fine detaljerigdom i ornamentikken", 
 		  "Solvognen er ikke blot en simpel genstand, nej, den repræsenterer en dybdegående kosmologisk forestilling fra bronzealderens samfund. Den illustrerer nemlig den forestilling, at solen, dette livgivende himmellegeme, blev trukket på sin evige rejse tværs over himlen af en guddommelig hest. En forestilling, der uden tvivl har haft en betydelig betydning i datidens religiøse og kulturelle liv.",
 		  "Og lad mig understrege, at vognen ikke er en del af selve trosforestillingen. Nej, solbilledet og hesten er anbragt på hjul, netop for at kunne illustrere solens bevægelse på en måde, der var forståelig og konkret for mennesker i bronzealderen.", 
@@ -118,18 +178,44 @@
 	      ],
 	  }
       };
-      
-      function speakText(person, topic, segment) {
+
+
+      let currentSegment = {}; // Object to keep track of the current segment for each person and topic
+
+      function speakText(person, topic) {
+	  // Create a unique key for person and topic
+	  let key = `${person}_${topic}`;
+	  console.log(key);
+	  
+	  // If the key doesn't exist in currentSegment, initialize it with 0
+	  if (!currentSegment[key]) {
+              currentSegment[key] = 0;
+	  }
+	  
+	  // Get the segment index and update it for the next time
+	  let segment = currentSegment[key] % text[topic][person].length;
+	  currentSegment[key]++;
+	  
+	  // Speak the text using ResponsiveVoice
 	  if (person === "henriette") {
-	      responsiveVoice.speak(text[topic][person][segment], "Danish Female", {pitch: 0.8, rate: 1.2});
+              responsiveVoice.speak(text[topic][person][segment], "Danish Female", {pitch: 0.8, rate: 1.2});
 	  }
 	  else if (person === 'poulole') {
-	      responsiveVoice.speak(text[topic][person][segment], "Danish Male", {pitch: 0.6, rate: 0.9});
+              responsiveVoice.speak(text[topic][person][segment], "Danish Male", {pitch: 0.6, rate: 0.9});
 	  }
 	  else {
-	      console.log('Wrong person');
+              console.log('Wrong person');
 	  }
       }
+
+      // When the window is loaded, enable the images
+      window.onload = function() {
+	  let persons = document.querySelectorAll('.person');
+	  persons.forEach(function(person) {
+              person.style.opacity = '1';
+              person.style.pointerEvents = 'all';
+	  });
+      };
     </script>
 
 	
